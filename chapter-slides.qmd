@@ -1049,23 +1049,12 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 
 ## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography
 
-:::: columns
-::: {.column width="50%"}
-![](images/clipboard-4236662536.png)
-:::
-
-::: {.column width="50%"}
-PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificity from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging [@dekleijn_etal97; @wright_etal21].
-:::
-
-## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography
-
 <br>
 
-![](images/pet2.png){fig-align="center" width="800"}
+![](images/pet2.png){fig-align="center" width="600"}
 
 ::: aside
-PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificities from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging .**Key clinical applications:** - Should be performed early in workup - Most helpful for: abscesses, osteomyelitis, vasculitis, adult-onset Still disease, Crohn disease, subacute thyroiditis - Can identify sites for targeted biopsy
+PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificities from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging.**Key clinical applications:** - Should be performed early in workup - Most helpful for: abscesses, osteomyelitis, vasculitis, adult-onset Still disease, Crohn disease, subacute thyroiditis - Can identify sites for targeted biopsy
 
 [@kouijzer_etal18]
 :::
@@ -1158,4 +1147,4 @@ This prognosis for undiagnosed FUO is reassuring and often not communicated to p
 :::
 
 ## References
-:::::::::::::
+
