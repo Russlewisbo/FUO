@@ -73,9 +73,7 @@ The history of fever reflects humanity's struggle to understand bodily temperatu
 
 ## Febris - Roman Goddess of Fever
 
-<br>
-
-![](images/febris.png){fig-align="center"}
+![](images/febris.png){fig-align="center" width="400"}
 
 The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.
 
@@ -103,7 +101,7 @@ A typical design of a thermoscope is a tube in which a liquid rises and falls as
 :::
 
 ::: {.column width="50%"}
-![<center> Dr. Carl Wunderlink </center>](images/wunderlink.png){fig-align="center" width="600"}
+![](images/wunderlink.png){fig-align="center" width="600"}
 :::
 :::::
 
@@ -115,7 +113,6 @@ A typical design of a thermoscope is a tube in which a liquid rises and falls as
 
 <br>
 
-::: incremental
 -   **Age and sex differences**
     -   Women \~0.5°C higher at ovulation
     -   Infants have higher baseline temperatures
@@ -127,21 +124,25 @@ A typical design of a thermoscope is a tube in which a liquid rises and falls as
     -   Medications (antipyretics, corticosteroids)
     -   Digestion and recent meals
     -   Chronic disease and metabolic conditions
-:::
 
-::: notes
+::: aside
 Understanding normal temperature variation is crucial when evaluating a patient for FUO. A temperature of 37.5°C in a patient's early morning measurement may be pathologic, while 38.2°C in the evening may be within normal diurnal variation for that individual.
 :::
 
 ## Thermal homeostasis
 
-![](images/thermoregulation.png){fig-align="center" width="800"}
+![](images/thermoregulation.png){fig-align="center" width="1200"}
 
 ::: aside
-[@sajadimohammadm__mackowiakphilipa_]
+The hypothalamus acts as the body's thermostat, continuously comparing core temperature against a defended setpoint (\~37°C). Afferent thermal signals arrive from both peripheral cutaneous receptors and central thermosensors in the preoptic area of the anterior hypothalamus. When core temperature falls below the setpoint, efferent pathways activate heat-conserving and heat-generating responses: cutaneous vasoconstriction reduces radiative heat loss, and shivering thermogenesis in skeletal muscle increases metabolic heat production. When temperature exceeds the setpoint, the balance shifts to heat dissipation: cutaneous vasodilation increases convective and radiative losses, and eccrine sweating provides evaporative cooling. Understanding this tightly regulated system is essential for interpreting fever: a true febrile response represents a deliberate upward resetting of this setpoint by pyrogenic mediators—not a failure of thermoregulation. [@sajadimohammadm__mackowiakphilipa_]
+:::
+
+::: notes
 :::
 
 ## Fever vs. Hyperthermia {.smaller}
+
+<br> <br>
 
 ::: {.content-visible when-format="revealjs"}
 | Feature | Fever | Hyperthermia |
@@ -150,7 +151,7 @@ Understanding normal temperature variation is crucial when evaluating a patient 
 | **Mechanism** | Regulated response | Unregulated heat generation |
 | **Cause** | Pyrogens (LPS, IL-1, TNF) | Heat exposure, drugs, malignant hyperthermia |
 | **Pathophysiology** | Altered hypothalamic setpoint | Failure of heat dissipation |
-| **Sweating** | Absent initially (shivering); later excessive | May be absent |
+| **Sweating** | Absent initially (shivering); <br>later excessive | May be absent |
 | **Treatment response** | Antipyretics effective | Antipyretics ineffective; cooling required |
 | **Examples** | Infection, NIID, malignancy | Heat stroke, neuroleptic malignant syndrome |
 :::
@@ -160,6 +161,8 @@ This distinction is critical clinically. A patient with heat stroke will not res
 :::
 
 ## Infection-associated fever - The febrile response
+
+<br>
 
 ![](images/LPSfever.png){fig-align="center" width="600"}
 
@@ -175,7 +178,6 @@ When pathogens are recognized by the innate immune system, LPS from gram-negativ
 
 <br>
 
-::: incremental
 -   **Phylogenetic conservation** suggests fever is beneficial - appears in ectotherms and endotherms
 -   **Microbial metabolism** - most pathogenic bacteria are mesophiles (optimal growth at 35-37°C)
     -   Even modest temperature elevations slow replication
@@ -185,23 +187,40 @@ When pathogens are recognized by the innate immune system, LPS from gram-negativ
     -   Increased neutrophil migration
     -   Augmented antibody production
     -   Enhanced T-cell proliferation
-:::
 
-::: notes
+::: aside
 Rather than viewing fever as purely pathologic, modern immunology reveals it as an important component of the inflammatory response to infection. This is why antipyretics in certain infections (like pneumococcal pneumonia) may actually worsen outcomes.
 :::
 
-## Acute phase proteins
+## Acute phase proteins {.smaller}
 
-![](images/acutephase1.png){fig-align="center"}
+<br> <br>
+
+| Category | Proteins |
+|------------------------------------|------------------------------------|
+| **↑ Complement system** | C3, C4, C9, Factor B, C1 inhibitor, C4b-binding protein, Mannose-binding lectin |
+| **↑ Coagulation / fibrinolysis** | Fibrinogen, Plasminogen, tPA, Urokinase, Protein S, Vitronectin, PAI-1 |
+| **↑ Antiproteases** | α₁-Protease inhibitor, α₁-Antichymotrypsin, Pancreatic trypsin inhibitor, Inter-α-trypsin inhibitors |
+| **↑ Transport proteins** | Ceruloplasmin, Haptoglobin, Hemopexin |
+| **↑ Inflammatory mediators** | Secreted PLA₂, LPS-binding protein, IL-1 receptor antagonist, G-CSF |
+| **↑ Others** | CRP, Serum amyloid A, α₁-Acid glycoprotein, Fibronectin, Ferritin, Angiotensinogen |
+| **↓ Negative acute-phase** | Albumin, Transferrin, Transthyretin, α₂-HS glycoprotein, Alpha-fetoprotein, Thyroxine-binding globulin, IGF-I, Factor XII |
 
 ::: aside
 [@gabay_kushner99]
 :::
 
-## Acute phase phenomena
+## Acute phase phenomena {.smaller}
 
-![](images/acutephase.png){fig-align="center" width="600"}
+<br> <br>
+
+| Category | Phenomena |
+|------------------------------------|------------------------------------|
+| **Neuroendocrine** | Fever, somnolence, anorexia; ↑ CRH, corticotropin & cortisol; ↑ arginine vasopressin; ↓ IGF-I; ↑ adrenal catecholamines |
+| **Hematopoietic** | Anemia of chronic disease; leukocytosis; thrombocytosis |
+| **Metabolic** | Muscle loss & negative nitrogen balance; ↓ gluconeogenesis; osteoporosis; ↑ hepatic lipogenesis; ↑ adipose lipolysis; ↓ lipoprotein lipase activity; cachexia |
+| **Hepatic** | ↑ Metallothionein, iNOS, heme oxygenase, MnSOD, TIMP-1; ↓ phosphoenolpyruvate carboxykinase activity |
+| **Nonprotein plasma** | Hypozincemia, hypoferremia, hypercupremia; ↑ plasma retinol & glutathione |
 
 ::: aside
 [@gabay_kushner99]
@@ -213,13 +232,24 @@ The acute phase response is orchestrated by IL-1, IL-6, and TNF-α. The dramatic
 
 ## Epidemiology of FUO - Definitions {.smaller}
 
-![](images/FUOdef.png){fig-align="center" width="700"}
+| Category | Key causes / definition |
+|------------------------------------|------------------------------------|
+| **Classic FUO** | Infection (TB, endocarditis, occult abscess, zoonoses, enteric fever, syphilis, histoplasmosis), malignancy, autoimmune/autoinflammatory, miscellaneous; includes virally suppressed HIV (CD4 \>200) |
+| **Nosocomial FUO** | FUO arising in hospitalized patients |
+|  ICU | Bacteremia, pneumonia, *C. difficile*, fungemia, catheter infections, PE, acalculous cholecystitis, drug fever, stroke/intracranial hemorrhage |
+|  Non-ICU | Similar to ICU causes; patient not critically ill |
+| **Immunodeficiency-associated FUO** | Highly variable; depends on type and degree of immunodeficiency |
+|  Organ-transplant recipients | Viruses, donor-derived infections, *Strongyloides* hyperinfection, opportunistic fungi, rejection, GVHD, HLH, ureaplasma hyperammonemia |
+|  Neutropenia | Febrile \>5 days despite empirical antibiotics; influenced by neutropenia duration, GVHD prophylaxis, antimicrobial agents |
+|  HCT recipients | Pre-engraftment: neutropenic causes; early post-engraftment: herpesvirus, adenovirus, hyperacute GVHD, pneumonia; late: relapsed cancer, immune reconstitution |
+|  HIV/AIDS (no ART) | Acute retroviral syndrome, mycobacteria, endemic mycoses, toxoplasmosis, cryptococcosis, HHV-8–associated diseases, lymphoma |
+| **Travel-associated FUO** | Malaria, enteric fever, leptospirosis, viral hemorrhagic fevers, typhus, undifferentiated tropical febrile illness |
 
 ::: aside
 [@haidar_singh22]
 :::
 
-::: notes
+::: aside
 Different definitions exist for FUO depending on clinical context. The classic definition applies to outpatient or minimally hospitalized patients with prolonged fever. The newer categories - nosocomial, neutropenic, and HIV-associated FUO - reflect that different populations have different diagnostic considerations and thresholds for investigation.
 :::
 
@@ -231,7 +261,7 @@ Different definitions exist for FUO depending on clinical context. The classic d
     -   Temperature of \> 38.3°C \> 3 weeks
     -   Fever \>2 separate outpatient visits with diagnostic investigations *or*
     -   Fever \>2 visits in hospital of 3 days with diagnostic investigations
-        -   *However*, these definitions are largely subjective
+        -   *However*,... these definitions are largely subjective
 -   **Leading causes:**
     -   Infections (geography dependent)
     -   Inflammatory conditions (age dependent)
@@ -240,17 +270,9 @@ Different definitions exist for FUO depending on clinical context. The classic d
 
 ## Frequency of the 5 main etiologic categories of FUO
 
-Infectious causes decrease in patients above age 65 years
+<center>Infectious causes decrease in patients above age 65 years</center>
 
-![](images/FUOcat.png){fig-align="center" width="600"}
-
-::: aside
-[@wrightwilliamf__mackowiakphilipa_15]
-:::
-
-::: notes
-One striking observation is the steady decline in infectious causes of FUO since the mid-1990s, with a corresponding rise in cases of non-infectious inflammatory disease (NIID) and undiagnosed fever. This likely reflects improved diagnostic capacity and earlier diagnosis of common infections. It also underscores that empiric antimicrobial therapy without diagnosis is increasingly less likely to resolve FUO.
-:::
+![](images/FUOcat.png){fig-align="center" width="1200"}
 
 ## Classic FUO - Infectious Etiology
 
@@ -266,11 +288,25 @@ One striking observation is the steady decline in infectious causes of FUO since
     -   Other: brucellosis, leptospirosis, syphilis, bartonellosis
 :::
 
-## Rare and miscellaneous causes of fever
+## Rare and miscellaneous causes of fever {.smaller}
 
-![](images/misc.jpeg){fig-align="center"}
+<br> <br>
+
+| Category | Examples |
+|------------------------------------|------------------------------------|
+| **Autoinflammatory / periodic fevers** | Adult-onset Still's disease, Behçet's syndrome, Familial Mediterranean fever, Familial Hibernian fever, Periodic fever, Schnitzler's syndrome |
+| **Vascular / cardiac** | Aortic dissection, Aortitis, Atrial myxoma, Giant coronary aneurysm, Pericarditis, Postpericardiotomy syndrome, Polyarteritis nodosa, Pulmonary emboli, Veno-occlusive disease |
+| **Hematologic / oncologic** | Castleman's disease, Cyclic neutropenia, Hemoglobinopathies, Hemolytic anemias, Hemophagocytic syndrome, Histiocytosis X, Immunoblastic lymphadenopathy, Lymphomatoid granulomatosis, Myeloproliferative syndromes, Paroxysmal hemoglobinurias, Rosai-Dorfman disease, TTP |
+| **Granulomatous / lymphoproliferative** | Allergic alveolitis, Granulomatous hepatitis, Granulomatous peritonitis, Kikuchi-Fujimoto disease, Lofgren syndrome, Retroperitoneal fibrosis, Sarcoidosis, Subacute necrotizing lymphadenitis |
+| **Autoimmune / rheumatologic** | Autoimmune cholangitis, Erythema multiforme, Inflammatory bowel disease, Serum sickness, Sjögren's syndrome, Wegener's granulomatosis |
+| **Endocrine / metabolic** | Addison's disease, Fabry's disease, Parathyroid apoplexy, Pheochromocytoma, Thyroiditis & thyrotoxicosis, Vitamin B₁₂ deficiency |
+| **GI / hepatic** | Alcoholic hepatitis, Cirrhotic fever, Pancreatitis |
+| **Infectious** | Bartonellosis, Carcinomatous meningitis, Chronic meningitis, Hantavirus, Human picornavirus, Hypereosinophilic syndrome, Infected urachal cyst, Sinusitis, Whipple's disease |
+| **Other** | Drug fever & hypersensitivities, Factitious fever, Metal fume fever, Resorbing hematoma |
 
 ## Uncommon and rare causes of FUO {.smaller}
+
+<br> <br>
 
 | Category | Examples |
 |------------------------------------|------------------------------------|
@@ -287,7 +323,8 @@ This table emphasizes that the differential for FUO is vast. The key to narrowin
 
 <br>
 
-::: incremental
+::::: columns
+::: {.column width="50%"}
 -   **Respiratory tract infections** - viral, atypical organisms
 -   **Other infections:**
     -   UTIs (especially important in young girls)
@@ -300,15 +337,17 @@ This table emphasizes that the differential for FUO is vast. The key to narrowin
 -   **Important:** Joint involvement is a sign of serious disorder - consider endocarditis, leukemia, connective tissue disease
 :::
 
-::: notes
-In pediatric FUO, keeping a lower threshold for echocardiography in any child with fever and joint symptoms is prudent, as endocarditis can present atypically in children compared to adults.
+::: {.column width="50%"}
+![](images/peds.png){width="600"}
 :::
+:::::
 
 ## Classic FUO in elderly patients
 
 <br>
 
-::: incremental
+::::: columns
+::: {.column width="50%"}
 -   **In developed countries: connective tissue diseases \> infections**
     -   Temporal arteritis (critical diagnosis - risk of blindness)
     -   Polymyalgia rheumatica
@@ -318,35 +357,50 @@ In pediatric FUO, keeping a lower threshold for echocardiography in any child wi
     -   Intra-abdominal abscess
     -   Complicated UTIs (often without pyuria)
     -   Tuberculosis (may be reactivation)
-    -   Endocarditis (prosthetic valves common in elderly)
+    -   Endocarditis (prosthetic valves more common in elderly)
 -   **Malignancy:** solid tumors and hematologic malignancies increase with age
 :::
+
+::: {.column width="50%"}
+![](images/elderly.png)
+:::
+:::::
 
 ::: notes
 The elderly warrant special mention because temporal arteritis is a medical emergency masquerading as FUO. An elevated ESR alone is not sufficient - clinical suspicion and a low threshold for temporal artery biopsy can be vision-saving.
 :::
 
-## Returning travellers
+## Returning travelers {.smaller}
 
 <br>
 
-![](images/traveler.png){fig-align="center"}
+| Diagnosis | Maclean et al (*n* = 587) | Doherty et al (*n* = 195) |
+|----|:--:|:--:|
+| Malaria | 32% | 42% |
+| Respiratory tract infection | 11% | 2.6% |
+| Dysentery | 4.5% | 5.1% |
+| Urinary tract infection / pyelonephritis | 4% | 2.6% |
+| Dengue fever | 2% | 6.2% |
+| Enteric fever | 2% | 1.5% |
+| Hepatitis | 6% | 3% |
+| Tuberculosis | 1% | 2% |
+| Rickettsial infection | 1% | 0.5% |
+| Amebic liver abscess | 1% | 0% |
+| Acute HIV infection | 0.3% | 1% |
+| Other miscellaneous infections | 4.3% | 9.2% |
+| Miscellaneous noninfectious causes | 6% | 1% |
+| **Undiagnosed** | **25%** | **24.6%** |
 
 ::: aside
-[@wrightwilliamf__mackowiakphilipa_15]
-:::
-
-::: notes
-In the returning traveller with FUO, the incubation period and geographic exposures are paramount. Malaria, dengue, typhoid, leptospirosis, and rickettsial infections should be high on the differential based on travel history and season. Serologic testing and blood cultures are essential early investigations.
+In the returning traveller with FUO, the incubation period and geographic exposures are paramount. Malaria, dengue, typhoid, leptospirosis, and rickettsial infections should be high on the differential based on travel history and season. Serologic testing and blood cultures are essential early investigations [@wrightwilliamf__mackowiakphilipa_15].
 :::
 
 ## Nosocomial (Health-Care Associated) FUO
 
 <br>
 
-::: incremental
 -   **Leading causes:**
-    -   Drug fever (especially to antibiotics, seizure meds)
+    -   Drug fever (especially to antibiotics, anti-epileptic medications)
     -   Post-operative complications (e.g., occult abscess, anastomotic leak)
     -   Decubitus ulcers with superimposed infection
     -   Septic thrombophlebitis (peripherally inserted central catheters)
@@ -354,15 +408,19 @@ In the returning traveller with FUO, the incubation period and geographic exposu
     -   Myocardial infarction
     -   Hematologic malignancy (newly diagnosed during hospitalization)
     -   Blood transfusion reaction
-    -   Reactions to contrast media
+    -   Reactions to contrast media used in radiologic procedures
     -   *Clostridium difficile* colitis
-:::
 
 ## Fever in post-operative patients
 
 <br>
 
-::: incremental
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-796023592.png)
+:::
+
+::: {.column width="50%"}
 -   **Epidemiology:** \> 1/3 of patients manifest fever in first 5 days post-surgery
 -   **Infectious vs. non-infectious:** \< 10% of febrile patients have an identified source or positive cultures
 -   **Pathophysiology:** Fever may represent a physiological response to surgically-induced tissue injury
@@ -370,12 +428,14 @@ In the returning traveller with FUO, the incubation period and geographic exposu
     -   Not necessarily indicative of infection
 -   **Clinical pearl:** Early fever (post-op day 1-3) is usually non-infectious; later fever (day 5+) warrants infection investigation
 :::
+:::::
 
 ## FUO in ICU patients
 
 <br>
 
-::: incremental
+::::: columns
+::: {.column width="50%"}
 -   **Early fevers are common** and often non-infectious
     -   Associated with good prognosis
     -   Related to inflammatory response to critical illness
@@ -388,11 +448,17 @@ In the returning traveller with FUO, the incubation period and geographic exposu
     -   Abscess, drug fever, septic thrombophlebitis, pulmonary emboli
 :::
 
+::: {.column width="50%"}
+![](images/icu.png)
+:::
+:::::
+
 ## FUO in stroke patients
 
 <br>
 
-::: incremental
+::::: columns
+::: {.column width="50%"}
 -   **Non-infective fevers are common** in stroke patients
     -   Occur earlier after stroke than infection
     -   Related to hypothalamic injury and cytokine release
@@ -403,11 +469,13 @@ In the returning traveller with FUO, the incubation period and geographic exposu
 -   **Clinical challenge:** Distinguishing fever from infarct-related inflammation vs. infection can be difficult; broad-spectrum antibiotics often given empirically
 :::
 
+::: {.column width="50%"}
+![](images/stronke.png)
+:::
+:::::
+
 ## FUO in neutropenic patients
 
-<br>
-
-::: incremental
 -   **ANC = Total WBC x (% Segs + % Bands)**
 
 -   **Definition of neutropenia:**
@@ -425,9 +493,8 @@ In the returning traveller with FUO, the incubation period and geographic exposu
 
     -   No exudate, no fluctuance, no purulent drainage
     -   Makes clinical diagnosis extremely difficult
-:::
 
-::: notes
+::: aside
 This is one of the most challenging patient populations. The absence of typical signs of infection makes physical examination nearly useless, and a single positive blood culture in a neutropenic patient must be treated as bacteremia until proven otherwise. Prompt empiric broad-spectrum antibiotics (before cultures return) are standard of care.
 :::
 
@@ -450,13 +517,23 @@ This is one of the most challenging patient populations. The absence of typical 
 [@sickles_etal75]
 :::
 
-::: notes
+::: aside
 This table powerfully illustrates why clinical signs fail in severe neutropenia. A profoundly neutropenic patient with anorectal infection has only 8% chance of fluctuance - the classic finding that would alert us to a perirectal abscess. Yet such abscesses are common sources of bacteremia in this population.
 :::
 
-## Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics
+## Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics {.smaller}
 
-![](images/fuo_neutro.png){fig-align="center"}
+<br>
+
+| Cause | Approx. frequency in high-risk patients |
+|---------------------------|:-------------------------------------------:|
+| Fungal infections susceptible to empirical therapy | 40% |
+| Bacterial infections (cryptic foci, biofilms, resistant organisms) | 10% |
+| GVHD after hematopoietic stem cell transplantation | 10% |
+| Fungal infections resistant to empirical antifungal therapy | 5% |
+| *Toxoplasma gondii*, mycobacteria, or fastidious pathogens (*Legionella*, *Mycoplasma*, *Chlamydia pneumoniae*, *Bartonella*) | 5% |
+| Viral infections (herpesviruses, CMV, EBV, HHV-6, VZV, HSV, parainfluenza, RSV, influenza) | 5% |
+| **Undefined** (drug fever, chemotherapy toxicity, antitumor responses, undefined pathogens) | **25%** |
 
 ::: aside
 [@corey_boeckh02]
@@ -470,7 +547,7 @@ When neutropenic patients fail to defervescence on appropriate empiric antibioti
 
 <br>
 
-![](images/CMI_Th1.png){fig-align="center"}
+![](images/CMI_Th1.png){fig-align="center" width="1200"}
 
 ::: aside
 [@playfairj__bancroftg_13]
@@ -480,7 +557,7 @@ When neutropenic patients fail to defervescence on appropriate empiric antibioti
 
 <br>
 
-![](images/CMI_Th2.png){fig-align="center"}
+![](images/CMI_Th2.png){fig-align="center" width="1200"}
 
 ::: aside
 [@playfairj__bancroftg_13]
@@ -488,7 +565,7 @@ When neutropenic patients fail to defervescence on appropriate empiric antibioti
 
 ## Cell-mediated immunity - Drug allergy (Type IV hypersensitivity)
 
-![](images/CMI_allergy.png){fig-align="center"}
+![](images/CMI_allergy.png){fig-align="center" width="1200"}
 
 ::: aside
 [@playfairj__bancroftg_13]
@@ -512,7 +589,6 @@ The degree and type of immunosuppression determines which infections are most li
 
 <br>
 
-::: incremental
 -   **Primary infection phase** characterized by mononucleosis-like illness
     -   Fever is common
     -   May be undiagnosed if it precedes seroconversion (acute retroviral syndrome)
@@ -525,18 +601,31 @@ The degree and type of immunosuppression determines which infections are most li
     -   Effective suppression of HIV viral load
     -   Frequency of FUO falls markedly
     -   CD4 recovery allows control of opportunistic infections
-:::
 
 ## Etiology of fever in HIV-Associated FUO (n=70) {.smaller}
 
-![](images/FUO_HIV.png){fig-align="center" width="500"}
+| Etiology                            |   No. (%)    |
+|-------------------------------------|:------------:|
+| **Infection**                       | **63 (88%)** |
+|  DMAC                               |   22 (31%)   |
+|  *Pneumocystis jirovecii* pneumonia |   10 (13%)   |
+|  CMV                                |   8 (11%)    |
+|  Histoplasmosis                     |    5 (7%)    |
+|  Viral (not CMV)                    |    5 (7%)    |
+|  Bacterial                          |    4 (5%)    |
+|  *Mycobacterium tuberculosis*       |    4 (5%)    |
+|  Fungal (not histoplasmosis)        |    2 (3%)    |
+|  Parasitic                          |    2 (3%)    |
+|  *Mycobacterium genavense*          |    1 (1%)    |
+| **Neoplasia**                       |  **6 (8%)**  |
+|  Lymphoma                           |    5 (7%)    |
+|  Kaposi sarcoma                     |    1 (1%)    |
+| **Miscellaneous**                   |  **3 (4%)**  |
+|  Drug fever                         |    2 (3%)    |
+|  Castleman disease                  |    1 (1%)    |
 
 ::: aside
 [@wrightwilliamf__mackowiakphilipa_15]
-:::
-
-::: notes
-In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes of FUO in HIV-positive patients with CD4 \<50. Now with effective antiretroviral therapy, the spectrum has changed, though tuberculosis remains a leading cause globally. CMV and fungal infections like histoplasmosis and coccidioidomycosis (in endemic regions) also featured prominently.
 :::
 
 ## Naproxen (NSAID) fever suppression test for "tumor fever"
@@ -562,8 +651,10 @@ In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes 
 
 ## General diagnostic evaluation of FUO {.smaller}
 
+<br>
+
 | Step | Investigation |
-|----------------------------------------------|--------------------------|
+|---------------------------------------------|---------------------------|
 | **History & Exam** | Comprehensive history; repeated physical exams |
 | **Laboratory** | CBC, comprehensive metabolic panel, urinalysis with microscopy |
 | **Inflammatory Markers** | ESR, C-reactive protein |
@@ -607,7 +698,7 @@ This table represents the diagnostic approach to FUO, but it should be emphasize
 A 45-year-old history of fever in a farmer with exposure to birth products of cattle should immediately suggest Q fever. A history of fever in a Southwest US resident with respiratory symptoms should suggest coccidioidomycosis. The history is the most efficient diagnostic tool - proper use can narrow a vast differential to a manageable few diagnoses.
 :::
 
-## Verification of fever and fever pattern
+## Verification of fever and pattern of fever
 
 <br>
 
@@ -968,3 +1059,5 @@ This prognosis for undiagnosed FUO is reassuring and often not communicated to p
 :::
 
 ## References
+
+
