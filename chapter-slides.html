@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="chapter-slides_files/libs/clipboard/clipboard.min.js"></script>
+<script src="chapter-slides_files/libs/quarto-html/tabby.min.js"></script>
+<script src="chapter-slides_files/libs/quarto-html/popper.min.js"></script>
+<script src="chapter-slides_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="chapter-slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="chapter-slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="chapter-slides_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="chapter-slides_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="chapter-slides_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script src="chapter-slides_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="chapter-slides_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="chapter-slides_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.26">
+
+  <meta name="author" content="Russell E. Lewis">
+  <meta name="dcterms.date" content="2026-03-01">
+  <title>Fever of Unknown Origin</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="chapter-slides_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="chapter-slides_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="chapter-slides_files/libs/revealjs/dist/theme/quarto-366b17617c91c64885c717efcc1ec934.css">
+  <link href="chapter-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="chapter-slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Fever of Unknown Origin</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Russell E. Lewis 
+</div>
+</div>
+</div>
+
+  <p class="date">2026-03-01</p>
+</section>
+<section id="fever-of-unknown-origin-fuo" class="slide level2" data-background-color="#9B0014">
+<h2>Fever of Unknown Origin (FUO)</h2>
+<p><br> <br></p>
+<center>
+<p>Prof.&nbsp;Russell E. Lewis <br> Department of Molecular Medicine <br> University of Padua</p>
+<p><br> <i class="fa-solid fa-envelope fa-1x" aria-label="envelope"></i> russelledward.lewis@unipd.it <br> <i class="fa-brands fa-github fa-1x" aria-label="github"></i> https://github.com/Russlewisbo</p>
+<p><br> slides available at: www.padovaid.com</p>
+</center>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img data-src="images/dmm.jpeg" width="150"></td>
+<td><img data-src="images/unipd_seal_white%20(1).svg" width="150"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="objectives" class="slide level2">
+<h2>Objectives</h2>
+<p><br></p>
+<ul>
+<li>Recognize leading infectious causes of FUO in key patient groups</li>
+<li>Identify key fever patterns and clinical histories that may direct diagnosis</li>
+<li>Differentiate FUO risks and possible spectrum of pathogens in immunocompromised hosts</li>
+</ul>
+<aside class="notes">
+<p>Today we’ll explore the fascinating history of fever, understand the modern definition of FUO, review its epidemiology across different patient populations, and learn systematic approaches to diagnosis and management. We’ll pay particular attention to how fever patterns can guide clinical thinking and how immunocompromised patients present unique diagnostic challenges.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-history-of-fever" class="slide level2" data-background-image="/images/hippocrates.jpg" data-background-opacity="0.2" data-background-size="contain">
+<h2>The history of fever</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><strong>10th Century BCE Persian Physician Akhawayni</strong> defined a system for fever curves in Hidāyat al-Muta’allimīn fī al-Tibb (The Student’s Handbook of Medicine)</li>
+<li><strong>Hippocratic physicians</strong> proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors—blood, phlegm, black bile, and yellow bile.
+<ul>
+<li>Fever was due to excess of yellow bile (many infections caused jaundice)</li>
+</ul></li>
+<li><strong>Galen:</strong> many types of fever developed from putrefaction of humors.</li>
+<li><strong>Middle ages:</strong> demonic possession</li>
+<li><strong>18th century (Harvey’s discovery of circulation)</strong>- friction of blood flow through body causing fermentation and putrefaction in intestines</li>
+<li><strong>Claude Bernard in the 19th century</strong>- metabolic processes in the body</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><br> <br></p>
+<p><a href="images/persian.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="images/persian.png" width="800"></a></p>
+</div></div>
+<aside class="notes">
+<p>The history of fever reflects humanity’s struggle to understand bodily temperature. From ancient humoral theory through Renaissance advances to modern medicine, our conceptualization has evolved from supernatural and chemical explanations to physiologic understanding.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="febris---roman-goddess-of-fever" class="slide level2">
+<h2>Febris - Roman Goddess of Fever</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/febris.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="images/febris.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+<p>The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.</p>
+</section>
+<section id="early-thermometers" class="slide level2">
+<h2>Early thermometers</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/thermometer.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="images/thermometer.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+<p>A typical design of a thermoscope is a tube in which a liquid rises and falls as the temperature changes. The Sanctorius thermoscope. Professor Francis Ring, the University of Leeds</p>
+</section>
+<section id="fever-in-modern-medicine" class="slide level2">
+<h2>Fever in modern medicine</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Wunderlich’s pioneering studies of thermometry reported normal temperature at 37°C</p></li>
+<li><p>Since the 19th century, humans have become gradually colder - 0.05° to 0.5°C per decade!</p>
+<ul>
+<li>Current normal range is 36.3 to 36.5°C</li>
+</ul></li>
+<li><p>Mackowiak (1992): mean oral temperature 36.8 ± 0.4°C; only 8% had 37°C</p></li>
+<li><p>Fever now defined as: early-morning temperature ≥37.2°C or anytime ≥ 37.8°C</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/wunderlink.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="images/wunderlink.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+</div></div>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_worden94">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak and Worden, 1994</a>)</span></p>
+</div></aside></section>
+<section id="physiologic-variables-affecting-body-temperature" class="slide level2">
+<h2>Physiologic variables affecting body temperature</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Age and sex differences</strong>
+<ul>
+<li class="fragment">Women ~0.5°C higher at ovulation</li>
+<li class="fragment">Infants have higher baseline temperatures</li>
+</ul></li>
+<li class="fragment"><strong>Circadian rhythm</strong>
+<ul>
+<li class="fragment">Zenith: late afternoon (peak)</li>
+<li class="fragment">Nadir: early morning (trough)</li>
+</ul></li>
+<li class="fragment"><strong>Other factors</strong>
+<ul>
+<li class="fragment">Exercise and physical exertion</li>
+<li class="fragment">Medications (antipyretics, corticosteroids)</li>
+<li class="fragment">Digestion and recent meals</li>
+<li class="fragment">Chronic disease and metabolic conditions</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Understanding normal temperature variation is crucial when evaluating a patient for FUO. A temperature of 37.5°C in a patient’s early morning measurement may be pathologic, while 38.2°C in the evening may be within normal diurnal variation for that individual.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="thermal-homeostasis" class="slide level2">
+<h2>Thermal homeostasis</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/thermoregulation.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="images/thermoregulation.png" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="sajadimohammadm__mackowiakphilipa_">(<a href="#/references" role="doc-biblioref" onclick="">Sajadi and Mackowiak, 2020</a>)</span></p>
+</div></aside></section>
+<section id="fever-vs.-hyperthermia" class="slide level2 smaller">
+<h2>Fever vs.&nbsp;Hyperthermia</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 25%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Fever</th>
+<th>Hyperthermia</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Set point</strong></td>
+<td>Elevated</td>
+<td>Normal</td>
+</tr>
+<tr class="even">
+<td><strong>Mechanism</strong></td>
+<td>Regulated response</td>
+<td>Unregulated heat generation</td>
+</tr>
+<tr class="odd">
+<td><strong>Cause</strong></td>
+<td>Pyrogens (LPS, IL-1, TNF)</td>
+<td>Heat exposure, drugs, malignant hyperthermia</td>
+</tr>
+<tr class="even">
+<td><strong>Pathophysiology</strong></td>
+<td>Altered hypothalamic setpoint</td>
+<td>Failure of heat dissipation</td>
+</tr>
+<tr class="odd">
+<td><strong>Sweating</strong></td>
+<td>Absent initially (shivering); later excessive</td>
+<td>May be absent</td>
+</tr>
+<tr class="even">
+<td><strong>Treatment response</strong></td>
+<td>Antipyretics effective</td>
+<td>Antipyretics ineffective; cooling required</td>
+</tr>
+<tr class="odd">
+<td><strong>Examples</strong></td>
+<td>Infection, NIID, malignancy</td>
+<td>Heat stroke, neuroleptic malignant syndrome</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>This distinction is critical clinically. A patient with heat stroke will not respond to antipyretics because the problem is not a resetting of the hypothalamic setpoint, but rather failure of thermoregulation itself. Conversely, fever in infection responds to antipyretics because the elevated temperature is the body’s intentional response to pathogens.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="infection-associated-fever---the-febrile-response" class="slide level2">
+<h2>Infection-associated fever - The febrile response</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/LPSfever.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="images/LPSfever.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>When pathogens are recognized by the innate immune system, LPS from gram-negative bacteria and other PAMPs activate macrophages to release pyrogenic cytokines IL-1, TNF-α, and IL-6. These circulate to the hypothalamus, where they stimulate production of PGE₂ in the preoptic area (POA), which directly resets the thermoregulatory setpoint upward. The anterior hypothalamus then interprets the new setpoint as the desired temperature and initiates heat-generating mechanisms (shivering, vasoconstriction, behavior changes) until core temperature matches this new higher setpoint.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="wright_auwaerter20">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Auwaerter, 2020</a>)</span></p>
+</div></aside></section>
+<section id="sequelae-of-fever---benefits-of-fever" class="slide level2">
+<h2>Sequelae of fever - Benefits of fever</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Phylogenetic conservation</strong> suggests fever is beneficial - appears in ectotherms and endotherms</li>
+<li class="fragment"><strong>Microbial metabolism</strong> - most pathogenic bacteria are mesophiles (optimal growth at 35-37°C)
+<ul>
+<li class="fragment">Even modest temperature elevations slow replication</li>
+</ul></li>
+<li class="fragment"><strong>Iron sequestration</strong> - fever triggers hepatic synthesis of hepcidin and lactoferrin
+<ul>
+<li class="fragment">Sequesters free iron necessary for bacterial replication</li>
+</ul></li>
+<li class="fragment"><strong>Enhanced immune function</strong>
+<ul>
+<li class="fragment">Increased neutrophil migration</li>
+<li class="fragment">Augmented antibody production</li>
+<li class="fragment">Enhanced T-cell proliferation</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Rather than viewing fever as purely pathologic, modern immunology reveals it as an important component of the inflammatory response to infection. This is why antipyretics in certain infections (like pneumococcal pneumonia) may actually worsen outcomes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="acute-phase-proteins" class="slide level2">
+<h2>Acute phase proteins</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/acutephase1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="images/acutephase1.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="gabay_kushner99">(<a href="#/references" role="doc-biblioref" onclick="">Gabay and Kushner, 1999</a>)</span></p>
+</div></aside></section>
+<section id="acute-phase-phenomena" class="slide level2">
+<h2>Acute phase phenomena</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/acutephase.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="images/acutephase.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>The acute phase response is orchestrated by IL-1, IL-6, and TNF-α. The dramatic rise in inflammatory markers like ESR and CRP, along with changes in protein synthesis (increased fibrinogen, ceruloplasmin; decreased albumin), reflects the body’s comprehensive metabolic mobilization against infection or inflammation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="gabay_kushner99">(<a href="#/references" role="doc-biblioref" onclick="">Gabay and Kushner, 1999</a>)</span></p>
+</div></aside></section>
+<section id="epidemiology-of-fuo---definitions" class="slide level2 smaller">
+<h2>Epidemiology of FUO - Definitions</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/FUOdef.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="images/FUOdef.png" class="quarto-figure quarto-figure-center" width="700"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>Different definitions exist for FUO depending on clinical context. The classic definition applies to outpatient or minimally hospitalized patients with prolonged fever. The newer categories - nosocomial, neutropenic, and HIV-associated FUO - reflect that different populations have different diagnostic considerations and thresholds for investigation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="haidar_singh22">(<a href="#/references" role="doc-biblioref" onclick="">Haidar and Singh, 2022</a>)</span></p>
+</div></aside></section>
+<section id="classic-fuo" class="slide level2">
+<h2>Classic FUO</h2>
+<p><br></p>
+<ul>
+<li><strong>Definition:</strong>
+<ul>
+<li>Temperature of &gt; 38.3°C &gt; 3 weeks</li>
+<li>Fever &gt;2 separate outpatient visits with diagnostic investigations <em>or</em></li>
+<li>Fever &gt;2 visits in hospital of 3 days with diagnostic investigations
+<ul>
+<li><em>However</em>, these definitions are largely subjective</li>
+</ul></li>
+</ul></li>
+<li><strong>Leading causes:</strong>
+<ul>
+<li>Infections (geography dependent)</li>
+<li>Inflammatory conditions (age dependent)</li>
+<li>Cancer (age dependent)</li>
+<li>Undiagnosed/unknown</li>
+</ul></li>
+</ul>
+</section>
+<section id="frequency-of-the-5-main-etiologic-categories-of-fuo" class="slide level2">
+<h2>Frequency of the 5 main etiologic categories of FUO</h2>
+<p>Infectious causes decrease in patients above age 65 years</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/FUOcat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="images/FUOcat.png" class="quarto-figure quarto-figure-center" width="600"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>One striking observation is the steady decline in infectious causes of FUO since the mid-1990s, with a corresponding rise in cases of non-infectious inflammatory disease (NIID) and undiagnosed fever. This likely reflects improved diagnostic capacity and earlier diagnosis of common infections. It also underscores that empiric antimicrobial therapy without diagnosis is increasingly less likely to resolve FUO.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Mackowiak, 2015</a>)</span></p>
+</div></aside></section>
+<section id="classic-fuo---infectious-etiology" class="slide level2">
+<h2>Classic FUO - Infectious Etiology</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Chronic or relapsing infections</strong>
+<ul>
+<li class="fragment">Occult abscess (intra-abdominal, hepatic, splenic, renal, perirectal)</li>
+<li class="fragment">Endocarditis (both native and prosthetic valve)</li>
+<li class="fragment">Tuberculosis (pulmonary and extrapulmonary)</li>
+<li class="fragment">Complicated urinary tract infections (pyelonephritis, prostatitis)</li>
+<li class="fragment">Osteomyelitis (especially vertebral)</li>
+<li class="fragment">Other: brucellosis, leptospirosis, syphilis, bartonellosis</li>
+</ul></li>
+</ul>
+</section>
+<section id="rare-and-miscellaneous-causes-of-fever" class="slide level2">
+<h2>Rare and miscellaneous causes of fever</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/misc.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="images/misc.jpeg" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+</section>
+<section id="uncommon-and-rare-causes-of-fuo" class="slide level2 smaller">
+<h2>Uncommon and rare causes of FUO</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Infections</strong></td>
+<td>Bartonellosis, hantavirus, coccidioidomycosis, histoplasmosis, blastomycosis, cysticercosis</td>
+</tr>
+<tr class="even">
+<td><strong>NIID</strong></td>
+<td>Addison disease, Behçet syndrome, SLE, vasculitis, inflammatory bowel disease, GPA, sarcoidosis, Sjögren syndrome, thyroiditis, adult-onset Still disease</td>
+</tr>
+<tr class="odd">
+<td><strong>Malignancy</strong></td>
+<td>Atrial myxoma, lymphoma, leukemia, pheochromocytoma, Schnitzler syndrome</td>
+</tr>
+<tr class="even">
+<td><strong>Other</strong></td>
+<td>Cirrhotic fever, drug fever, factitious fever, vitamin B₁₂ deficiency, pulmonary embolism</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>This table emphasizes that the differential for FUO is vast. The key to narrowing the differential is careful history-taking, physical examination, and judicious use of targeted investigations rather than indiscriminate laboratory testing.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="classic-fuo-in-infants-and-children" class="slide level2">
+<h2>Classic FUO in infants and children</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Respiratory tract infections</strong> - viral, atypical organisms</li>
+<li class="fragment"><strong>Other infections:</strong>
+<ul>
+<li class="fragment">UTIs (especially important in young girls)</li>
+<li class="fragment">Brucellosis, tuberculosis, bartonellosis</li>
+</ul></li>
+<li class="fragment"><strong>Systemic inflammatory conditions:</strong>
+<ul>
+<li class="fragment">Kawasaki disease (critical, age &lt; 5 years)</li>
+<li class="fragment">Inflammatory bowel diseases</li>
+<li class="fragment">Still’s disease (juvenile rheumatoid arthritis)</li>
+</ul></li>
+<li class="fragment"><strong>Note:</strong> Connective tissue diseases and cancers are generally rare in children</li>
+<li class="fragment"><strong>Important:</strong> Joint involvement is a sign of serious disorder - consider endocarditis, leukemia, connective tissue disease</li>
+</ul>
+<aside class="notes">
+<p>In pediatric FUO, keeping a lower threshold for echocardiography in any child with fever and joint symptoms is prudent, as endocarditis can present atypically in children compared to adults.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="classic-fuo-in-elderly-patients" class="slide level2">
+<h2>Classic FUO in elderly patients</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>In developed countries: connective tissue diseases &gt; infections</strong>
+<ul>
+<li class="fragment">Temporal arteritis (critical diagnosis - risk of blindness)</li>
+<li class="fragment">Polymyalgia rheumatica</li>
+<li class="fragment">Other vasculitides</li>
+</ul></li>
+<li class="fragment"><strong>Diagnostic challenge:</strong> symptoms are subacute and non-specific, easily attributed to aging</li>
+<li class="fragment"><strong>Infections still important:</strong>
+<ul>
+<li class="fragment">Intra-abdominal abscess</li>
+<li class="fragment">Complicated UTIs (often without pyuria)</li>
+<li class="fragment">Tuberculosis (may be reactivation)</li>
+<li class="fragment">Endocarditis (prosthetic valves common in elderly)</li>
+</ul></li>
+<li class="fragment"><strong>Malignancy:</strong> solid tumors and hematologic malignancies increase with age</li>
+</ul>
+<aside class="notes">
+<p>The elderly warrant special mention because temporal arteritis is a medical emergency masquerading as FUO. An elevated ESR alone is not sufficient - clinical suspicion and a low threshold for temporal artery biopsy can be vision-saving.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="returning-travellers" class="slide level2">
+<h2>Returning travellers</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/traveler.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="images/traveler.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>In the returning traveller with FUO, the incubation period and geographic exposures are paramount. Malaria, dengue, typhoid, leptospirosis, and rickettsial infections should be high on the differential based on travel history and season. Serologic testing and blood cultures are essential early investigations.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Mackowiak, 2015</a>)</span></p>
+</div></aside></section>
+<section id="nosocomial-health-care-associated-fuo" class="slide level2">
+<h2>Nosocomial (Health-Care Associated) FUO</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Leading causes:</strong>
+<ul>
+<li class="fragment">Drug fever (especially to antibiotics, seizure meds)</li>
+<li class="fragment">Post-operative complications (e.g., occult abscess, anastomotic leak)</li>
+<li class="fragment">Decubitus ulcers with superimposed infection</li>
+<li class="fragment">Septic thrombophlebitis (peripherally inserted central catheters)</li>
+<li class="fragment">Recurrent pulmonary emboli</li>
+<li class="fragment">Myocardial infarction</li>
+<li class="fragment">Hematologic malignancy (newly diagnosed during hospitalization)</li>
+<li class="fragment">Blood transfusion reaction</li>
+<li class="fragment">Reactions to contrast media</li>
+<li class="fragment"><em>Clostridium difficile</em> colitis</li>
+</ul></li>
+</ul>
+</section>
+<section id="fever-in-post-operative-patients" class="slide level2">
+<h2>Fever in post-operative patients</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Epidemiology:</strong> &gt; 1/3 of patients manifest fever in first 5 days post-surgery</li>
+<li class="fragment"><strong>Infectious vs.&nbsp;non-infectious:</strong> &lt; 10% of febrile patients have an identified source or positive cultures</li>
+<li class="fragment"><strong>Pathophysiology:</strong> Fever may represent a physiological response to surgically-induced tissue injury
+<ul>
+<li class="fragment">Release of pyrogenic cytokines and interleukins</li>
+<li class="fragment">Not necessarily indicative of infection</li>
+</ul></li>
+<li class="fragment"><strong>Clinical pearl:</strong> Early fever (post-op day 1-3) is usually non-infectious; later fever (day 5+) warrants infection investigation</li>
+</ul>
+</section>
+<section id="fuo-in-icu-patients" class="slide level2">
+<h2>FUO in ICU patients</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Early fevers are common</strong> and often non-infectious
+<ul>
+<li class="fragment">Associated with good prognosis</li>
+<li class="fragment">Related to inflammatory response to critical illness</li>
+</ul></li>
+<li class="fragment"><strong>Prolonged fever carries a poorer prognosis</strong></li>
+<li class="fragment"><strong>Common complications:</strong>
+<ul>
+<li class="fragment">Sinusitis (from mechanical ventilation, supine positioning, feeding tubes)</li>
+<li class="fragment">Ventilator-associated pneumonia</li>
+<li class="fragment">Catheter-related bloodstream infections</li>
+</ul></li>
+<li class="fragment"><strong>Other causes similar to nosocomial FUO</strong>
+<ul>
+<li class="fragment">Abscess, drug fever, septic thrombophlebitis, pulmonary emboli</li>
+</ul></li>
+</ul>
+</section>
+<section id="fuo-in-stroke-patients" class="slide level2">
+<h2>FUO in stroke patients</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Non-infective fevers are common</strong> in stroke patients
+<ul>
+<li class="fragment">Occur earlier after stroke than infection</li>
+<li class="fragment">Related to hypothalamic injury and cytokine release</li>
+</ul></li>
+<li class="fragment"><strong>Infection-related complications:</strong>
+<ul>
+<li class="fragment">UTI (from urinary catheterization)</li>
+<li class="fragment">Aspiration pneumonia</li>
+<li class="fragment">DVT/PE</li>
+</ul></li>
+<li class="fragment"><strong>Clinical challenge:</strong> Distinguishing fever from infarct-related inflammation vs.&nbsp;infection can be difficult; broad-spectrum antibiotics often given empirically</li>
+</ul>
+</section>
+<section id="fuo-in-neutropenic-patients" class="slide level2">
+<h2>FUO in neutropenic patients</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><p><strong>ANC = Total WBC x (% Segs + % Bands)</strong></p></li>
+<li class="fragment"><p><strong>Definition of neutropenia:</strong></p>
+<ul>
+<li class="fragment">ANC &lt; 500 cells/mm³</li>
+<li class="fragment">“Profound” neutropenia: ANC &lt; 100 cells/mm³</li>
+</ul></li>
+<li class="fragment"><p><strong>Frequency of fever during chemotherapy-induced neutropenia:</strong></p>
+<ul>
+<li class="fragment">10-50% of patients with solid tumors</li>
+<li class="fragment">80% of those with hematologic malignancies during ≥1 chemotherapy cycle</li>
+<li class="fragment">Most patients will have NO infectious etiology documented</li>
+</ul></li>
+<li class="fragment"><p><strong>Critical finding:</strong> Signs of inflammation are notoriously absent other than fever</p>
+<ul>
+<li class="fragment">No exudate, no fluctuance, no purulent drainage</li>
+<li class="fragment">Makes clinical diagnosis extremely difficult</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>This is one of the most challenging patient populations. The absence of typical signs of infection makes physical examination nearly useless, and a single positive blood culture in a neutropenic patient must be treated as bacteremia until proven otherwise. Prompt empiric broad-spectrum antibiotics (before cultures return) are standard of care.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="clinical-manifestations-of-infection-related-to-absolute-neutrophil-count" class="slide level2">
+<h2>Clinical manifestations of infection related to absolute neutrophil count</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sign/Symptom</th>
+<th>Type of Infection</th>
+<th>% with ANC&lt;100</th>
+<th>% with ANC&gt;1000</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Fever</strong></td>
+<td>Overall</td>
+<td>98</td>
+<td>76</td>
+</tr>
+<tr class="even">
+<td><strong>Bacteremia</strong></td>
+<td>Overall</td>
+<td>43</td>
+<td>13</td>
+</tr>
+<tr class="odd">
+<td><strong>Fluctuance</strong></td>
+<td>Anorectal</td>
+<td>8</td>
+<td>67</td>
+</tr>
+<tr class="even">
+<td><strong>Exudate</strong></td>
+<td>Skin</td>
+<td>5</td>
+<td>92</td>
+</tr>
+<tr class="odd">
+<td><strong>Purulent sputum</strong></td>
+<td>Pneumonia</td>
+<td>8</td>
+<td>84</td>
+</tr>
+<tr class="even">
+<td><strong>Pyuria</strong></td>
+<td>UTI</td>
+<td>11</td>
+<td>97</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+
+<aside class="notes">
+<p>This table powerfully illustrates why clinical signs fail in severe neutropenia. A profoundly neutropenic patient with anorectal infection has only 8% chance of fluctuance - the classic finding that would alert us to a perirectal abscess. Yet such abscesses are common sources of bacteremia in this population.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="sickles_etal75">(<a href="#/references" role="doc-biblioref" onclick="">Sickles et al., 1975</a>)</span></p>
+</div></aside></section>
+<section id="possible-causes-of-fever-in-neutropenic-patients-not-responding-to-broad-spectrum-antibiotics" class="slide level2">
+<h2>Possible causes of fever in neutropenic patients not responding to broad-spectrum antibiotics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/fuo_neutro.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="images/fuo_neutro.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>When neutropenic patients fail to defervescence on appropriate empiric antibiotics, fungal infection (especially invasive aspergillosis) and CMV must move high on the differential. Invasive fungal infection carries mortality rates exceeding 50% even with treatment if there is significant delay in diagnosis.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="corey_boeckh02">(<a href="#/references" role="doc-biblioref" onclick="">Corey and Boeckh, 2002</a>)</span></p>
+</div></aside></section>
+<section id="cell-mediated-immunity---th1-pathway" class="slide level2">
+<h2>Cell-mediated immunity - Th1 pathway</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/CMI_Th1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="images/CMI_Th1.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair and Bancroft, 2013</a>)</span></p>
+</div></aside></section>
+<section id="cell-mediated-immunity---th2-pathway" class="slide level2">
+<h2>Cell-mediated immunity - Th2 pathway</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/CMI_Th2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="images/CMI_Th2.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair and Bancroft, 2013</a>)</span></p>
+</div></aside></section>
+<section id="cell-mediated-immunity---drug-allergy-type-iv-hypersensitivity" class="slide level2">
+<h2>Cell-mediated immunity - Drug allergy (Type IV hypersensitivity)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/CMI_allergy.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img data-src="images/CMI_allergy.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>Drug fever is a type IV hypersensitivity reaction mediated by T cells. It typically appears 1-3 weeks after starting a medication and resolves within 48-72 hours of drug discontinuation. Antibiotics are the most common culprits, but NSAIDs, anticonvulsants, and many other drugs can cause fever. The diagnosis is clinical - there are no specific tests, but re-challenge with the drug should reproduce the fever (though this is rarely done in practice).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="playfairj__bancroftg_13">(<a href="#/references" role="doc-biblioref" onclick="">Playfair and Bancroft, 2013</a>)</span></p>
+</div></aside></section>
+<section id="infections-in-immunocompromised-hosts" class="slide level2">
+<h2>Infections in immunocompromised hosts</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/immunocomp.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img data-src="images/immunocomp.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+<aside class="notes">
+<p>The degree and type of immunosuppression determines which infections are most likely. CD4 count &lt;200 in HIV predisposes to PCP and toxoplasmosis. Neutropenia predisposes to bacterial and fungal infections. T-cell defects (from chemotherapy, calcineurin inhibitors) predispose to opportunistic infections like CMV and fungal infections. Understanding the specific immune defect is critical for generating an appropriate differential diagnosis.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="hiv-related-fuo" class="slide level2">
+<h2>HIV-related FUO</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Primary infection phase</strong> characterized by mononucleosis-like illness
+<ul>
+<li class="fragment">Fever is common</li>
+<li class="fragment">May be undiagnosed if it precedes seroconversion (acute retroviral syndrome)</li>
+</ul></li>
+<li class="fragment"><strong>Later phases of untreated HIV</strong>
+<ul>
+<li class="fragment">Episodes of fever become common</li>
+<li class="fragment">Often signify superimposed illness - e.g., opportunistic infections</li>
+<li class="fragment">Infections may manifest atypically</li>
+</ul></li>
+<li class="fragment"><strong>HAART era impact</strong>
+<ul>
+<li class="fragment">Once highly-active antiretroviral therapy (HAART) is started</li>
+<li class="fragment">Effective suppression of HIV viral load</li>
+<li class="fragment">Frequency of FUO falls markedly</li>
+<li class="fragment">CD4 recovery allows control of opportunistic infections</li>
+</ul></li>
+</ul>
+</section>
+<section id="etiology-of-fever-in-hiv-associated-fuo-n70" class="slide level2 smaller">
+<h2>Etiology of fever in HIV-Associated FUO (n=70)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/FUO_HIV.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img data-src="images/FUO_HIV.png" class="quarto-figure quarto-figure-center" width="500"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes of FUO in HIV-positive patients with CD4 &lt;50. Now with effective antiretroviral therapy, the spectrum has changed, though tuberculosis remains a leading cause globally. CMV and fungal infections like histoplasmosis and coccidioidomycosis (in endemic regions) also featured prominently.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Mackowiak, 2015</a>)</span></p>
+</div></aside></section>
+<section id="naproxen-nsaid-fever-suppression-test-for-tumor-fever" class="slide level2">
+<h2>Naproxen (NSAID) fever suppression test for “tumor fever”</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Indications for trial:</strong>
+<ul>
+<li class="fragment">Temperature &gt; 37.8°C at least once daily for ≥2 weeks</li>
+<li class="fragment">Lack of evidence of infection (physical exam, labs, imaging)</li>
+<li class="fragment">Absence of drug fever, transfusion reaction, or allergic mechanisms</li>
+<li class="fragment">Lack of response to ≥7 days of empiric antibiotics</li>
+</ul></li>
+<li class="fragment"><strong>Procedure:</strong>
+<ul>
+<li class="fragment">Naproxen 500 mg BID × 3-5 days</li>
+</ul></li>
+<li class="fragment"><strong>Positive result:</strong>
+<ul>
+<li class="fragment">Prompt complete defervescence (lysis of fever)</li>
+<li class="fragment">Sustained normal temperature while receiving naproxen</li>
+<li class="fragment">Fever recurrence when drug discontinued</li>
+</ul></li>
+<li class="fragment"><strong>Note:</strong> Not universally accepted; sensitivity/specificity debated</li>
+</ul>
+</section>
+<section id="diagnosis-of-fuo" class="slide level2" data-background-image="/images/thermometer.jpg">
+<h2>Diagnosis of FUO</h2>
+</section>
+<section id="general-diagnostic-evaluation-of-fuo" class="slide level2 smaller">
+<h2>General diagnostic evaluation of FUO</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 63%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Investigation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>History &amp; Exam</strong></td>
+<td>Comprehensive history; repeated physical exams</td>
+</tr>
+<tr class="even">
+<td><strong>Laboratory</strong></td>
+<td>CBC, comprehensive metabolic panel, urinalysis with microscopy</td>
+</tr>
+<tr class="odd">
+<td><strong>Inflammatory Markers</strong></td>
+<td>ESR, C-reactive protein</td>
+</tr>
+<tr class="even">
+<td><strong>Autoimmune Screening</strong></td>
+<td>ANA, rheumatoid factor</td>
+</tr>
+<tr class="odd">
+<td><strong>Imaging - First Line</strong></td>
+<td>Chest radiograph, CT abdomen/pelvis</td>
+</tr>
+<tr class="even">
+<td><strong>Cultures</strong></td>
+<td>Blood cultures (3 specimens without antimicrobials), urine culture</td>
+</tr>
+<tr class="odd">
+<td><strong>Serologies</strong></td>
+<td>CMV IgM/PCR, heterophil antibody (EBV) in young adults</td>
+</tr>
+<tr class="even">
+<td><strong>Tuberculosis</strong></td>
+<td>Tuberculin skin test, interferon-gamma release assay</td>
+</tr>
+<tr class="odd">
+<td><strong>Advanced Imaging</strong></td>
+<td>MRI, PET-CT, duplex ultrasound lower extremities</td>
+</tr>
+<tr class="even">
+<td><strong>Invasive Procedures</strong></td>
+<td>Biopsy (lymph node, liver, bone marrow) if indicated</td>
+</tr>
+</tbody>
+</table>
+
+<aside class="notes">
+<p>This table represents the diagnostic approach to FUO, but it should be emphasized that not all tests are appropriate for every patient. The history and physical examination must guide which investigations to pursue, otherwise the patient will undergo excessive and often unnecessary testing with false positives leading to misdirected therapy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Mackowiak, 2015</a>)</span></p>
+</div></aside></section>
+<section id="patient-history" class="slide level2">
+<h2>Patient history</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><p><strong>Helps guide choice of initial laboratory investigations</strong> - this is the most important step</p></li>
+<li class="fragment"><p><strong>Travel history:</strong> where, when, duration, exposures to animals, arthropod vectors, contaminated water</p></li>
+<li class="fragment"><p><strong>Exposure to animals and work environment:</strong> pet birds (psittacosis), cats (toxoplasmosis, bartonellosis), tick exposure (Lyme, Q fever)</p></li>
+<li class="fragment"><p><strong>Recent contact with ill persons</strong> or family history of FUO (e.g., familial Mediterranean fever)</p></li>
+<li class="fragment"><p><strong>Complete medication list:</strong> including OTC drugs, supplements, recent antimicrobials</p></li>
+<li class="fragment"><p><strong>Prior history of FUO</strong> - may be recurrence of same diagnosis</p></li>
+<li class="fragment"><p><strong>Previously diagnosed conditions:</strong> malignancy, rheumatic fever, valve disease that predisposes to endocarditis</p></li>
+</ul>
+<aside class="notes">
+<p>A 45-year-old history of fever in a farmer with exposure to birth products of cattle should immediately suggest Q fever. A history of fever in a Southwest US resident with respiratory symptoms should suggest coccidioidomycosis. The history is the most efficient diagnostic tool - proper use can narrow a vast differential to a manageable few diagnoses.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="verification-of-fever-and-fever-pattern" class="slide level2">
+<h2>Verification of fever and fever pattern</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Verification of fever:</strong> Often overlooked step
+<ul>
+<li class="fragment">In some series, up to 30% referred for FUO where determined to NOT have fever</li>
+<li class="fragment">Request fever log or have patient take temperatures at home</li>
+</ul></li>
+<li class="fragment"><strong>Fever patterns</strong> - use of patterns to narrow differential:
+<ul>
+<li class="fragment"><em>Continuous, remittent, intermittent, hectic (Charcot’s), quotidian, quartan, biphasic (saddleback), Pel-Ebstein</em></li>
+</ul></li>
+<li class="fragment"><strong>Factors affecting fever pattern:</strong>
+<ul>
+<li class="fragment">Hydration status, ambient temperature</li>
+<li class="fragment">Accuracy of temperature measurements (different sites)</li>
+<li class="fragment">Antipyretics and corticosteroids suppress fever</li>
+<li class="fragment">Blood transfusions and other medical interventions</li>
+</ul></li>
+</ul>
+</section>
+<section id="continuous-sustained-fever" class="slide level2">
+<h2>Continuous sustained fever</h2>
+<p><br></p>
+<ul>
+<li>Continuous fever with slight remission not exceeding 2°C
+<ul>
+<li>Lobar and gram-negative pneumonia</li>
+<li>Rickettsiosis</li>
+<li>Typhoid fever</li>
+<li>CNS disorders</li>
+<li>Tularemia</li>
+<li>Falciparum (malignant tertian) malaria</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/continuous.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img data-src="images/continuous.png" class="quarto-figure quarto-figure-center" width="500"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="malaria-fever---paroxysmal-patterns" class="slide level2">
+<h2>Malaria fever - Paroxysmal patterns</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/malariafever.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="images/malariafever.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+<p>Febrile paroxysms may occur every other day for <em>P. vivax</em>, <em>P. ovale</em>, and <em>P. falciparum</em> (tertian fever) and every third day for <em>P. malariae</em> (quartan fever). Paroxysms occurring at regular intervals are more common in <em>P. vivax</em> or <em>P. ovale</em> than <em>P. falciparum</em>. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently.</p>
+<aside class="notes">
+<p>The regular paroxysmal pattern of malaria fever historically served as a diagnostic clue, but modern rapid diagnostic tests have made fever pattern analysis less clinically relevant. Still, recognizing the tertian and quartan patterns can be helpful in settings with limited diagnostic capacity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="intermittent-quotidian-fever" class="slide level2">
+<h2>Intermittent (quotidian) fever</h2>
+<p><br></p>
+<ul>
+<li>Intermittent fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM
+<ul>
+<li>Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis</li>
+<li>Malaria may present with daily (quotidian), every 3rd day (tertian), or every 4th day (quartan) patterns</li>
+<li>Double quotidian pattern (two daily spikes) seen with:
+<ul>
+<li>Salmonellosis</li>
+<li>Miliary tuberculosis</li>
+<li>Double malarial infections (&gt;1 species)</li>
+<li>Gonococcal and meningococcal endocarditis</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="saddle-back-biphasic-fever" class="slide level2">
+<h2>Saddle-back (biphasic) fever</h2>
+<p><br></p>
+<ul>
+<li>Several days of fever, distinct reduction in fever for ~1 day, then several days of higher fever
+<ul>
+<li>Dengue and yellow fever</li>
+<li>Colorado tick fever</li>
+<li>Rift valley fever</li>
+<li>Influenza and other viral infections</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/saddle.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img data-src="images/saddle.png" class="quarto-figure quarto-figure-center" width="500"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="intermittent-hectic-charcots-fever" class="slide level2">
+<h2>Intermittent hectic (Charcot’s) fever</h2>
+<p><br></p>
+<ul>
+<li>Sporadic episodes of fever with periods of normal temperature and recurrence
+<ul>
+<li>Frequently seen in cholangitis associated with cholelithiasis</li>
+<li>Classic teaching: jaundice, fever, right upper quadrant pain (Charcot’s triad)</li>
+<li>Often associated with leukocytosis and toxic appearance</li>
+</ul></li>
+</ul>
+
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="pel-ebstein-fever" class="slide level2">
+<h2>Pel-Ebstein fever</h2>
+<p><br></p>
+<ul>
+<li>Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
+<ul>
+<li>Hodgkin’s disease (classic association)</li>
+<li>Brucellosis due to <em>Brucella melitensis</em></li>
+<li>Occasionally tuberculosis</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/pelebstein.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img data-src="images/pelebstein.png" class="quarto-figure quarto-figure-center" width="500"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>While Pel-Ebstein fever was historically associated with Hodgkin lymphoma, modern cases are rarely encountered in developed countries due to earlier diagnosis. However, it remains a useful pattern to recognize in resource-limited settings where lymphoma diagnosis may be delayed.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="typus-inversus" class="slide level2">
+<h2><em>Typus Inversus</em></h2>
+<p><br></p>
+<ul>
+<li>Reversal of diurnal pattern with highest temperatures in early morning hours rather than late afternoon/evening
+<ul>
+<li>Miliary TB</li>
+<li>Salmonelloses</li>
+<li>Hepatic abscess</li>
+<li>Bacterial endocarditis</li>
+</ul></li>
+</ul>
+
+<aside class="notes">
+<p><em>Typus inversus</em> is an unusual pattern but when present strongly suggests one of the listed diagnoses. Its presence should prompt investigation for disseminated TB or endocarditis.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="typhoid-fever---step-ladder-fever" class="slide level2">
+<h2>Typhoid fever - Step-ladder fever</h2>
+<p><a href="images/typhoidfever.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img data-src="images/typhoidfever.png"></a></p>
+<aside class="notes">
+<p>The classic teaching of typhoid’s step-ladder fever (progressively higher fever each day for 3-4 days until reaching a plateau) is less commonly observed in modern cases, possibly due to partial treatment with antipyretics or other antimicrobials before diagnosis. However, when present, it is highly suggestive of enteric fever.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="jarisch-herxheimer-reaction" class="slide level2">
+<h2>Jarisch-Herxheimer reaction</h2>
+<p><br></p>
+<p><br></p>
+<ul>
+<li><p><strong>Definition:</strong> Sharply increased elevation of temperature with rigors, chills, and constitutional symptoms occurring within hours of starting antibiotic therapy</p></li>
+<li><p><strong>Mechanism:</strong> Lysis of spirochetes (or other organisms) releases endotoxin triggering acute inflammatory response</p></li>
+<li><p><strong>Organisms associated:</strong></p>
+<ul>
+<li>Primary or secondary syphilis</li>
+<li>Leptospirosis</li>
+<li>Tick-borne relapsing fever (<em>Borrelia</em>)</li>
+<li>Tetracycline or chloramphenicol therapy for acute brucellosis</li>
+</ul></li>
+<li><p><strong>Clinical significance:</strong> Can be severe enough to cause hemodynamic compromise; does not indicate treatment failure</p></li>
+</ul>
+
+<aside class="notes">
+<p>Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination of antibiotic therapy. Patients and clinicians should be counseled to expect transient clinical deterioration with initiation of treatment for spirochetal diseases.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="mackowiak_etal97a">(<a href="#/references" role="doc-biblioref" onclick="">Mackowiak et al., 1997</a>)</span></p>
+</div></aside></section>
+<section id="physical-examination" class="slide level2">
+<h2>Physical examination</h2>
+<p><br></p>
+<ul>
+<li>Some signs are subtle and may require repeated exams to be appreciated</li>
+<li>Vigorous search for lymphadenopathy (consideration for biopsy)</li>
+<li>Careful examination of fundi, oropharynx, temporal arteries, abdomen, spleen, joints, skin, nails, genitalia</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/clinicalsigns.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img data-src="images/clinicalsigns.jpeg" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Mackowiak, 2015</a>)</span></p>
+</div></aside></section>
+<section id="laboratory-investigations" class="slide level2">
+<h2>Laboratory investigations</h2>
+<p><br></p>
+<p><strong>“The cause is more often a <em>common</em> disease presenting in an <em>atypical fashion</em> than a <em>rare</em> disease presenting in a <em>typical</em> fashion.”</strong></p>
+<ul>
+<li class="fragment"><p>Multiple diagnostic algorithms exist in literature</p></li>
+<li class="fragment"><p>Must be selectively applied or will result in excessive unfocused diagnostic testing</p>
+<ul>
+<li class="fragment">False positives lead to misdiagnosis</li>
+<li class="fragment">Misguided treatment plans</li>
+</ul></li>
+<li class="fragment"><p><strong>“Sutton’s Law”</strong> - pursue most likely diagnosis first based on history and epidemiology</p></li>
+<li class="fragment"><p>History and physical exam (most important) should guide choice and sequence of tests</p></li>
+</ul>
+<aside class="notes">
+<p>Shotgun laboratory approach to FUO is expensive, time-consuming, and counterproductive. A focused history-driven approach is far more efficient. This principle of parsimony - explaining the patient’s illness with the fewest assumptions - remains central to good diagnostics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="examples-of-potential-diagnostic-clues" class="slide level2">
+<h2>Examples of potential diagnostic clues</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/diagnosticcludes.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img data-src="images/diagnosticcludes.jpeg" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>Each finding or cluster of findings can point toward specific diagnoses. A patient with fever and a pulsatile abdominal mass should get abdominal imaging for AAA. A patient with fever and new cardiac murmur should get echocardiography. A patient with fever and temporal headache in someone over 50 should get ESR/CRP and consideration for temporal artery biopsy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="wrightwilliamf__mackowiakphilipa_15">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Mackowiak, 2015</a>)</span></p>
+</div></aside></section>
+<section id="bone-marrow-biopsy" class="slide level2">
+<h2>Bone marrow biopsy</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Diagnostic yield:</strong> ~25% in two case series; especially valuable for:
+<ul>
+<li class="fragment">Granulomatous infections (TB, histoplasmosis, sarcoidosis)</li>
+<li class="fragment">Hematologic malignancies (leukemia, lymphoma)</li>
+<li class="fragment">Patients with abnormal CBC (anemia, thrombocytopenia, leukopenia)</li>
+</ul></li>
+<li class="fragment"><strong>Organisms identified:</strong>
+<ul>
+<li class="fragment"><em>Mycobacterium tuberculosis</em></li>
+<li class="fragment">Fungi (<em>Histoplasma</em>, <em>Cryptococcus</em>, <em>Coccidioides</em>)</li>
+<li class="fragment">Intracellular bacteria (<em>Brucella</em>, <em>Bartonella</em>)</li>
+</ul></li>
+<li class="fragment"><strong>Consider:</strong> When fever pattern and presentation suggest granulomatous disease or hematologic malignancy</li>
+</ul>
+</section>
+<section id="imaging-studies" class="slide level2">
+<h2>Imaging studies</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Generally low diagnostic yield without localizing symptoms</strong> - repeat key point
+<ul>
+<li class="fragment">CT of abdomen and chest</li>
+<li class="fragment">Ultrasound of gallbladder and hepatobiliary systems</li>
+<li class="fragment">CT pulmonary angiograms (for PE)</li>
+<li class="fragment">MRI for CNS, spleen, lymph nodes, aorta (vasculitis)</li>
+<li class="fragment">Indium 111-tagged white blood cell scan (becoming less common)</li>
+<li class="fragment">Gallium-67 scan (largely replaced by PET-CT)</li>
+</ul></li>
+<li class="fragment"><strong>PET-CT:</strong> Superior sensitivity for inflammatory and malignant processes</li>
+</ul>
+</section>
+<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-ct---part-1" class="slide level2">
+<h2>¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography (PET-CT) - Part 1</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/pet1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="images/pet1.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+
+<aside class="notes">
+<p>PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificities from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="dekleijn_etal97 wright_etal21">(<a href="#/references" role="doc-biblioref" onclick="">Kleijn et al., 1997</a>; <a href="#/references" role="doc-biblioref" onclick="">Wright et al., 2021</a>)</span></p>
+</div></aside></section>
+<section id="f-fluorodeoxyglucose-fdg-positron-emission-tomography-pet-ct---part-2" class="slide level2">
+<h2>¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography (PET-CT) - Part 2</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="images/pet2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img data-src="images/pet2.png" class="quarto-figure quarto-figure-center"></a></p>
+</figure>
+</div>
+<p><strong>Key clinical applications:</strong> - Should be performed early in workup - Most helpful for: abscesses, osteomyelitis, vasculitis, adult-onset Still disease, Crohn disease, subacute thyroiditis - Can identify sites for targeted biopsy</p>
+
+<aside class="notes">
+<p>The integration of PET-CT into the diagnostic algorithm for FUO has significantly improved diagnostic accuracy. When conventional workup is unrevealing, PET-CT should be considered early rather than as a last resort. It often identifies foci of inflammation suitable for biopsy, converting a diagnostic odyssey into a straightforward tissue diagnosis.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="kouijzer_etal18">(<a href="#/references" role="doc-biblioref" onclick="">Kouijzer et al., 2018</a>)</span></p>
+</div></aside></section>
+<section id="invasive-diagnostic-procedures" class="slide level2">
+<h2>Invasive diagnostic procedures</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Biopsy techniques:</strong>
+<ul>
+<li class="fragment">Excisional biopsy (lymph node)</li>
+<li class="fragment">Needle biopsy (liver, kidney, muscle)</li>
+<li class="fragment">Laparotomy or laparoscopy for direct visualization</li>
+</ul></li>
+<li class="fragment"><strong>Diagnostic yield:</strong>
+<ul>
+<li class="fragment">Biopsy yields diagnosis in &lt; 50% of cases</li>
+<li class="fragment">Average 2-3 biopsies needed to establish diagnosis</li>
+</ul></li>
+<li class="fragment"><strong>Indications:</strong>
+<ul>
+<li class="fragment">Abnormal imaging or physical exam findings</li>
+<li class="fragment">Lymphadenopathy suitable for lymph node biopsy</li>
+<li class="fragment">Suspected granulomatous disease</li>
+<li class="fragment">Persistent fever despite extensive workup</li>
+</ul></li>
+</ul>
+</section>
+<section id="treatment-section" class="slide level2" data-background-image="/images/thermometer.jpg" data-background-opacity="0.2">
+<h2>Treatment Section</h2>
+<p><br></p>
+<p><br></p>
+<p><strong>A fundamental principle in classic FUO:</strong> Therapy should be withheld until the cause of fever is determined</p>
+<aside class="notes">
+<p>This is easier said than done in clinical practice, but the principle remains sound. Non-specific treatment with antipyretics, antibiotics, or corticosteroids rarely “cures” FUO and often delays the correct diagnosis, leading to prolonged suffering and inappropriate therapy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="diagnostic-summary-and-approach" class="slide level2">
+<h2>Diagnostic summary and approach</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="diagnosis.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="diagnosis.jpeg" class="quarto-figure quarto-figure-center" width="800"></a></p>
+</figure>
+</div>
+
+<aside><div>
+<p><span class="citation" data-cites="wright_auwaerter20">(<a href="#/references" role="doc-biblioref" onclick="">Wright and Auwaerter, 2020</a>)</span></p>
+</div></aside></section>
+<section id="when-is-immediate-treatment-indicated" class="slide level2">
+<h2>When is immediate treatment indicated?</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Suspected temporal arteritis</strong>
+<ul>
+<li class="fragment">Empirical corticosteroids to prevent vascular complications (blindness, stroke)</li>
+<li class="fragment">Do not wait for biopsy confirmation if clinical suspicion high</li>
+</ul></li>
+<li class="fragment"><strong>Febrile neutropenia or severe immunocompromise</strong>
+<ul>
+<li class="fragment">High prevalence of serious bacterial infections</li>
+<li class="fragment">Broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures obtained</li>
+<li class="fragment">No delay for culture results</li>
+</ul></li>
+<li class="fragment"><strong>Select cases with strong clinical suspicion:</strong>
+<ul>
+<li class="fragment">Anti-mycobacterial therapy in suspected TB (especially if respiratory symptoms)</li>
+<li class="fragment">Targeted therapy based on epidemiology and presentation</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>These exceptions to the “do not treat before diagnosis” rule are important. Temporal arteritis is a true medical emergency where delaying treatment risks permanent vision loss. Similarly, in neutropenic patients, the high mortality of untreated bacteremia necessitates empiric therapy. In contrast, empiric antibiotics in immunocompetent patients with FUO are generally unhelpful.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="prognosis" class="slide level2">
+<h2>Prognosis</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><p><strong>Determined by:</strong> The underlying cause of fever and nature of underlying disease(s)</p></li>
+<li class="fragment"><p><strong>Poor prognosis:</strong> Elderly patients with malignant neoplasms</p></li>
+<li class="fragment"><p><strong>Diagnostic delay worsens prognosis in:</strong></p>
+<ul>
+<li class="fragment">Intra-abdominal infections (perforation, sepsis)</li>
+<li class="fragment">Miliary tuberculosis</li>
+<li class="fragment">Disseminated fungal infections</li>
+<li class="fragment">Recurrent pulmonary emboli</li>
+</ul></li>
+<li class="fragment"><p><strong>Favorable outlook:</strong> Patients with undiagnosed FUO after extensive evaluation</p>
+<ul>
+<li class="fragment">Most experience resolution of fever within 4 weeks without sequelae</li>
+<li class="fragment"><strong>5-year mortality rate: 3.2%</strong> for undiagnosed FUO</li>
+<li class="fragment">Superior to patients with diagnosed malignancy as the underlying cause</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>This prognosis for undiagnosed FUO is reassuring and often not communicated to patients. Many are left feeling that an undiagnosed fever indicates a serious overlooked condition, when in fact the natural history suggests spontaneous resolution in most cases. Of course, continued surveillance is appropriate.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-corey_boeckh02" class="csl-entry" role="listitem">
+Corey L, Boeckh M. Persistent fever in patients with neutropenia. New England Journal of Medicine 2002;346:222–4.
+</div>
+<div id="ref-gabay_kushner99" class="csl-entry" role="listitem">
+Gabay C, Kushner I. Acute-phase proteins and other systemic responses to inflammation. New England Journal of Medicine 1999;340:448–54.
+</div>
+<div id="ref-haidar_singh22" class="csl-entry" role="listitem">
+Haidar G, Singh N. Fever of <span>U</span>nknown <span>O</span>rigin. New England Journal of Medicine 2022;386:463–77.
+</div>
+<div id="ref-dekleijn_etal97" class="csl-entry" role="listitem">
+Kleijn EM de, Vandepitte J, Broekhuizen R, Lier HJ van, Vos A, Fikkes-Eleveld MJ, et al. Utility of scintigraphic methods in patients with fever of unknown origin. Archives of Internal Medicine 1997;157:1033–40.
+</div>
+<div id="ref-kouijzer_etal18" class="csl-entry" role="listitem">
+Kouijzer IJE, Vos FJ, Rijnders BJA, Aarntzen EAHG, Bleeker-Rovers CP. The value of <span><span class="math inline">\(^{18}\)</span>F-FDG</span> <span>PET/CT</span> in diagnosing infectious endocarditis. European Journal of Nuclear Medicine and Molecular Imaging 2018;45:1085–99.
+</div>
+<div id="ref-mackowiak_etal97a" class="csl-entry" role="listitem">
+Mackowiak PA, Wasserman SS, Levine MM. Concepts of fever: Recent advances and lingering dogma. Clinical Infectious Diseases 1997;25:996–1003.
+</div>
+<div id="ref-mackowiak_worden94" class="csl-entry" role="listitem">
+Mackowiak PA, Worden G. Carl <span>R</span>einhold <span>A</span>ugust <span>W</span>underlich and the evolution of clinical thermometry. Clinical Infectious Diseases 1994;18:458–67.
+</div>
+<div id="ref-playfairj__bancroftg_13" class="csl-entry" role="listitem">
+Playfair JHL, Bancroft GJ. Infection and <span>I</span>mmunity. 4th ed. Oxford University Press; 2013.
+</div>
+<div id="ref-sajadimohammadm__mackowiakphilipa_" class="csl-entry" role="listitem">
+Sajadi MM, Mackowiak PA. Chapter 57: <span>T</span>emperature <span>R</span>egulation and the <span>P</span>athogenesis of <span>F</span>ever. Mandell’s principles and practice of infectious diseases. 9th ed., Elsevier; 2020.
+</div>
+<div id="ref-sickles_etal75" class="csl-entry" role="listitem">
+Sickles EA, Young VM, Greene WH, Wiernik PH. Clinical presentation of infection in granulocytopenic patients. Archives of Internal Medicine 1975;135:715–9.
+</div>
+<div id="ref-wright_auwaerter20" class="csl-entry" role="listitem">
+Wright WF, Auwaerter PG. Chapter 58: <span>F</span>ever of <span>U</span>nknown <span>O</span>rigin. Mandell’s principles and practice of infectious diseases. 9th ed., Elsevier; 2020.
+</div>
+<div id="ref-wright_etal21" class="csl-entry" role="listitem">
+Wright WF, Erblich B, Hari P, Mackowiak PA. Best practices for use of <span>FDG</span> <span>PET/CT</span> in fever of unknown origin evaluation. Journal of Nuclear Medicine 2021.
+</div>
+<div id="ref-wrightwilliamf__mackowiakphilipa_15" class="csl-entry" role="listitem">
+Wright WF, Mackowiak PA. Fever of <span>U</span>nknown <span>O</span>rigin. Mandell’s principles and practice of infectious diseases. 8th ed., Elsevier; 2015.
+</div>
+</div>
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="chapter-slides_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="chapter-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="chapter-slides_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="chapter-slides_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1920,
+
+        height: 1080,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>

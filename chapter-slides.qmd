@@ -1,40 +1,47 @@
 ---
-title: "Fever of Unknown Origin (FUO)"
-title-slide-attributes:
-  data-background-image: /images/bacteria.png
+title: "Fever of Unknown Origin"
+author: "Russell E. Lewis"
+date: "2026-03-01"
 format:
   revealjs:
-    touch: true
-    controls: true
-    transition: fade
-    transition-speed: fast
-    scrollable: true
-    slide-number: false
-    incremental: false
-    multiplex: true
+    theme: custom.scss
+    slide-number: true
+    lightbox: true
     chalkboard: true
-    theme: [simple, custom2.scss]
+    preview-links: auto
+    width: 1920
+    height: 1080
 bibliography: references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
-## Fever of unknown origin (FUO) {background-image="/images/bacteria.png"}
+## Fever of Unknown Origin (FUO) {background-color="#9B0014"}
 
-<br>
+<br> <br>
 
-<br>
+<center>
 
-Russell Lewis <br> Associate Professor, Infectious Diseases <br> Department of Molecular Medicine <br> <br>MEP 2491 Infectious Diseases <br> <br> ![](800-unipd.svg){fig-align="left" width="300"}
+Prof. Russell E. Lewis <br> Department of Molecular Medicine <br> University of Padua
+
+<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} https://github.com/Russlewisbo
+
+<br> slides available at: www.padovaid.com
+
+</center>
+
+|  |  |
+|------------------------------------|------------------------------------|
+| ![](images/dmm.jpeg){width="150"} | ![](images/unipd_seal_white%20(1).svg){width="150"} |
 
 ## Objectives
 
 <br>
 
-- Recognize leading infectious causes of FUO in key patient groups
-- Identify key fever patterns and clinical histories that may direct diagnosis
-- Differentiate FUO risks and possible spectrum of pathogens in immunocompromised hosts
+-   Recognize leading infectious causes of FUO in key patient groups
+-   Identify key fever patterns and clinical histories that may direct diagnosis
+-   Differentiate FUO risks and possible spectrum of pathogens in immunocompromised hosts
 
-::: {.notes}
+::: notes
 Today we'll explore the fascinating history of fever, understand the modern definition of FUO, review its epidemiology across different patient populations, and learn systematic approaches to diagnosis and management. We'll pay particular attention to how fever patterns can guide clinical thinking and how immunocompromised patients present unique diagnostic challenges.
 :::
 
@@ -42,17 +49,25 @@ Today we'll explore the fascinating history of fever, understand the modern defi
 
 <br>
 
-::: incremental
-- **10th Century BCE Persian Physician Akhawayni** defined a system for fever curves in Hidāyat al-Muta'allimīn fī al-Tibb (The Student's Handbook of Medicine)
-- **Hippocratic physicians** proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile.
-  - Fever was due to excess of yellow bile (many infections caused jaundice)
-- **Galen:** many types of fever developed from putrefaction of humors.
-- **Middle ages:** demonic possession
-- **18th century (Harvey's discovery of circulation)**- friction of blood flow through body causing fermentation and putrefaction in intestines
-- **Claude Bernard in the 19th century**- metabolic processes in the body
+::::: columns
+::: {.column width="60%"}
+-   **10th Century BCE Persian Physician Akhawayni** defined a system for fever curves in Hidāyat al-Muta'allimīn fī al-Tibb (The Student's Handbook of Medicine)
+-   **Hippocratic physicians** proposed that body temperature, and physiologic harmony in general, involved a delicate balance among four corporal humors---blood, phlegm, black bile, and yellow bile.
+    -   Fever was due to excess of yellow bile (many infections caused jaundice)
+-   **Galen:** many types of fever developed from putrefaction of humors.
+-   **Middle ages:** demonic possession
+-   **18th century (Harvey's discovery of circulation)**- friction of blood flow through body causing fermentation and putrefaction in intestines
+-   **Claude Bernard in the 19th century**- metabolic processes in the body
 :::
 
-::: {.notes}
+::: {.column width="40%"}
+<br> <br>
+
+![](images/persian.png){width="800"}
+:::
+:::::
+
+::: notes
 The history of fever reflects humanity's struggle to understand bodily temperature. From ancient humoral theory through Renaissance advances to modern medicine, our conceptualization has evolved from supernatural and chemical explanations to physiologic understanding.
 :::
 
@@ -60,48 +75,37 @@ The history of fever reflects humanity's struggle to understand bodily temperatu
 
 <br>
 
-![](images/Febris.png){fig-align="center" width="600"}
-
-<br>
+![](images/febris.png){fig-align="center"}
 
 The legend of Febris was said to center around the haunting marshes of Camagna in Southern Italy where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population had created a cult to Febris. They went so far as to wear protective amulets and build her temples in order to worship her to win her favour.
 
-## Galileo and the room thermometer in Padova {.smaller}
+## Early thermometers
 
-::::: columns
-::: {.column width="50%"}
-![](images/Galileo.png){width="600"}
-:::
+![](images/thermometer.png){fig-align="center"}
 
-::: {.column width="50%"}
-
-<br>
-
-<br>
-
-<br>
-
-![](images/Galileo%20thermometer.png){fig-align="center" width="600"}
-:::
-:::::
-
-::: {.notes}
-Galileo's thermometer, invented in the late 1500s, was a watershed moment for fever measurement. Created here in Padova, it allowed objective quantification of body temperature for the first time in human history.
-:::
+A typical design of a thermoscope is a tube in which a liquid rises and falls as the temperature changes. The Sanctorius thermoscope. Professor Francis Ring, the University of Leeds
 
 ## Fever in modern medicine
 
-- Wunderlich's pioneering studies of thermometry reported normal temperature at 37°C
+<br>
 
-- Since the 19th century, humans have become gradually colder - 0.05° to 0.5°C per decade
+::::: columns
+::: {.column width="50%"}
+-   Wunderlich's pioneering studies of thermometry reported normal temperature at 37°C
 
-- Current normal range is 36.3 to 36.5°C
+-   Since the 19th century, humans have become gradually colder - 0.05° to 0.5°C per decade!
 
-- Mackowiak (1992): mean oral temperature 36.8 ± 0.4°C; only 8% had 37°C
+    -   Current normal range is 36.3 to 36.5°C
 
-- Fever now defined as: early-morning temperature ≥37.2°C or anytime ≥37.8°C
+-   Mackowiak (1992): mean oral temperature 36.8 ± 0.4°C; only 8% had 37°C
 
-![](images/Wunderlich.png){fig-align="center" width="600"}
+-   Fever now defined as: early-morning temperature ≥37.2°C or anytime ≥ 37.8°C
+:::
+
+::: {.column width="50%"}
+![<center> Dr. Carl Wunderlink </center>](images/wunderlink.png){fig-align="center" width="600"}
+:::
+:::::
 
 ::: aside
 [@mackowiak_worden94]
@@ -112,20 +116,20 @@ Galileo's thermometer, invented in the late 1500s, was a watershed moment for fe
 <br>
 
 ::: incremental
-- **Age and sex differences**
-  - Women ~0.5°C higher at ovulation
-  - Infants have higher baseline temperatures
-- **Circadian rhythm**
-  - Zenith: late afternoon (peak)
-  - Nadir: early morning (trough)
-- **Other factors**
-  - Exercise and physical exertion
-  - Medications (antipyretics, corticosteroids)
-  - Digestion and recent meals
-  - Chronic disease and metabolic conditions
+-   **Age and sex differences**
+    -   Women \~0.5°C higher at ovulation
+    -   Infants have higher baseline temperatures
+-   **Circadian rhythm**
+    -   Zenith: late afternoon (peak)
+    -   Nadir: early morning (trough)
+-   **Other factors**
+    -   Exercise and physical exertion
+    -   Medications (antipyretics, corticosteroids)
+    -   Digestion and recent meals
+    -   Chronic disease and metabolic conditions
 :::
 
-::: {.notes}
+::: notes
 Understanding normal temperature variation is crucial when evaluating a patient for FUO. A temperature of 37.5°C in a patient's early morning measurement may be pathologic, while 38.2°C in the evening may be within normal diurnal variation for that individual.
 :::
 
@@ -141,7 +145,7 @@ Understanding normal temperature variation is crucial when evaluating a patient 
 
 ::: {.content-visible when-format="revealjs"}
 | Feature | Fever | Hyperthermia |
-|---------|-------|-------------|
+|----------------------|------------------|--------------------------------|
 | **Set point** | Elevated | Normal |
 | **Mechanism** | Regulated response | Unregulated heat generation |
 | **Cause** | Pyrogens (LPS, IL-1, TNF) | Heat exposure, drugs, malignant hyperthermia |
@@ -151,7 +155,7 @@ Understanding normal temperature variation is crucial when evaluating a patient 
 | **Examples** | Infection, NIID, malignancy | Heat stroke, neuroleptic malignant syndrome |
 :::
 
-::: {.notes}
+::: notes
 This distinction is critical clinically. A patient with heat stroke will not respond to antipyretics because the problem is not a resetting of the hypothalamic setpoint, but rather failure of thermoregulation itself. Conversely, fever in infection responds to antipyretics because the elevated temperature is the body's intentional response to pathogens.
 :::
 
@@ -163,7 +167,7 @@ This distinction is critical clinically. A patient with heat stroke will not res
 [@wright_auwaerter20]
 :::
 
-::: {.notes}
+::: notes
 When pathogens are recognized by the innate immune system, LPS from gram-negative bacteria and other PAMPs activate macrophages to release pyrogenic cytokines IL-1, TNF-α, and IL-6. These circulate to the hypothalamus, where they stimulate production of PGE₂ in the preoptic area (POA), which directly resets the thermoregulatory setpoint upward. The anterior hypothalamus then interprets the new setpoint as the desired temperature and initiates heat-generating mechanisms (shivering, vasoconstriction, behavior changes) until core temperature matches this new higher setpoint.
 :::
 
@@ -172,18 +176,18 @@ When pathogens are recognized by the innate immune system, LPS from gram-negativ
 <br>
 
 ::: incremental
-- **Phylogenetic conservation** suggests fever is beneficial - appears in ectotherms and endotherms
-- **Microbial metabolism** - most pathogenic bacteria are mesophiles (optimal growth at 35-37°C)
-  - Even modest temperature elevations slow replication
-- **Iron sequestration** - fever triggers hepatic synthesis of hepcidin and lactoferrin
-  - Sequesters free iron necessary for bacterial replication
-- **Enhanced immune function**
-  - Increased neutrophil migration
-  - Augmented antibody production
-  - Enhanced T-cell proliferation
+-   **Phylogenetic conservation** suggests fever is beneficial - appears in ectotherms and endotherms
+-   **Microbial metabolism** - most pathogenic bacteria are mesophiles (optimal growth at 35-37°C)
+    -   Even modest temperature elevations slow replication
+-   **Iron sequestration** - fever triggers hepatic synthesis of hepcidin and lactoferrin
+    -   Sequesters free iron necessary for bacterial replication
+-   **Enhanced immune function**
+    -   Increased neutrophil migration
+    -   Augmented antibody production
+    -   Enhanced T-cell proliferation
 :::
 
-::: {.notes}
+::: notes
 Rather than viewing fever as purely pathologic, modern immunology reveals it as an important component of the inflammatory response to infection. This is why antipyretics in certain infections (like pneumococcal pneumonia) may actually worsen outcomes.
 :::
 
@@ -203,7 +207,7 @@ Rather than viewing fever as purely pathologic, modern immunology reveals it as 
 [@gabay_kushner99]
 :::
 
-::: {.notes}
+::: notes
 The acute phase response is orchestrated by IL-1, IL-6, and TNF-α. The dramatic rise in inflammatory markers like ESR and CRP, along with changes in protein synthesis (increased fibrinogen, ceruloplasmin; decreased albumin), reflects the body's comprehensive metabolic mobilization against infection or inflammation.
 :::
 
@@ -215,7 +219,7 @@ The acute phase response is orchestrated by IL-1, IL-6, and TNF-α. The dramatic
 [@haidar_singh22]
 :::
 
-::: {.notes}
+::: notes
 Different definitions exist for FUO depending on clinical context. The classic definition applies to outpatient or minimally hospitalized patients with prolonged fever. The newer categories - nosocomial, neutropenic, and HIV-associated FUO - reflect that different populations have different diagnostic considerations and thresholds for investigation.
 :::
 
@@ -223,16 +227,16 @@ Different definitions exist for FUO depending on clinical context. The classic d
 
 <br>
 
-- **Definition:**
-  - Temperature of > 38.3°C > 3 weeks
-  - Fever >2 separate outpatient visits with diagnostic investigations *or*
-  - Fever >2 visits in hospital of 3 days with diagnostic investigations
-    - *However*, these definitions are largely subjective
-- **Leading causes:**
-  - Infections (geography dependent)
-  - Inflammatory conditions (age dependent)
-  - Cancer (age dependent)
-  - Undiagnosed/unknown
+-   **Definition:**
+    -   Temperature of \> 38.3°C \> 3 weeks
+    -   Fever \>2 separate outpatient visits with diagnostic investigations *or*
+    -   Fever \>2 visits in hospital of 3 days with diagnostic investigations
+        -   *However*, these definitions are largely subjective
+-   **Leading causes:**
+    -   Infections (geography dependent)
+    -   Inflammatory conditions (age dependent)
+    -   Cancer (age dependent)
+    -   Undiagnosed/unknown
 
 ## Frequency of the 5 main etiologic categories of FUO
 
@@ -244,7 +248,7 @@ Infectious causes decrease in patients above age 65 years
 [@wrightwilliamf__mackowiakphilipa_15]
 :::
 
-::: {.notes}
+::: notes
 One striking observation is the steady decline in infectious causes of FUO since the mid-1990s, with a corresponding rise in cases of non-infectious inflammatory disease (NIID) and undiagnosed fever. This likely reflects improved diagnostic capacity and earlier diagnosis of common infections. It also underscores that empiric antimicrobial therapy without diagnosis is increasingly less likely to resolve FUO.
 :::
 
@@ -253,13 +257,13 @@ One striking observation is the steady decline in infectious causes of FUO since
 <br>
 
 ::: incremental
-- **Chronic or relapsing infections**
-  - Occult abscess (intra-abdominal, hepatic, splenic, renal, perirectal)
-  - Endocarditis (both native and prosthetic valve)
-  - Tuberculosis (pulmonary and extrapulmonary)
-  - Complicated urinary tract infections (pyelonephritis, prostatitis)
-  - Osteomyelitis (especially vertebral)
-  - Other: brucellosis, leptospirosis, syphilis, bartonellosis
+-   **Chronic or relapsing infections**
+    -   Occult abscess (intra-abdominal, hepatic, splenic, renal, perirectal)
+    -   Endocarditis (both native and prosthetic valve)
+    -   Tuberculosis (pulmonary and extrapulmonary)
+    -   Complicated urinary tract infections (pyelonephritis, prostatitis)
+    -   Osteomyelitis (especially vertebral)
+    -   Other: brucellosis, leptospirosis, syphilis, bartonellosis
 :::
 
 ## Rare and miscellaneous causes of fever
@@ -269,13 +273,13 @@ One striking observation is the steady decline in infectious causes of FUO since
 ## Uncommon and rare causes of FUO {.smaller}
 
 | Category | Examples |
-|----------|----------|
+|------------------------------------|------------------------------------|
 | **Infections** | Bartonellosis, hantavirus, coccidioidomycosis, histoplasmosis, blastomycosis, cysticercosis |
 | **NIID** | Addison disease, Behçet syndrome, SLE, vasculitis, inflammatory bowel disease, GPA, sarcoidosis, Sjögren syndrome, thyroiditis, adult-onset Still disease |
 | **Malignancy** | Atrial myxoma, lymphoma, leukemia, pheochromocytoma, Schnitzler syndrome |
 | **Other** | Cirrhotic fever, drug fever, factitious fever, vitamin B₁₂ deficiency, pulmonary embolism |
 
-::: {.notes}
+::: notes
 This table emphasizes that the differential for FUO is vast. The key to narrowing the differential is careful history-taking, physical examination, and judicious use of targeted investigations rather than indiscriminate laboratory testing.
 :::
 
@@ -284,19 +288,19 @@ This table emphasizes that the differential for FUO is vast. The key to narrowin
 <br>
 
 ::: incremental
-- **Respiratory tract infections** - viral, atypical organisms
-- **Other infections:**
-  - UTIs (especially important in young girls)
-  - Brucellosis, tuberculosis, bartonellosis
-- **Systemic inflammatory conditions:**
-  - Kawasaki disease (critical, age < 5 years)
-  - Inflammatory bowel diseases
-  - Still's disease (juvenile rheumatoid arthritis)
-- **Note:** Connective tissue diseases and cancers are generally rare in children
-- **Important:** Joint involvement is a sign of serious disorder - consider endocarditis, leukemia, connective tissue disease
+-   **Respiratory tract infections** - viral, atypical organisms
+-   **Other infections:**
+    -   UTIs (especially important in young girls)
+    -   Brucellosis, tuberculosis, bartonellosis
+-   **Systemic inflammatory conditions:**
+    -   Kawasaki disease (critical, age \< 5 years)
+    -   Inflammatory bowel diseases
+    -   Still's disease (juvenile rheumatoid arthritis)
+-   **Note:** Connective tissue diseases and cancers are generally rare in children
+-   **Important:** Joint involvement is a sign of serious disorder - consider endocarditis, leukemia, connective tissue disease
 :::
 
-::: {.notes}
+::: notes
 In pediatric FUO, keeping a lower threshold for echocardiography in any child with fever and joint symptoms is prudent, as endocarditis can present atypically in children compared to adults.
 :::
 
@@ -305,20 +309,20 @@ In pediatric FUO, keeping a lower threshold for echocardiography in any child wi
 <br>
 
 ::: incremental
-- **In developed countries: connective tissue diseases > infections**
-  - Temporal arteritis (critical diagnosis - risk of blindness)
-  - Polymyalgia rheumatica
-  - Other vasculitides
-- **Diagnostic challenge:** symptoms are subacute and non-specific, easily attributed to aging
-- **Infections still important:**
-  - Intra-abdominal abscess
-  - Complicated UTIs (often without pyuria)
-  - Tuberculosis (may be reactivation)
-  - Endocarditis (prosthetic valves common in elderly)
-- **Malignancy:** solid tumors and hematologic malignancies increase with age
+-   **In developed countries: connective tissue diseases \> infections**
+    -   Temporal arteritis (critical diagnosis - risk of blindness)
+    -   Polymyalgia rheumatica
+    -   Other vasculitides
+-   **Diagnostic challenge:** symptoms are subacute and non-specific, easily attributed to aging
+-   **Infections still important:**
+    -   Intra-abdominal abscess
+    -   Complicated UTIs (often without pyuria)
+    -   Tuberculosis (may be reactivation)
+    -   Endocarditis (prosthetic valves common in elderly)
+-   **Malignancy:** solid tumors and hematologic malignancies increase with age
 :::
 
-::: {.notes}
+::: notes
 The elderly warrant special mention because temporal arteritis is a medical emergency masquerading as FUO. An elevated ESR alone is not sufficient - clinical suspicion and a low threshold for temporal artery biopsy can be vision-saving.
 :::
 
@@ -332,7 +336,7 @@ The elderly warrant special mention because temporal arteritis is a medical emer
 [@wrightwilliamf__mackowiakphilipa_15]
 :::
 
-::: {.notes}
+::: notes
 In the returning traveller with FUO, the incubation period and geographic exposures are paramount. Malaria, dengue, typhoid, leptospirosis, and rickettsial infections should be high on the differential based on travel history and season. Serologic testing and blood cultures are essential early investigations.
 :::
 
@@ -341,17 +345,17 @@ In the returning traveller with FUO, the incubation period and geographic exposu
 <br>
 
 ::: incremental
-- **Leading causes:**
-  - Drug fever (especially to antibiotics, seizure meds)
-  - Post-operative complications (e.g., occult abscess, anastomotic leak)
-  - Decubitus ulcers with superimposed infection
-  - Septic thrombophlebitis (peripherally inserted central catheters)
-  - Recurrent pulmonary emboli
-  - Myocardial infarction
-  - Hematologic malignancy (newly diagnosed during hospitalization)
-  - Blood transfusion reaction
-  - Reactions to contrast media
-  - *Clostridium difficile* colitis
+-   **Leading causes:**
+    -   Drug fever (especially to antibiotics, seizure meds)
+    -   Post-operative complications (e.g., occult abscess, anastomotic leak)
+    -   Decubitus ulcers with superimposed infection
+    -   Septic thrombophlebitis (peripherally inserted central catheters)
+    -   Recurrent pulmonary emboli
+    -   Myocardial infarction
+    -   Hematologic malignancy (newly diagnosed during hospitalization)
+    -   Blood transfusion reaction
+    -   Reactions to contrast media
+    -   *Clostridium difficile* colitis
 :::
 
 ## Fever in post-operative patients
@@ -359,12 +363,12 @@ In the returning traveller with FUO, the incubation period and geographic exposu
 <br>
 
 ::: incremental
-- **Epidemiology:** > 1/3 of patients manifest fever in first 5 days post-surgery
-- **Infectious vs. non-infectious:** < 10% of febrile patients have an identified source or positive cultures
-- **Pathophysiology:** Fever may represent a physiological response to surgically-induced tissue injury
-  - Release of pyrogenic cytokines and interleukins
-  - Not necessarily indicative of infection
-- **Clinical pearl:** Early fever (post-op day 1-3) is usually non-infectious; later fever (day 5+) warrants infection investigation
+-   **Epidemiology:** \> 1/3 of patients manifest fever in first 5 days post-surgery
+-   **Infectious vs. non-infectious:** \< 10% of febrile patients have an identified source or positive cultures
+-   **Pathophysiology:** Fever may represent a physiological response to surgically-induced tissue injury
+    -   Release of pyrogenic cytokines and interleukins
+    -   Not necessarily indicative of infection
+-   **Clinical pearl:** Early fever (post-op day 1-3) is usually non-infectious; later fever (day 5+) warrants infection investigation
 :::
 
 ## FUO in ICU patients
@@ -372,16 +376,16 @@ In the returning traveller with FUO, the incubation period and geographic exposu
 <br>
 
 ::: incremental
-- **Early fevers are common** and often non-infectious
-  - Associated with good prognosis
-  - Related to inflammatory response to critical illness
-- **Prolonged fever carries a poorer prognosis**
-- **Common complications:**
-  - Sinusitis (from mechanical ventilation, supine positioning, feeding tubes)
-  - Ventilator-associated pneumonia
-  - Catheter-related bloodstream infections
-- **Other causes similar to nosocomial FUO**
-  - Abscess, drug fever, septic thrombophlebitis, pulmonary emboli
+-   **Early fevers are common** and often non-infectious
+    -   Associated with good prognosis
+    -   Related to inflammatory response to critical illness
+-   **Prolonged fever carries a poorer prognosis**
+-   **Common complications:**
+    -   Sinusitis (from mechanical ventilation, supine positioning, feeding tubes)
+    -   Ventilator-associated pneumonia
+    -   Catheter-related bloodstream infections
+-   **Other causes similar to nosocomial FUO**
+    -   Abscess, drug fever, septic thrombophlebitis, pulmonary emboli
 :::
 
 ## FUO in stroke patients
@@ -389,14 +393,14 @@ In the returning traveller with FUO, the incubation period and geographic exposu
 <br>
 
 ::: incremental
-- **Non-infective fevers are common** in stroke patients
-  - Occur earlier after stroke than infection
-  - Related to hypothalamic injury and cytokine release
-- **Infection-related complications:**
-  - UTI (from urinary catheterization)
-  - Aspiration pneumonia
-  - DVT/PE
-- **Clinical challenge:** Distinguishing fever from infarct-related inflammation vs. infection can be difficult; broad-spectrum antibiotics often given empirically
+-   **Non-infective fevers are common** in stroke patients
+    -   Occur earlier after stroke than infection
+    -   Related to hypothalamic injury and cytokine release
+-   **Infection-related complications:**
+    -   UTI (from urinary catheterization)
+    -   Aspiration pneumonia
+    -   DVT/PE
+-   **Clinical challenge:** Distinguishing fever from infarct-related inflammation vs. infection can be difficult; broad-spectrum antibiotics often given empirically
 :::
 
 ## FUO in neutropenic patients
@@ -404,23 +408,26 @@ In the returning traveller with FUO, the incubation period and geographic exposu
 <br>
 
 ::: incremental
-- **ANC = Total WBC x (% Segs + % Bands)**
+-   **ANC = Total WBC x (% Segs + % Bands)**
 
-- **Definition of neutropenia:**
-  - ANC < 500 cells/mm³
-  - "Profound" neutropenia: ANC < 100 cells/mm³
+-   **Definition of neutropenia:**
 
-- **Frequency of fever during chemotherapy-induced neutropenia:**
-  - 10-50% of patients with solid tumors
-  - 80% of those with hematologic malignancies during ≥1 chemotherapy cycle
-  - Most patients will have NO infectious etiology documented
+    -   ANC \< 500 cells/mm³
+    -   "Profound" neutropenia: ANC \< 100 cells/mm³
 
-- **Critical finding:** Signs of inflammation are notoriously absent other than fever
-  - No exudate, no fluctuance, no purulent drainage
-  - Makes clinical diagnosis extremely difficult
+-   **Frequency of fever during chemotherapy-induced neutropenia:**
+
+    -   10-50% of patients with solid tumors
+    -   80% of those with hematologic malignancies during ≥1 chemotherapy cycle
+    -   Most patients will have NO infectious etiology documented
+
+-   **Critical finding:** Signs of inflammation are notoriously absent other than fever
+
+    -   No exudate, no fluctuance, no purulent drainage
+    -   Makes clinical diagnosis extremely difficult
 :::
 
-::: {.notes}
+::: notes
 This is one of the most challenging patient populations. The absence of typical signs of infection makes physical examination nearly useless, and a single positive blood culture in a neutropenic patient must be treated as bacteremia until proven otherwise. Prompt empiric broad-spectrum antibiotics (before cultures return) are standard of care.
 :::
 
@@ -428,14 +435,14 @@ This is one of the most challenging patient populations. The absence of typical 
 
 <br>
 
-| Sign/Symptom | Type of Infection | % with ANC<100 | % with ANC>1000 |
-|---------|---------|-----|-----|
-| **Fever** | Overall | 98 | 76 |
-| **Bacteremia** | Overall | 43 | 13 |
-| **Fluctuance** | Anorectal | 8 | 67 |
-| **Exudate** | Skin | 5 | 92 |
-| **Purulent sputum** | Pneumonia | 8 | 84 |
-| **Pyuria** | UTI | 11 | 97 |
+| Sign/Symptom        | Type of Infection | \% with ANC\<100 | \% with ANC\>1000 |
+|-------------------|------------------|------------------|------------------|
+| **Fever**           | Overall           | 98               | 76                |
+| **Bacteremia**      | Overall           | 43               | 13                |
+| **Fluctuance**      | Anorectal         | 8                | 67                |
+| **Exudate**         | Skin              | 5                | 92                |
+| **Purulent sputum** | Pneumonia         | 8                | 84                |
+| **Pyuria**          | UTI               | 11               | 97                |
 
 <br>
 
@@ -443,7 +450,7 @@ This is one of the most challenging patient populations. The absence of typical 
 [@sickles_etal75]
 :::
 
-::: {.notes}
+::: notes
 This table powerfully illustrates why clinical signs fail in severe neutropenia. A profoundly neutropenic patient with anorectal infection has only 8% chance of fluctuance - the classic finding that would alert us to a perirectal abscess. Yet such abscesses are common sources of bacteremia in this population.
 :::
 
@@ -455,7 +462,7 @@ This table powerfully illustrates why clinical signs fail in severe neutropenia.
 [@corey_boeckh02]
 :::
 
-::: {.notes}
+::: notes
 When neutropenic patients fail to defervescence on appropriate empiric antibiotics, fungal infection (especially invasive aspergillosis) and CMV must move high on the differential. Invasive fungal infection carries mortality rates exceeding 50% even with treatment if there is significant delay in diagnosis.
 :::
 
@@ -487,7 +494,7 @@ When neutropenic patients fail to defervescence on appropriate empiric antibioti
 [@playfairj__bancroftg_13]
 :::
 
-::: {.notes}
+::: notes
 Drug fever is a type IV hypersensitivity reaction mediated by T cells. It typically appears 1-3 weeks after starting a medication and resolves within 48-72 hours of drug discontinuation. Antibiotics are the most common culprits, but NSAIDs, anticonvulsants, and many other drugs can cause fever. The diagnosis is clinical - there are no specific tests, but re-challenge with the drug should reproduce the fever (though this is rarely done in practice).
 :::
 
@@ -497,8 +504,8 @@ Drug fever is a type IV hypersensitivity reaction mediated by T cells. It typica
 
 ![](images/immunocomp.png){fig-align="center"}
 
-::: {.notes}
-The degree and type of immunosuppression determines which infections are most likely. CD4 count <200 in HIV predisposes to PCP and toxoplasmosis. Neutropenia predisposes to bacterial and fungal infections. T-cell defects (from chemotherapy, calcineurin inhibitors) predispose to opportunistic infections like CMV and fungal infections. Understanding the specific immune defect is critical for generating an appropriate differential diagnosis.
+::: notes
+The degree and type of immunosuppression determines which infections are most likely. CD4 count \<200 in HIV predisposes to PCP and toxoplasmosis. Neutropenia predisposes to bacterial and fungal infections. T-cell defects (from chemotherapy, calcineurin inhibitors) predispose to opportunistic infections like CMV and fungal infections. Understanding the specific immune defect is critical for generating an appropriate differential diagnosis.
 :::
 
 ## HIV-related FUO
@@ -506,20 +513,18 @@ The degree and type of immunosuppression determines which infections are most li
 <br>
 
 ::: incremental
-- **Primary infection phase** characterized by mononucleosis-like illness
-  - Fever is common
-  - May be undiagnosed if it precedes seroconversion (acute retroviral syndrome)
-
-- **Later phases of untreated HIV**
-  - Episodes of fever become common
-  - Often signify superimposed illness - e.g., opportunistic infections
-  - Infections may manifest atypically
-
-- **HAART era impact**
-  - Once highly-active antiretroviral therapy (HAART) is started
-  - Effective suppression of HIV viral load
-  - Frequency of FUO falls markedly
-  - CD4 recovery allows control of opportunistic infections
+-   **Primary infection phase** characterized by mononucleosis-like illness
+    -   Fever is common
+    -   May be undiagnosed if it precedes seroconversion (acute retroviral syndrome)
+-   **Later phases of untreated HIV**
+    -   Episodes of fever become common
+    -   Often signify superimposed illness - e.g., opportunistic infections
+    -   Infections may manifest atypically
+-   **HAART era impact**
+    -   Once highly-active antiretroviral therapy (HAART) is started
+    -   Effective suppression of HIV viral load
+    -   Frequency of FUO falls markedly
+    -   CD4 recovery allows control of opportunistic infections
 :::
 
 ## Etiology of fever in HIV-Associated FUO (n=70) {.smaller}
@@ -530,8 +535,8 @@ The degree and type of immunosuppression determines which infections are most li
 [@wrightwilliamf__mackowiakphilipa_15]
 :::
 
-::: {.notes}
-In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes of FUO in HIV-positive patients with CD4 <50. Now with effective antiretroviral therapy, the spectrum has changed, though tuberculosis remains a leading cause globally. CMV and fungal infections like histoplasmosis and coccidioidomycosis (in endemic regions) also featured prominently.
+::: notes
+In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes of FUO in HIV-positive patients with CD4 \<50. Now with effective antiretroviral therapy, the spectrum has changed, though tuberculosis remains a leading cause globally. CMV and fungal infections like histoplasmosis and coccidioidomycosis (in endemic regions) also featured prominently.
 :::
 
 ## Naproxen (NSAID) fever suppression test for "tumor fever"
@@ -539,21 +544,18 @@ In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes 
 <br>
 
 ::: incremental
-- **Indications for trial:**
-  - Temperature > 37.8°C at least once daily for ≥2 weeks
-  - Lack of evidence of infection (physical exam, labs, imaging)
-  - Absence of drug fever, transfusion reaction, or allergic mechanisms
-  - Lack of response to ≥7 days of empiric antibiotics
-
-- **Procedure:**
-  - Naproxen 500 mg BID × 3-5 days
-
-- **Positive result:**
-  - Prompt complete defervescence (lysis of fever)
-  - Sustained normal temperature while receiving naproxen
-  - Fever recurrence when drug discontinued
-
-- **Note:** Not universally accepted; sensitivity/specificity debated
+-   **Indications for trial:**
+    -   Temperature \> 37.8°C at least once daily for ≥2 weeks
+    -   Lack of evidence of infection (physical exam, labs, imaging)
+    -   Absence of drug fever, transfusion reaction, or allergic mechanisms
+    -   Lack of response to ≥7 days of empiric antibiotics
+-   **Procedure:**
+    -   Naproxen 500 mg BID × 3-5 days
+-   **Positive result:**
+    -   Prompt complete defervescence (lysis of fever)
+    -   Sustained normal temperature while receiving naproxen
+    -   Fever recurrence when drug discontinued
+-   **Note:** Not universally accepted; sensitivity/specificity debated
 :::
 
 ## Diagnosis of FUO {background-image="/images/thermometer.jpg"}
@@ -561,7 +563,7 @@ In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes 
 ## General diagnostic evaluation of FUO {.smaller}
 
 | Step | Investigation |
-|------|---|
+|----------------------------------------------|--------------------------|
 | **History & Exam** | Comprehensive history; repeated physical exams |
 | **Laboratory** | CBC, comprehensive metabolic panel, urinalysis with microscopy |
 | **Inflammatory Markers** | ESR, C-reactive protein |
@@ -577,7 +579,7 @@ In the pre-HAART era, mycobacterial infections (TB and MAC) were leading causes 
 [@wrightwilliamf__mackowiakphilipa_15]
 :::
 
-::: {.notes}
+::: notes
 This table represents the diagnostic approach to FUO, but it should be emphasized that not all tests are appropriate for every patient. The history and physical examination must guide which investigations to pursue, otherwise the patient will undergo excessive and often unnecessary testing with false positives leading to misdirected therapy.
 :::
 
@@ -586,22 +588,22 @@ This table represents the diagnostic approach to FUO, but it should be emphasize
 <br>
 
 ::: incremental
-- **Helps guide choice of initial laboratory investigations** - this is the most important step
+-   **Helps guide choice of initial laboratory investigations** - this is the most important step
 
-- **Travel history:** where, when, duration, exposures to animals, arthropod vectors, contaminated water
+-   **Travel history:** where, when, duration, exposures to animals, arthropod vectors, contaminated water
 
-- **Exposure to animals and work environment:** pet birds (psittacosis), cats (toxoplasmosis, bartonellosis), tick exposure (Lyme, Q fever)
+-   **Exposure to animals and work environment:** pet birds (psittacosis), cats (toxoplasmosis, bartonellosis), tick exposure (Lyme, Q fever)
 
-- **Recent contact with ill persons** or family history of FUO (e.g., familial Mediterranean fever)
+-   **Recent contact with ill persons** or family history of FUO (e.g., familial Mediterranean fever)
 
-- **Complete medication list:** including OTC drugs, supplements, recent antimicrobials
+-   **Complete medication list:** including OTC drugs, supplements, recent antimicrobials
 
-- **Prior history of FUO** - may be recurrence of same diagnosis
+-   **Prior history of FUO** - may be recurrence of same diagnosis
 
-- **Previously diagnosed conditions:** malignancy, rheumatic fever, valve disease that predisposes to endocarditis
+-   **Previously diagnosed conditions:** malignancy, rheumatic fever, valve disease that predisposes to endocarditis
 :::
 
-::: {.notes}
+::: notes
 A 45-year-old history of fever in a farmer with exposure to birth products of cattle should immediately suggest Q fever. A history of fever in a Southwest US resident with respiratory symptoms should suggest coccidioidomycosis. The history is the most efficient diagnostic tool - proper use can narrow a vast differential to a manageable few diagnoses.
 :::
 
@@ -610,31 +612,29 @@ A 45-year-old history of fever in a farmer with exposure to birth products of ca
 <br>
 
 ::: incremental
-- **Verification of fever:** Often overlooked step
-  - In some series, up to 30% referred for FUO where determined to NOT have fever
-  - Request fever log or have patient take temperatures at home
-
-- **Fever patterns** - use of patterns to narrow differential:
-  - *Continuous, remittent, intermittent, hectic (Charcot's), quotidian, quartan, biphasic (saddleback), Pel-Ebstein*
-
-- **Factors affecting fever pattern:**
-  - Hydration status, ambient temperature
-  - Accuracy of temperature measurements (different sites)
-  - Antipyretics and corticosteroids suppress fever
-  - Blood transfusions and other medical interventions
+-   **Verification of fever:** Often overlooked step
+    -   In some series, up to 30% referred for FUO where determined to NOT have fever
+    -   Request fever log or have patient take temperatures at home
+-   **Fever patterns** - use of patterns to narrow differential:
+    -   *Continuous, remittent, intermittent, hectic (Charcot's), quotidian, quartan, biphasic (saddleback), Pel-Ebstein*
+-   **Factors affecting fever pattern:**
+    -   Hydration status, ambient temperature
+    -   Accuracy of temperature measurements (different sites)
+    -   Antipyretics and corticosteroids suppress fever
+    -   Blood transfusions and other medical interventions
 :::
 
 ## Continuous sustained fever
 
 <br>
 
-- Continuous fever with slight remission not exceeding 2°C
-  - Lobar and gram-negative pneumonia
-  - Rickettsiosis
-  - Typhoid fever
-  - CNS disorders
-  - Tularemia
-  - Falciparum (malignant tertian) malaria
+-   Continuous fever with slight remission not exceeding 2°C
+    -   Lobar and gram-negative pneumonia
+    -   Rickettsiosis
+    -   Typhoid fever
+    -   CNS disorders
+    -   Tularemia
+    -   Falciparum (malignant tertian) malaria
 
 ![](images/continuous.png){fig-align="center" width="500"}
 
@@ -648,7 +648,7 @@ A 45-year-old history of fever in a farmer with exposure to birth products of ca
 
 Febrile paroxysms may occur every other day for *P. vivax*, *P. ovale*, and *P. falciparum* (tertian fever) and every third day for *P. malariae* (quartan fever). Paroxysms occurring at regular intervals are more common in *P. vivax* or *P. ovale* than *P. falciparum*. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently.
 
-::: {.notes}
+::: notes
 The regular paroxysmal pattern of malaria fever historically served as a diagnostic clue, but modern rapid diagnostic tests have made fever pattern analysis less clinically relevant. Still, recognizing the tertian and quartan patterns can be helpful in settings with limited diagnostic capacity.
 :::
 
@@ -656,14 +656,14 @@ The regular paroxysmal pattern of malaria fever historically served as a diagnos
 
 <br>
 
-- Intermittent fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM
-  - Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis
-  - Malaria may present with daily (quotidian), every 3rd day (tertian), or every 4th day (quartan) patterns
-  - Double quotidian pattern (two daily spikes) seen with:
-    - Salmonellosis
-    - Miliary tuberculosis
-    - Double malarial infections (>1 species)
-    - Gonococcal and meningococcal endocarditis
+-   Intermittent fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM
+    -   Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis
+    -   Malaria may present with daily (quotidian), every 3rd day (tertian), or every 4th day (quartan) patterns
+    -   Double quotidian pattern (two daily spikes) seen with:
+        -   Salmonellosis
+        -   Miliary tuberculosis
+        -   Double malarial infections (\>1 species)
+        -   Gonococcal and meningococcal endocarditis
 
 ::: aside
 [@mackowiak_etal97a]
@@ -673,11 +673,11 @@ The regular paroxysmal pattern of malaria fever historically served as a diagnos
 
 <br>
 
-- Several days of fever, distinct reduction in fever for ~1 day, then several days of higher fever
-  - Dengue and yellow fever
-  - Colorado tick fever
-  - Rift valley fever
-  - Influenza and other viral infections
+-   Several days of fever, distinct reduction in fever for \~1 day, then several days of higher fever
+    -   Dengue and yellow fever
+    -   Colorado tick fever
+    -   Rift valley fever
+    -   Influenza and other viral infections
 
 ![](images/saddle.png){fig-align="center" width="500"}
 
@@ -689,10 +689,10 @@ The regular paroxysmal pattern of malaria fever historically served as a diagnos
 
 <br>
 
-- Sporadic episodes of fever with periods of normal temperature and recurrence
-  - Frequently seen in cholangitis associated with cholelithiasis
-  - Classic teaching: jaundice, fever, right upper quadrant pain (Charcot's triad)
-  - Often associated with leukocytosis and toxic appearance
+-   Sporadic episodes of fever with periods of normal temperature and recurrence
+    -   Frequently seen in cholangitis associated with cholelithiasis
+    -   Classic teaching: jaundice, fever, right upper quadrant pain (Charcot's triad)
+    -   Often associated with leukocytosis and toxic appearance
 
 ::: aside
 [@mackowiak_etal97a]
@@ -702,10 +702,10 @@ The regular paroxysmal pattern of malaria fever historically served as a diagnos
 
 <br>
 
-- Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
-  - Hodgkin's disease (classic association)
-  - Brucellosis due to *Brucella melitensis*
-  - Occasionally tuberculosis
+-   Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
+    -   Hodgkin's disease (classic association)
+    -   Brucellosis due to *Brucella melitensis*
+    -   Occasionally tuberculosis
 
 ![](images/pelebstein.png){fig-align="center" width="500"}
 
@@ -713,7 +713,7 @@ The regular paroxysmal pattern of malaria fever historically served as a diagnos
 [@mackowiak_etal97a]
 :::
 
-::: {.notes}
+::: notes
 While Pel-Ebstein fever was historically associated with Hodgkin lymphoma, modern cases are rarely encountered in developed countries due to earlier diagnosis. However, it remains a useful pattern to recognize in resource-limited settings where lymphoma diagnosis may be delayed.
 :::
 
@@ -721,17 +721,17 @@ While Pel-Ebstein fever was historically associated with Hodgkin lymphoma, moder
 
 <br>
 
-- Reversal of diurnal pattern with highest temperatures in early morning hours rather than late afternoon/evening
-  - Miliary TB
-  - Salmonelloses
-  - Hepatic abscess
-  - Bacterial endocarditis
+-   Reversal of diurnal pattern with highest temperatures in early morning hours rather than late afternoon/evening
+    -   Miliary TB
+    -   Salmonelloses
+    -   Hepatic abscess
+    -   Bacterial endocarditis
 
 ::: aside
 [@mackowiak_etal97a]
 :::
 
-::: {.notes}
+::: notes
 *Typus inversus* is an unusual pattern but when present strongly suggests one of the listed diagnoses. Its presence should prompt investigation for disseminated TB or endocarditis.
 :::
 
@@ -739,7 +739,7 @@ While Pel-Ebstein fever was historically associated with Hodgkin lymphoma, moder
 
 ![](images/typhoidfever.png)
 
-::: {.notes}
+::: notes
 The classic teaching of typhoid's step-ladder fever (progressively higher fever each day for 3-4 days until reaching a plateau) is less commonly observed in modern cases, possibly due to partial treatment with antipyretics or other antimicrobials before diagnosis. However, when present, it is highly suggestive of enteric fever.
 :::
 
@@ -749,23 +749,24 @@ The classic teaching of typhoid's step-ladder fever (progressively higher fever 
 
 <br>
 
-- **Definition:** Sharply increased elevation of temperature with rigors, chills, and constitutional symptoms occurring within hours of starting antibiotic therapy
+-   **Definition:** Sharply increased elevation of temperature with rigors, chills, and constitutional symptoms occurring within hours of starting antibiotic therapy
 
-- **Mechanism:** Lysis of spirochetes (or other organisms) releases endotoxin triggering acute inflammatory response
+-   **Mechanism:** Lysis of spirochetes (or other organisms) releases endotoxin triggering acute inflammatory response
 
-- **Organisms associated:**
-  - Primary or secondary syphilis
-  - Leptospirosis
-  - Tick-borne relapsing fever (*Borrelia*)
-  - Tetracycline or chloramphenicol therapy for acute brucellosis
+-   **Organisms associated:**
 
-- **Clinical significance:** Can be severe enough to cause hemodynamic compromise; does not indicate treatment failure
+    -   Primary or secondary syphilis
+    -   Leptospirosis
+    -   Tick-borne relapsing fever (*Borrelia*)
+    -   Tetracycline or chloramphenicol therapy for acute brucellosis
+
+-   **Clinical significance:** Can be severe enough to cause hemodynamic compromise; does not indicate treatment failure
 
 ::: aside
 [@mackowiak_etal97a]
 :::
 
-::: {.notes}
+::: notes
 Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination of antibiotic therapy. Patients and clinicians should be counseled to expect transient clinical deterioration with initiation of treatment for spirochetal diseases.
 :::
 
@@ -773,9 +774,9 @@ Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination o
 
 <br>
 
-- Some signs are subtle and may require repeated exams to be appreciated
-- Vigorous search for lymphadenopathy (consideration for biopsy)
-- Careful examination of fundi, oropharynx, temporal arteries, abdomen, spleen, joints, skin, nails, genitalia
+-   Some signs are subtle and may require repeated exams to be appreciated
+-   Vigorous search for lymphadenopathy (consideration for biopsy)
+-   Careful examination of fundi, oropharynx, temporal arteries, abdomen, spleen, joints, skin, nails, genitalia
 
 ![](images/clinicalsigns.jpeg){fig-align="center"}
 
@@ -790,17 +791,19 @@ Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination o
 **"The cause is more often a *common* disease presenting in an *atypical fashion* than a *rare* disease presenting in a *typical* fashion."**
 
 ::: incremental
-- Multiple diagnostic algorithms exist in literature
-- Must be selectively applied or will result in excessive unfocused diagnostic testing
-  - False positives lead to misdiagnosis
-  - Misguided treatment plans
+-   Multiple diagnostic algorithms exist in literature
 
-- **"Sutton's Law"** - pursue most likely diagnosis first based on history and epidemiology
+-   Must be selectively applied or will result in excessive unfocused diagnostic testing
 
-- History and physical exam (most important) should guide choice and sequence of tests
+    -   False positives lead to misdiagnosis
+    -   Misguided treatment plans
+
+-   **"Sutton's Law"** - pursue most likely diagnosis first based on history and epidemiology
+
+-   History and physical exam (most important) should guide choice and sequence of tests
 :::
 
-::: {.notes}
+::: notes
 Shotgun laboratory approach to FUO is expensive, time-consuming, and counterproductive. A focused history-driven approach is far more efficient. This principle of parsimony - explaining the patient's illness with the fewest assumptions - remains central to good diagnostics.
 :::
 
@@ -812,7 +815,7 @@ Shotgun laboratory approach to FUO is expensive, time-consuming, and counterprod
 [@wrightwilliamf__mackowiakphilipa_15]
 :::
 
-::: {.notes}
+::: notes
 Each finding or cluster of findings can point toward specific diagnoses. A patient with fever and a pulsatile abdominal mass should get abdominal imaging for AAA. A patient with fever and new cardiac murmur should get echocardiography. A patient with fever and temporal headache in someone over 50 should get ESR/CRP and consideration for temporal artery biopsy.
 :::
 
@@ -821,17 +824,15 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 <br>
 
 ::: incremental
-- **Diagnostic yield:** ~25% in two case series; especially valuable for:
-  - Granulomatous infections (TB, histoplasmosis, sarcoidosis)
-  - Hematologic malignancies (leukemia, lymphoma)
-  - Patients with abnormal CBC (anemia, thrombocytopenia, leukopenia)
-
-- **Organisms identified:**
-  - *Mycobacterium tuberculosis*
-  - Fungi (*Histoplasma*, *Cryptococcus*, *Coccidioides*)
-  - Intracellular bacteria (*Brucella*, *Bartonella*)
-
-- **Consider:** When fever pattern and presentation suggest granulomatous disease or hematologic malignancy
+-   **Diagnostic yield:** \~25% in two case series; especially valuable for:
+    -   Granulomatous infections (TB, histoplasmosis, sarcoidosis)
+    -   Hematologic malignancies (leukemia, lymphoma)
+    -   Patients with abnormal CBC (anemia, thrombocytopenia, leukopenia)
+-   **Organisms identified:**
+    -   *Mycobacterium tuberculosis*
+    -   Fungi (*Histoplasma*, *Cryptococcus*, *Coccidioides*)
+    -   Intracellular bacteria (*Brucella*, *Bartonella*)
+-   **Consider:** When fever pattern and presentation suggest granulomatous disease or hematologic malignancy
 :::
 
 ## Imaging studies
@@ -839,15 +840,14 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 <br>
 
 ::: incremental
-- **Generally low diagnostic yield without localizing symptoms** - repeat key point
-  - CT of abdomen and chest
-  - Ultrasound of gallbladder and hepatobiliary systems
-  - CT pulmonary angiograms (for PE)
-  - MRI for CNS, spleen, lymph nodes, aorta (vasculitis)
-  - Indium 111-tagged white blood cell scan (becoming less common)
-  - Gallium-67 scan (largely replaced by PET-CT)
-
-- **PET-CT:** Superior sensitivity for inflammatory and malignant processes
+-   **Generally low diagnostic yield without localizing symptoms** - repeat key point
+    -   CT of abdomen and chest
+    -   Ultrasound of gallbladder and hepatobiliary systems
+    -   CT pulmonary angiograms (for PE)
+    -   MRI for CNS, spleen, lymph nodes, aorta (vasculitis)
+    -   Indium 111-tagged white blood cell scan (becoming less common)
+    -   Gallium-67 scan (largely replaced by PET-CT)
+-   **PET-CT:** Superior sensitivity for inflammatory and malignant processes
 :::
 
 ## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography (PET-CT) - Part 1
@@ -860,7 +860,7 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 [@dekleijn_etal97; @wright_etal21]
 :::
 
-::: {.notes}
+::: notes
 PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificities from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging.
 :::
 
@@ -870,16 +870,13 @@ PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities 
 
 ![](images/pet2.png){fig-align="center"}
 
-**Key clinical applications:**
-- Should be performed early in workup
-- Most helpful for: abscesses, osteomyelitis, vasculitis, adult-onset Still disease, Crohn disease, subacute thyroiditis
-- Can identify sites for targeted biopsy
+**Key clinical applications:** - Should be performed early in workup - Most helpful for: abscesses, osteomyelitis, vasculitis, adult-onset Still disease, Crohn disease, subacute thyroiditis - Can identify sites for targeted biopsy
 
 ::: aside
 [@kouijzer_etal18]
 :::
 
-::: {.notes}
+::: notes
 The integration of PET-CT into the diagnostic algorithm for FUO has significantly improved diagnostic accuracy. When conventional workup is unrevealing, PET-CT should be considered early rather than as a last resort. It often identifies foci of inflammation suitable for biopsy, converting a diagnostic odyssey into a straightforward tissue diagnosis.
 :::
 
@@ -888,20 +885,18 @@ The integration of PET-CT into the diagnostic algorithm for FUO has significantl
 <br>
 
 ::: incremental
-- **Biopsy techniques:**
-  - Excisional biopsy (lymph node)
-  - Needle biopsy (liver, kidney, muscle)
-  - Laparotomy or laparoscopy for direct visualization
-
-- **Diagnostic yield:**
-  - Biopsy yields diagnosis in < 50% of cases
-  - Average 2-3 biopsies needed to establish diagnosis
-
-- **Indications:**
-  - Abnormal imaging or physical exam findings
-  - Lymphadenopathy suitable for lymph node biopsy
-  - Suspected granulomatous disease
-  - Persistent fever despite extensive workup
+-   **Biopsy techniques:**
+    -   Excisional biopsy (lymph node)
+    -   Needle biopsy (liver, kidney, muscle)
+    -   Laparotomy or laparoscopy for direct visualization
+-   **Diagnostic yield:**
+    -   Biopsy yields diagnosis in \< 50% of cases
+    -   Average 2-3 biopsies needed to establish diagnosis
+-   **Indications:**
+    -   Abnormal imaging or physical exam findings
+    -   Lymphadenopathy suitable for lymph node biopsy
+    -   Suspected granulomatous disease
+    -   Persistent fever despite extensive workup
 :::
 
 ## Treatment Section {background-image="/images/thermometer.jpg" background-opacity="0.2"}
@@ -912,7 +907,7 @@ The integration of PET-CT into the diagnostic algorithm for FUO has significantl
 
 **A fundamental principle in classic FUO:** Therapy should be withheld until the cause of fever is determined
 
-::: {.notes}
+::: notes
 This is easier said than done in clinical practice, but the principle remains sound. Non-specific treatment with antipyretics, antibiotics, or corticosteroids rarely "cures" FUO and often delays the correct diagnosis, leading to prolonged suffering and inappropriate therapy.
 :::
 
@@ -929,21 +924,19 @@ This is easier said than done in clinical practice, but the principle remains so
 <br>
 
 ::: incremental
-- **Suspected temporal arteritis**
-  - Empirical corticosteroids to prevent vascular complications (blindness, stroke)
-  - Do not wait for biopsy confirmation if clinical suspicion high
-
-- **Febrile neutropenia or severe immunocompromise**
-  - High prevalence of serious bacterial infections
-  - Broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures obtained
-  - No delay for culture results
-
-- **Select cases with strong clinical suspicion:**
-  - Anti-mycobacterial therapy in suspected TB (especially if respiratory symptoms)
-  - Targeted therapy based on epidemiology and presentation
+-   **Suspected temporal arteritis**
+    -   Empirical corticosteroids to prevent vascular complications (blindness, stroke)
+    -   Do not wait for biopsy confirmation if clinical suspicion high
+-   **Febrile neutropenia or severe immunocompromise**
+    -   High prevalence of serious bacterial infections
+    -   Broad-spectrum antimicrobial therapy with anti-pseudomonas coverage after appropriate cultures obtained
+    -   No delay for culture results
+-   **Select cases with strong clinical suspicion:**
+    -   Anti-mycobacterial therapy in suspected TB (especially if respiratory symptoms)
+    -   Targeted therapy based on epidemiology and presentation
 :::
 
-::: {.notes}
+::: notes
 These exceptions to the "do not treat before diagnosis" rule are important. Temporal arteritis is a true medical emergency where delaying treatment risks permanent vision loss. Similarly, in neutropenic patients, the high mortality of untreated bacteremia necessitates empiric therapy. In contrast, empiric antibiotics in immunocompetent patients with FUO are generally unhelpful.
 :::
 
@@ -952,23 +945,25 @@ These exceptions to the "do not treat before diagnosis" rule are important. Temp
 <br>
 
 ::: incremental
-- **Determined by:** The underlying cause of fever and nature of underlying disease(s)
+-   **Determined by:** The underlying cause of fever and nature of underlying disease(s)
 
-- **Poor prognosis:** Elderly patients with malignant neoplasms
+-   **Poor prognosis:** Elderly patients with malignant neoplasms
 
-- **Diagnostic delay worsens prognosis in:**
-  - Intra-abdominal infections (perforation, sepsis)
-  - Miliary tuberculosis
-  - Disseminated fungal infections
-  - Recurrent pulmonary emboli
+-   **Diagnostic delay worsens prognosis in:**
 
-- **Favorable outlook:** Patients with undiagnosed FUO after extensive evaluation
-  - Most experience resolution of fever within 4 weeks without sequelae
-  - **5-year mortality rate: 3.2%** for undiagnosed FUO
-  - Superior to patients with diagnosed malignancy as the underlying cause
+    -   Intra-abdominal infections (perforation, sepsis)
+    -   Miliary tuberculosis
+    -   Disseminated fungal infections
+    -   Recurrent pulmonary emboli
+
+-   **Favorable outlook:** Patients with undiagnosed FUO after extensive evaluation
+
+    -   Most experience resolution of fever within 4 weeks without sequelae
+    -   **5-year mortality rate: 3.2%** for undiagnosed FUO
+    -   Superior to patients with diagnosed malignancy as the underlying cause
 :::
 
-::: {.notes}
+::: notes
 This prognosis for undiagnosed FUO is reassuring and often not communicated to patients. Many are left feeling that an undiagnosed fever indicates a serious overlooked condition, when in fact the natural history suggests spontaneous resolution in most cases. Of course, continued surveillance is appropriate.
 :::
 
