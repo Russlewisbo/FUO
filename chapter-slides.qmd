@@ -278,7 +278,6 @@ Different definitions exist for FUO depending on clinical context. The classic d
 
 <br>
 
-::: incremental
 -   **Chronic or relapsing infections**
     -   Occult abscess (intra-abdominal, hepatic, splenic, renal, perirectal)
     -   Endocarditis (both native and prosthetic valve)
@@ -286,7 +285,6 @@ Different definitions exist for FUO depending on clinical context. The classic d
     -   Complicated urinary tract infections (pyelonephritis, prostatitis)
     -   Osteomyelitis (especially vertebral)
     -   Other: brucellosis, leptospirosis, syphilis, bartonellosis
-:::
 
 ## Rare and miscellaneous causes of fever {.smaller}
 
@@ -632,7 +630,6 @@ The degree and type of immunosuppression determines which infections are most li
 
 <br>
 
-::: incremental
 -   **Indications for trial:**
     -   Temperature \> 37.8°C at least once daily for ≥2 weeks
     -   Lack of evidence of infection (physical exam, labs, imaging)
@@ -645,7 +642,6 @@ The degree and type of immunosuppression determines which infections are most li
     -   Sustained normal temperature while receiving naproxen
     -   Fever recurrence when drug discontinued
 -   **Note:** Not universally accepted; sensitivity/specificity debated
-:::
 
 ## Diagnosis of FUO {background-image="/images/thermometer.jpg"}
 
@@ -667,18 +663,14 @@ The degree and type of immunosuppression determines which infections are most li
 | **Invasive Procedures** | Biopsy (lymph node, liver, bone marrow) if indicated |
 
 ::: aside
-[@wrightwilliamf__mackowiakphilipa_15]
-:::
-
-::: notes
-This table represents the diagnostic approach to FUO, but it should be emphasized that not all tests are appropriate for every patient. The history and physical examination must guide which investigations to pursue, otherwise the patient will undergo excessive and often unnecessary testing with false positives leading to misdirected therapy.
+The history and physical examination must guide which investigations to pursue, otherwise the patient will undergo excessive and often unnecessary testing with false positives leading to misdirected therapy. <br>[@wrightwilliamf__mackowiakphilipa_15]
 :::
 
 ## Patient history
 
 <br>
 
-::: incremental
+
 -   **Helps guide choice of initial laboratory investigations** - this is the most important step
 
 -   **Travel history:** where, when, duration, exposures to animals, arthropod vectors, contaminated water
@@ -692,7 +684,7 @@ This table represents the diagnostic approach to FUO, but it should be emphasize
 -   **Prior history of FUO** - may be recurrence of same diagnosis
 
 -   **Previously diagnosed conditions:** malignancy, rheumatic fever, valve disease that predisposes to endocarditis
-:::
+
 
 ::: notes
 A 45-year-old history of fever in a farmer with exposure to birth products of cattle should immediately suggest Q fever. A history of fever in a Southwest US resident with respiratory symptoms should suggest coccidioidomycosis. The history is the most efficient diagnostic tool - proper use can narrow a vast differential to a manageable few diagnoses.
@@ -702,7 +694,6 @@ A 45-year-old history of fever in a farmer with exposure to birth products of ca
 
 <br>
 
-::: incremental
 -   **Verification of fever:** Often overlooked step
     -   In some series, up to 30% referred for FUO where determined to NOT have fever
     -   Request fever log or have patient take temperatures at home
@@ -713,21 +704,52 @@ A 45-year-old history of fever in a farmer with exposure to birth products of ca
     -   Accuracy of temperature measurements (different sites)
     -   Antipyretics and corticosteroids suppress fever
     -   Blood transfusions and other medical interventions
-:::
 
 ## Continuous sustained fever
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
+![](images/continuous.png){width="800"}
+:::
+
+::: {.column width="50%"}
 -   Continuous fever with slight remission not exceeding 2°C
+
     -   Lobar and gram-negative pneumonia
     -   Rickettsiosis
     -   Typhoid fever
     -   CNS disorders
     -   Tularemia
     -   Falciparum (malignant tertian) malaria
+:::
+:::::
 
-![](images/continuous.png){fig-align="center" width="500"}
+::: aside
+[@mackowiak_etal97a]
+:::
+
+## Intermittent (quotidian) fever
+
+<br>
+
+::::: columns
+::: {.column width="50%"}
+![](images/intermittent.png){width="800"}
+:::
+
+::: {.column width="50%"}
+-   Intermittent fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM
+    -   Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis
+    -   Malaria may present with daily (quotidian), every 3rd day (tertian), or every 4th day (quartan) patterns
+    -   Double quotidian pattern (two daily spikes) seen with:
+        -   Salmonellosis
+        -   Miliary tuberculosis
+        -   Double malarial infections (\>1 species)
+        -   Gonococcal and meningococcal endocarditis
+:::
+:::::
 
 ::: aside
 [@mackowiak_etal97a]
@@ -737,40 +759,31 @@ A 45-year-old history of fever in a farmer with exposure to birth products of ca
 
 ![](images/malariafever.png){fig-align="center"}
 
-Febrile paroxysms may occur every other day for *P. vivax*, *P. ovale*, and *P. falciparum* (tertian fever) and every third day for *P. malariae* (quartan fever). Paroxysms occurring at regular intervals are more common in *P. vivax* or *P. ovale* than *P. falciparum*. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently.
-
-::: notes
-The regular paroxysmal pattern of malaria fever historically served as a diagnostic clue, but modern rapid diagnostic tests have made fever pattern analysis less clinically relevant. Still, recognizing the tertian and quartan patterns can be helpful in settings with limited diagnostic capacity.
-:::
-
-## Intermittent (quotidian) fever
-
-<br>
-
--   Intermittent fever with wide fluctuations, usually normal or low in the morning and peaking between 4:00 and 8:00 PM
-    -   Localized pyogenic infections and bacterial endocarditis with chills and leukocytosis
-    -   Malaria may present with daily (quotidian), every 3rd day (tertian), or every 4th day (quartan) patterns
-    -   Double quotidian pattern (two daily spikes) seen with:
-        -   Salmonellosis
-        -   Miliary tuberculosis
-        -   Double malarial infections (\>1 species)
-        -   Gonococcal and meningococcal endocarditis
+Febrile paroxysms may occur every other day for *P. vivax*, *P. ovale*, and *P. falciparum* (tertian fever) and every third day for *P. malariae* (quartan fever). <br> <br> Paroxysms occurring at regular intervals are more common in *P. vivax* or *P. ovale* than *P. falciparum*. With improvements in early diagnosis and treatment, this traditional description of cyclic fever is seen infrequently.
 
 ::: aside
-[@mackowiak_etal97a]
+The regular paroxysmal pattern of malaria fever historically served as a diagnostic clue, but modern rapid diagnostic tests have made fever pattern analysis less clinically relevant. Still, recognizing the tertian and quartan patterns can be helpful in settings with limited diagnostic capacity.
 :::
 
 ## Saddle-back (biphasic) fever
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-844516053.png){width="800"}
+
+![](images/biphasic.png){width="600"}
+:::
+
+::: {.column width="50%"}
 -   Several days of fever, distinct reduction in fever for \~1 day, then several days of higher fever
     -   Dengue and yellow fever
     -   Colorado tick fever
     -   Rift valley fever
     -   Influenza and other viral infections
-
-![](images/saddle.png){fig-align="center" width="500"}
+:::
+:::::
 
 ::: aside
 [@mackowiak_etal97a]
@@ -780,25 +793,41 @@ The regular paroxysmal pattern of malaria fever historically served as a diagnos
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
+![](images/recurrent.png){width="800"}
+:::
+
+::: {.column width="50%"}
 -   Sporadic episodes of fever with periods of normal temperature and recurrence
     -   Frequently seen in cholangitis associated with cholelithiasis
     -   Classic teaching: jaundice, fever, right upper quadrant pain (Charcot's triad)
     -   Often associated with leukocytosis and toxic appearance
+:::
+:::::
 
 ::: aside
 [@mackowiak_etal97a]
 :::
 
-## Pel-Ebstein fever
+## Undulating (Pel-Ebstein) fever
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
+![](images/Pelebstein.png){width="600"}
+
+![](images/undulating.png){width="600"}
+:::
+
+::: {.column width="50%"}
 -   Weekly or longer periods of fever and equally long afebrile periods, with repetition of the cycle
     -   Hodgkin's disease (classic association)
     -   Brucellosis due to *Brucella melitensis*
     -   Occasionally tuberculosis
-
-![](images/pelebstein.png){fig-align="center" width="500"}
+:::
+:::::
 
 ::: aside
 [@mackowiak_etal97a]
@@ -812,34 +841,39 @@ While Pel-Ebstein fever was historically associated with Hodgkin lymphoma, moder
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
+![](images/typhus_inversus.png)
+:::
+
+::: {.column width="50%"}
 -   Reversal of diurnal pattern with highest temperatures in early morning hours rather than late afternoon/evening
     -   Miliary TB
     -   Salmonelloses
     -   Hepatic abscess
     -   Bacterial endocarditis
+:::
+:::::
 
 ::: aside
-[@mackowiak_etal97a]
+*Typus inversus* is an unusual pattern but when present strongly suggests one of the listed diagnoses. Its presence should prompt investigation for disseminated TB or endocarditis.[@mackowiak_etal97a]
 :::
 
-::: notes
-*Typus inversus* is an unusual pattern but when present strongly suggests one of the listed diagnoses. Its presence should prompt investigation for disseminated TB or endocarditis.
+::: aside
 :::
 
 ## Typhoid fever - Step-ladder fever
 
-![](images/typhoidfever.png)
+![](images/typhoidfever.png){fig-align="center"}
 
-::: notes
-The classic teaching of typhoid's step-ladder fever (progressively higher fever each day for 3-4 days until reaching a plateau) is less commonly observed in modern cases, possibly due to partial treatment with antipyretics or other antimicrobials before diagnosis. However, when present, it is highly suggestive of enteric fever.
+::: aside
+The classic teaching of typhoid's step-ladder fever (progressively higher fever each day for 3-4 days until reaching a plateau) is less commonly observed in modern cases, possibly due to partial treatment with antipyretics or other antimicrobials before diagnosis. However, when present, it is highly suggestive of enteric fever. **Note the relative bradycardia-a suggestive sign of Typhoid fever.**
 :::
 
 ## Jarisch-Herxheimer reaction
 
-<br>
-
-<br>
-
+::::: columns
+::: {.column width="50%"}
 -   **Definition:** Sharply increased elevation of temperature with rigors, chills, and constitutional symptoms occurring within hours of starting antibiotic therapy
 
 -   **Mechanism:** Lysis of spirochetes (or other organisms) releases endotoxin triggering acute inflammatory response
@@ -852,16 +886,18 @@ The classic teaching of typhoid's step-ladder fever (progressively higher fever 
     -   Tetracycline or chloramphenicol therapy for acute brucellosis
 
 -   **Clinical significance:** Can be severe enough to cause hemodynamic compromise; does not indicate treatment failure
-
-::: aside
-[@mackowiak_etal97a]
 :::
+
+::: {.column width="50%"}
+![](images/jarisch.png){width="600"}
+:::
+:::::
 
 ::: notes
 Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination of antibiotic therapy. Patients and clinicians should be counseled to expect transient clinical deterioration with initiation of treatment for spirochetal diseases.
 :::
 
-## Physical examination
+## Physical examination {.smaller}
 
 <br>
 
@@ -869,7 +905,19 @@ Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination o
 -   Vigorous search for lymphadenopathy (consideration for biopsy)
 -   Careful examination of fundi, oropharynx, temporal arteries, abdomen, spleen, joints, skin, nails, genitalia
 
-![](images/clinicalsigns.jpeg){fig-align="center"}
+| Body site | Physical finding | Diagnosis |
+|------------------------|------------------------|------------------------|
+| Head | Sinus tenderness | Sinusitis |
+| Temporal artery | Nodules, reduced pulsations | Temporal arteritis |
+| Oropharynx | Ulceration; tender tooth | Disseminated histoplasmosis, periapical abscess |
+| Fundi / conjunctivae | Choroid tubercle, petechiae, Roth's spot | Disseminated granulomatosis, endocarditis |
+| Thyroid | Enlargement, tenderness | Thyroiditis |
+| Heart | Murmur | Infective or marantic endocarditis |
+| Abdomen | Enlarged iliac lymph nodes, splenomegaly | Lymphoma, endocarditis, disseminated granulomatosis |
+| Rectum | Perirectal / prostatic fluctuance, tenderness | Abscess |
+| Genitalia | Testicular nodule; epididymal nodule | Periarteritis nodosa; disseminated granulomatosis |
+| Lower extremities | Deep venous tenderness | Thrombosis / thrombophlebitis |
+| Skin and nails | Petechiae, splinter hemorrhages, subcutaneous nodules, clubbing | Vasculitis, endocarditis |
 
 ::: aside
 [@wrightwilliamf__mackowiakphilipa_15]
@@ -879,9 +927,10 @@ Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination o
 
 <br>
 
-**"The cause is more often a *common* disease presenting in an *atypical fashion* than a *rare* disease presenting in a *typical* fashion."**
+**"The cause of FUO is more frequently a *common disease* presenting in an *atypical fashion* than a *rare disease* presenting *in a typical fashion.*"**
 
-::: incremental
+<br> <br>
+
 -   Multiple diagnostic algorithms exist in literature
 
 -   Must be selectively applied or will result in excessive unfocused diagnostic testing
@@ -892,15 +941,51 @@ Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination o
 -   **"Sutton's Law"** - pursue most likely diagnosis first based on history and epidemiology
 
 -   History and physical exam (most important) should guide choice and sequence of tests
-:::
 
-::: notes
+::: aside
 Shotgun laboratory approach to FUO is expensive, time-consuming, and counterproductive. A focused history-driven approach is far more efficient. This principle of parsimony - explaining the patient's illness with the fewest assumptions - remains central to good diagnostics.
 :::
 
-## Examples of potential diagnostic clues
+## Examples of potential diagnostic clues (1/3) {.smaller}
 
-![](images/diagnosticcludes.jpeg){fig-align="center"}
+<br>
+
+| Etiology | Historical clues | Physical clues |
+|------------------------|------------------------|------------------------|
+| Anaplasmosis | *Ixodes* tick bite; outdoor activity in North Central / Eastern US | Fever, headache, arthralgia, myalgia, pneumonitis, thrombocytopenia, lymphopenia, ↑ liver enzymes |
+| Babesiosis | *Ixodes* tick bite; outdoor activity in Northeastern US | Arthralgias, myalgias, relative bradycardia, hepatosplenomegaly, anemia, thrombocytopenia, ↑ liver enzymes |
+| Bartonellosis | Travel to Andes (Oroya fever; *B. bacilliformis*); homelessness (*B. quintana*); scratch from infected kitten/cat (*B. henselae*) | Conjunctivitis, retro-orbital pain, anterior tibial bone pain, macular rash, nodular plaque lesions, regional lymphadenopathy |
+| Blastomycosis | Contact with soil near Mississippi/Ohio River valleys, Saint Lawrence River, or Great Lakes; exposure to infected dogs | Arthritis, atypical pneumonia, pulmonary nodules, ARDS, verrucous/nodular/ulcerative skin lesions, prostatitis |
+| Brucellosis | Contact with/consumption of products from infected goats, pigs, camels, yaks, buffalo, cows; abattoir work | Arthralgias, hepatosplenomegaly, suppurative musculoskeletal lesions, sacroiliitis, spondylitis, uveitis, hepatitis, pancytopenia |
+| Coccidioidomycosis | Exposure to soil or dust in the southwestern US | Arthralgias, pneumonia, pulmonary cavities, pulmonary nodules, erythema multiforme, erythema nodosum |
+| Ehrlichiosis | *Amblyomma*, *Dermacentor*, or *Ixodes* tick bite; outdoor activity in midwestern / southeastern US | Pneumonitis, hepatitis, thrombocytopenia, lymphopenia |
+
+## Examples of potential diagnostic clues (2/3) {.smaller}
+
+<br>
+
+| Etiology | Historical clues | Physical clues |
+|------------------------|------------------------|------------------------|
+| Enteric fever (*Salmonella* Typhi) | Recent travel to endemic country; consumption of potentially contaminated food or water | Headache, arthritis, abdominal pain, relative bradycardia, hepatosplenomegaly, leukopenia |
+| Histoplasmosis | Exposure to bat/blackbird excreta in roosts, chicken houses, or caves; Ohio and Mississippi River valleys | Headache, pneumonia, pulmonary cavities, mucosal ulcers, adenopathy, erythema nodosum, erythema multiforme, hepatitis, anemia, leukopenia, thrombocytopenia |
+| Leptospirosis | Occupational exposure in sewers, rice/sugar cane fields, abattoirs; recreational water sports; contact with contaminated water or infected dogs | Bitemporal/frontal headache, calf and lumbar muscle tenderness, conjunctival suffusion, hepatic and renal failure, hemorrhagic pneumonitis |
+| Leishmaniasis (visceral) | Recent travel to sand fly–endemic areas | Hepatosplenomegaly, lymphadenopathy, hyperpigmentation of face/hands/feet/abdomen (kala azar) |
+| Malaria | Recent travel to endemic areas in Asia, Africa, or Central/South America | Fever, headaches, nausea, vomiting, diarrhea, hepatosplenomegaly, anemia |
+| Psittacosis (*Chlamydia psittaci*) | Contact with birds, especially psittacine birds | Fever, pharyngitis, hepatosplenomegaly, pneumonia, blanching maculopapular eruptions, erythema multiforme, erythema marginatum, erythema nodosum |
+
+## Examples of potential diagnostic clues (3/3) {.smaller}
+
+<br>
+
+| Etiology | Historical clues | Physical clues |
+|------------------------|------------------------|------------------------|
+| Q fever (*Coxiella burnetii*) | Farm, veterinary, or abattoir work; unpasteurized milk; contact with infected sheep, goats, or cattle | Atypical pneumonia, hepatitis, hepatomegaly, relative bradycardia, splenomegaly |
+| Rat-bite fever (*Streptobacillus moniliformis*) | Recent bite/scratch from rat, mouse, or squirrel; ingestion of food/water contaminated with rat excrement | Headaches, myalgias, polyarthritis, maculopapular/morbilliform/petechial/vesicular/pustular rash over palms, soles, and extremities |
+| Relapsing fever (*Borrelia recurrentis*) | Poverty/crowding/poor sanitation (louse-borne); camping in the Grand Canyon (tick-borne) | High fever with rigors, headache, delirium, arthralgias, myalgias, hepatosplenomegaly |
+| Rocky Mountain spotted fever | Outdoor activity in South Atlantic or southeastern US; *Dermacentor* tick bites | Headache, petechial rash on extremities, palms, and soles |
+| Tuberculosis | Contact with TB; immigration from endemic country; homeless shelter or healthcare facility exposure | Night sweats, weight loss, atypical pneumonia, cavitary pulmonary lesions |
+| Tularemia | Bites from *Amblyomma* or *Dermacentor* ticks, deer flies, or mosquitoes; direct contact with rabbits, squirrels, deer, raccoons, cattle, sheep, or swine | Ulcerated skin lesion at bite site, pneumonia, relative bradycardia, lymphadenopathy, conjunctivitis |
+| Whipple's disease (*Tropheryma whipplei*) | Potential association with exposure to sewage | Chronic diarrhea, arthralgia, weight loss, malabsorption, malnutrition |
 
 ::: aside
 [@wrightwilliamf__mackowiakphilipa_15]
@@ -914,7 +999,8 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 
 <br>
 
-::: incremental
+::::: columns
+::: {.column width="50%"}
 -   **Diagnostic yield:** \~25% in two case series; especially valuable for:
     -   Granulomatous infections (TB, histoplasmosis, sarcoidosis)
     -   Hematologic malignancies (leukemia, lymphoma)
@@ -926,49 +1012,62 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 -   **Consider:** When fever pattern and presentation suggest granulomatous disease or hematologic malignancy
 :::
 
+::: {.column width="50%"}
+<br> <br>
+
+![](images/bm_bx.png){fig-align="center"}
+:::
+:::::
+
 ## Imaging studies
 
 <br>
 
-::: incremental
--   **Generally low diagnostic yield without localizing symptoms** - repeat key point
-    -   CT of abdomen and chest
-    -   Ultrasound of gallbladder and hepatobiliary systems
-    -   CT pulmonary angiograms (for PE)
-    -   MRI for CNS, spleen, lymph nodes, aorta (vasculitis)
-    -   Indium 111-tagged white blood cell scan (becoming less common)
-    -   Gallium-67 scan (largely replaced by PET-CT)
+:::: columns
+::: {.column width="50%"}
+![](images/ct.png)
+:::
+
+::: {.column width="50%"}
+**Generally low diagnostic yield without localizing symptoms**
+
+-   CT of abdomen and chest
+
+-   Ultrasound of gallbladder and hepatobiliary systems
+
+-   CT pulmonary angiogram (for pulmonary embolis)
+
+-   MRI for CNS, spleen, lymph nodes, aorta (vasculitis)
+
+-   Indium 111-tagged white blood cell scan (becoming less common)
+
+-   Gallium-67 scan (largely replaced by PET-CT)
+
 -   **PET-CT:** Superior sensitivity for inflammatory and malignant processes
 :::
+::::
 
-## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography (PET-CT) - Part 1
+## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography
+
+:::: columns
+::: {.column width="50%"}
+![](images/clipboard-4236662536.png)
+:::
+
+::: {.column width="50%"}
+PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificity from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging [@dekleijn_etal97; @wright_etal21].
+:::
+
+## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography
 
 <br>
 
-![](images/pet1.png){fig-align="center"}
+![](images/pet2.png){fig-align="center" width="800"}
 
 ::: aside
-[@dekleijn_etal97; @wright_etal21]
-:::
+PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificities from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging .**Key clinical applications:** - Should be performed early in workup - Most helpful for: abscesses, osteomyelitis, vasculitis, adult-onset Still disease, Crohn disease, subacute thyroiditis - Can identify sites for targeted biopsy
 
-::: notes
-PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities range from 86-98% and specificities from 52-85%, depending on the etiology. It is particularly useful for detecting focal sites of infection or inflammation that might be missed on conventional imaging.
-:::
-
-## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography (PET-CT) - Part 2
-
-<br>
-
-![](images/pet2.png){fig-align="center"}
-
-**Key clinical applications:** - Should be performed early in workup - Most helpful for: abscesses, osteomyelitis, vasculitis, adult-onset Still disease, Crohn disease, subacute thyroiditis - Can identify sites for targeted biopsy
-
-::: aside
 [@kouijzer_etal18]
-:::
-
-::: notes
-The integration of PET-CT into the diagnostic algorithm for FUO has significantly improved diagnostic accuracy. When conventional workup is unrevealing, PET-CT should be considered early rather than as a last resort. It often identifies foci of inflammation suitable for biopsy, converting a diagnostic odyssey into a straightforward tissue diagnosis.
 :::
 
 ## Invasive diagnostic procedures
@@ -1059,5 +1158,4 @@ This prognosis for undiagnosed FUO is reassuring and often not communicated to p
 :::
 
 ## References
-
-
+:::::::::::::
