@@ -254,6 +254,28 @@ The acute phase response is orchestrated by IL-1, IL-6, and TNF-α. The dramatic
 Different definitions exist for FUO depending on clinical context. The classic definition applies to outpatient or minimally hospitalized patients with prolonged fever. The newer categories - nosocomial, neutropenic, and HIV-associated FUO - reflect that different populations have different diagnostic considerations and thresholds for investigation.
 :::
 
+## Fever therapy to treat syphilis
+
+::::: columns
+::: {.column width="50%"}
+<br> <br>
+
+![](images/malariotherapy.png)
+:::
+
+::: {.column width="50%"}
+-   Treponema pallidum is uniquely sensitive to increased temperatures
+
+-   Using effective anti-malarial drugs to control the P. vivax infection, while maintaining the fever it causes to the detriment of other, ongoing, and then-incurable infections present in the patient, such as late-stage syphilis
+
+-   Treponema pallidum is uniquely sensitive to increased temperatures
+
+-   Using effective anti-malarial drugs to control the P. vivax infection, while maintaining the fever it causes to the detriment of other, ongoing, and then-incurable infections present in the patient, such as late-stage syphilis
+
+-   This type of pyrotherapy was most famously used by psychiatrist [Julius Wagner-Jauregg](https://en.wikipedia.org/wiki/Julius_Wagner-Jauregg), who won the Nobel Prize for Medicine in 1927 for his elaboration of the procedure in treating neurosyphilis
+:::
+:::::
+
 ## Classic FUO
 
 <br>
@@ -562,7 +584,7 @@ When neutropenic patients fail to defervescence on appropriate empiric antibioti
 [@playfairj__bancroftg_13]
 :::
 
-## Cell-mediated immunity - Drug allergy (Type IV hypersensitivity)
+## Cell-mediated immunity - <br> Drug allergy (Type IV hypersensitivity)
 
 ![](images/CMI_allergy.png){fig-align="center" width="1200"}
 
