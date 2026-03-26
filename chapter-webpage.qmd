@@ -24,9 +24,18 @@ The concept of fever has occupied medical thought for millennia, with documentat
 
 The development of fever theory paralleled broader advances in medical understanding. In the 10th century, the Persian physician Akhawayni produced some of the earliest systematic fever curves, attempting to correlate the pattern and duration of fever with clinical outcomes. This represented an important shift toward quantitative observation of the febrile response, though the theoretical framework remained grounded in ancient humoral theory.
 
+![A page from Akhawayni's *Hidāyat al-Muta'allimīn fī al-Tibb* (The Student's Handbook of Medicine), one of the earliest systematic recordings of fever curves.](images/persian.png){fig-align="center" width="400"}
+
 ::: {.callout-note}
 ## Historical Definition of Fever
 The four humors theory, dominant during the Hippocratic era, proposed that fever resulted from an excess of yellow bile, one of the four bodily humors (blood, phlegm, black bile, yellow bile). This theoretical framework, while incorrect, represented the first systematic attempt to conceptualize the underlying cause of fever rather than viewing it as merely a symptom.
+:::
+
+::: {.callout-note}
+## Febris — Roman Goddess of Fever
+The legend of Febris centered around the haunting marshes of Campagna in southern Italy, where like clockwork every year, the people would become deathly ill with a mysterious disease. She was so feared by the Romans that the suffering population created a cult to Febris, wearing protective amulets and building temples to worship her and win her favour.
+
+![*Febris*, the Roman goddess of fever, worshipped by Romans living near the malarial marshes of Campagna.](images/febris.png){fig-align="center" width="300"}
 :::
 
 Galen, the Roman physician and anatomist, built upon Hippocratic theory by proposing that fever arose from putrefaction of the humors themselves—a concept that acknowledged fermentation and decomposition as possible mechanisms, even if the specific biological agents remained unknown. This theory persisted throughout the Middle Ages, though in that era, fever was often attributed to demonic possession, representing a regression in medical understanding despite Galen's earlier mechanistic insights.
@@ -34,6 +43,8 @@ Galen, the Roman physician and anatomist, built upon Hippocratic theory by propo
 The Renaissance brought paradigm shifts in understanding fever. William Harvey's discovery of blood circulation in the 17th century necessitated a reevaluation of fever pathogenesis. New theories emerged proposing that fever resulted from friction of the blood against vessel walls or from internal fermentation processes—concepts that, while still incorrect, represented an important transition toward mechanistic explanations rooted in circulation and biochemistry rather than humoral imbalance.
 
 The 19th century witnessed the emergence of modern fever science. Claude Bernard's work on metabolic processes provided the first accurate conceptualization that fever represented a disturbance in the balance between heat production and heat dissipation. His insights into internal homeostasis formed the foundation for understanding thermoregulation as an active physiologic process rather than a passive pathologic state. Simultaneously, Carl Wunderlich's systematic application of thermometry established fever curves as diagnostic and prognostic tools. Wunderlich's measurements set the widely accepted normal body temperature at 37°C (98.6°F), a figure that would remain the medical standard for over a century.
+
+![A typical thermoscope design — a tube in which liquid rises and falls as temperature changes. The Sanctorius thermoscope was an early attempt to quantify body heat. (Prof. Francis Ring, University of Leeds)](images/thermometer.png){fig-align="center" width="500"}
 
 ## Clinical Thermometry
 
@@ -97,6 +108,8 @@ The recognition that Wunderlich's widely accepted standard of 37°C (98.6°F) re
 The commonly taught threshold of 38.3°C (101°F) as the definition of fever is NOT based on empirical evidence. Rather, it represents a convenient round number that has become embedded in medical tradition. Evidence-based definitions of fever must account for the time of measurement relative to the circadian rhythm.
 :::
 
+![Carl Wunderlich's systematic temperature recordings in thousands of patients established 37°C as the standard for normal body temperature — a value since revised downward by modern studies.](images/wunderlink.png){fig-align="center" width="500"}
+
 Current evidence-based definitions of fever recommend the following thresholds: an early morning (before 9 AM) oral temperature of ≥37.2°C (99.0°F) or any oral temperature ≥37.8°C (100°F) constitutes fever. For rectal temperature, which exceeds oral temperature by about 0.4°C, fever should be defined as ≥37.6°C in the early morning or ≥38.2°C at other times of day. These definitions account for the normal circadian rhythm and provide objective criteria that are physiologically sound rather than arbitrarily derived.
 
 The distinction between documented fever—that is, actual recorded elevation in body temperature above threshold—and the patient's subjective report of fever sensation is clinically important. Many patients experience chills, malaise, and other symptoms that they attribute to fever without actually having elevated body temperature; conversely, some patients with documented fever may not experience subjective fever sensation, particularly in immunocompromised states.
@@ -124,6 +137,8 @@ When body temperature rises above the set point, thermoregulatory mechanisms act
 Sweating represents the most powerful mechanism of heat dissipation available to humans, as the evaporation of sweat requires substantial energy transfer, making it an extremely effective heat loss mechanism. The eccrine sweat glands are innervated by sympathetic cholinergic neurons and respond to both temperature elevation and circulating catecholamines. During maximal sweating, an individual can lose nearly 1 liter per hour of sweat, dissipating up to 600-800 kcal of heat per hour, though such maximal sweating is unsustainable for prolonged periods and requires careful attention to fluid and electrolyte replacement.
 
 Hyperpnea (increased ventilation) represents an additional mechanism of heat loss through the respiratory tract, though this mechanism is quantitatively less important than cutaneous heat dissipation. Increased respiratory rate and minute ventilation increase the volume of air passing through the upper and lower respiratory tract, promoting heat loss through humidification of inspired air and exhalation of warm, humidified breath.
+
+![Overview of the thermoregulatory system. The hypothalamus acts as the body's thermostat, integrating peripheral and central temperature signals and activating appropriate heat-generating or heat-dissipating responses to defend the set point.](images/thermoregulation.png){fig-align="center" width="700"}
 
 ### Central Integration of Thermoregulation
 
@@ -174,6 +189,8 @@ Pathogenic stimuli → macrophage activation → release of pyrogenic cytokines 
 ### Mechanisms of Central Effects
 
 The major pyrogenic cytokines are relatively large molecules and cannot readily cross the intact blood-brain barrier through normal translocation mechanisms. However, cytokine entry into the brain occurs through several mechanisms. The organum vasculosum of the lamina terminalis (OVLT) is a specialized region of the brain lacking a complete blood-brain barrier; macrophages resident in this region can directly sense circulating pyrogenic cytokines. Additionally, pyrogenic cytokines can stimulate endothelial cells of the blood-brain barrier to produce prostaglandins, particularly prostaglandin E₂ (PGE₂), which crosses the blood-brain barrier through active transport and exerts its effects on the central nervous system.
+
+![The febrile cascade: LPS and other PAMPs activate macrophages to release pyrogenic cytokines (IL-1, TNF-α, IL-6), which stimulate PGE₂ synthesis in the hypothalamus and reset the thermoregulatory set point upward. [@wright_auwaerter20]](images/LPSfever.png){fig-align="center" width="600"}
 
 Prostaglandin E₂ produced in the vicinity of the preoptic anterior hypothalamus acts on EP3 receptors on warm-sensitive neurons within this region. The normal tonic activity of warm-sensitive neurons provides inhibition of cold-defense mechanisms; PGE₂-mediated activation of these neurons enhances their inhibitory output, paradoxically leading to a net increase in the firing of cold-defense neurons through the mechanism of disinhibition. This increased activity of cold-defense neurons raises the thermoregulatory set point, leading to heat generation and conservation as the body attempts to achieve the new, higher set point temperature.
 
@@ -281,6 +298,8 @@ The epidemiologic profile of FUO has undergone remarkable changes over the past 
 
 Systematically cataloging the causes of FUO in large patient series reveals that fever of unknown origin can be attributed to one of several broad categories: infections (bacterial, fungal, parasitic, viral), noninfectious inflammatory diseases (NIID), malignancies, miscellaneous causes, and truly undiagnosed cases. The relative proportions of these categories have shifted substantially over time.
 
+![Frequency of the five main etiologic categories of FUO across different patient age groups. Infectious causes decrease in patients above 65 years of age, while noninfectious inflammatory diseases become relatively more prominent.](images/FUOcat.png){fig-align="center" width="700"}
+
 In the 1960s and 1970s, infections accounted for approximately 40-50% of FUO cases in developed countries, with tuberculosis, endocarditis, and abscess (both intraabdominal and other sites) being particularly common. Neoplastic causes accounted for 15-20%, connective tissue diseases approximately 15-20%, and miscellaneous causes 10-15%. By the 1990s and 2000s, this distribution had shifted dramatically in developed countries, with infections declining to approximately 25-35% of cases. This decline reflects the impact of more sophisticated diagnostic imaging (CT, MRI, PET), molecular diagnostics, and more effective empiric antibiotic therapy that eliminates some previously undiagnosed infectious causes.
 
 Conversely, noninfectious inflammatory diseases (NIID) have increased as a proportion of FUO cases in developed countries, now accounting for 30-40% of cases. This apparent increase may partly reflect improved recognition of these conditions and greater precision in diagnosis, but it also reflects the genuine decline in infectious causes. Malignancies account for approximately 10-15% of FUO cases and tend to occur more commonly in older patient populations. Miscellaneous causes and undiagnosed FUO account for the remainder.
@@ -303,6 +322,8 @@ In infants under 3 months of age, bacteremia with common neonatal pathogens (gro
 
 In children older than 3 months but less than 5 years of age, Kawasaki disease must be considered high in the differential diagnosis, particularly in febrile children presenting with rash, conjunctivitis, and mucosal changes. Failure to recognize and treat Kawasaki disease promptly with intravenous immunoglobulin and aspirin can result in coronary artery complications and lifelong cardiac sequelae, making early recognition essential.
 
+![Key infectious and inflammatory causes of FUO in infants and children. Joint involvement in a febrile child should always raise concern for endocarditis, leukemia, or connective tissue disease.](images/peds.png){fig-align="center" width="500"}
+
 In older children (5-18 years of age), the differential diagnosis broadens to include Epstein-Barr virus infection (accounting for approximately 15% of FUO cases in this age group), osteomyelitis (approximately 10%), systemic-onset juvenile idiopathic arthritis (formerly known as Still disease), bartonellosis (approximately 5%), and urinary tract infections (approximately 4%). Geographic variation is important; for instance, in endemic areas, Q fever and other zoonotic infections account for higher proportions of FUO in children.
 
 ### FUO in Older Adults
@@ -310,6 +331,8 @@ In older children (5-18 years of age), the differential diagnosis broadens to in
 The epidemiologic pattern of FUO shifts significantly in adults above 65-70 years of age, with substantial differences from younger populations. In this age group, noninfectious inflammatory diseases predominate over infections in developed countries. Giant cell arteritis (temporal arteritis) and polymyalgia rheumatica, both autoimmune vasculitic conditions more common in older adults, account for a substantial proportion of FUO cases in this population. Giant cell arteritis can present as fever with only mild systemic symptoms, and the association of fever with headache, jaw claudication, and vision changes should raise immediate suspicion.
 
 When infections are identified in older adults with FUO, they tend to be serious and deep-seated: intraabdominal abscess, complicated pyelonephritis with bacteremia, tuberculosis (both recent infection and reactivation of remote foci), and endocarditis in the setting of underlying valvular disease. Older adults are at increased risk for infections that evade typical diagnostic modalities, such as mycobacterial infections that may not be cultured during standard microbiologic evaluation.
+
+![In elderly patients with FUO, temporal arteritis and other connective tissue diseases predominate over infections in developed countries. Temporal arteritis is a medical emergency — early treatment with corticosteroids can prevent permanent vision loss.](images/elderly.png){fig-align="center" width="450"}
 
 An important distinction between older and younger patients with FUO is that factitious fever is rare in older adults; the vast majority of older patients with documented fever have genuine pathology that will eventually be identified with appropriate investigation. Undiagnosed FUO in older adults generally carries a poor prognosis, as the underlying diagnosis, while not identified during the initial evaluation, is typically eventually discovered to be serious—often a malignancy or deep-seated infection.
 
@@ -371,6 +394,8 @@ Intraabdominal abscess can develop postoperatively or from perforation of a visc
 
 Meningitis and other central nervous system infections can occur in hospitalized patients, particularly those with recent CNS procedures or ventricular catheters. Recognition may be delayed because classic signs of meningeal irritation may be masked by sedation or critical illness.
 
+![Common causes of fever in ICU patients. Early fevers are often non-infectious and associated with good prognosis; prolonged fever carries a poorer prognosis and warrants active investigation.](images/icu.png){fig-align="center" width="500"}
+
 ## Postoperative Fever
 
 Fever occurring in the postoperative period deserves specific discussion because it is extremely common yet rarely has an identified infectious source, and it represents a diagnostic challenge for clinicians who must balance the need to identify serious infections with the overuse of empiric antibiotics in noninfectious fever.
@@ -398,6 +423,8 @@ Fever in the setting of neutropenia (absolute neutrophil count below 500 cells/m
 Neutropenic fever is defined as a single temperature measurement ≥38.3°C (101°F) or sustained temperature ≥38.0°C (100.4°F) for ≥1 hour in a patient with absolute neutrophil count below 500 cells/mm³. This definition is less stringent than the FUO definition because neutropenic patients are at such high risk for serious infection that any fever warrants empiric evaluation and therapy.
 
 Febrile neutropenia occurs in 10-50% of patients receiving chemotherapy for solid tumors and in approximately 80% of patients with hematologic malignancies receiving intensive chemotherapy. The risk of febrile neutropenia varies with the specific chemotherapy regimen, the duration and severity of neutropenia, and patient risk factors such as advanced age or the presence of significant comorbidities.
+
+![The spectrum of infections in immunocompromised hosts varies by the type and degree of immunodeficiency. Understanding the specific immune defect is critical for generating an appropriate differential diagnosis.](images/immunocomp.png){fig-align="center" width="650"}
 
 ### Pathophysiology and Clinical Manifestations
 
@@ -479,17 +506,35 @@ While fever patterns have less diagnostic specificity than previously believed, 
 
 Continuous or sustained fever, in which temperature remains elevated throughout the day without significant fluctuation (varying less than 0.5°C), is typical of pneumonia, rickettsiosis, typhoid fever, CNS infections (meningitis, encephalitis), and falciparum malaria. Patients with sustained fever typically appear quite ill and often have tachycardia, tachypnea, and other signs of significant systemic illness.
 
+![**Continuous/sustained fever pattern.** Temperature remains elevated with variation of less than 2°C. Associated with lobar pneumonia, rickettsiosis, typhoid fever, CNS disorders, tularemia, and falciparum malaria. [@mackowiak_etal97a]](images/continuous.png){fig-align="center" width="550"}
+
 Intermittent or quotidian fever, in which fever spikes occur daily (usually in the late afternoon or evening) with return to normal or near-normal temperature, is characteristic of pyogenic infections such as osteomyelitis, endocarditis, and abscesses. Malaria classically presents with quotidian fever (fever every day), though tertian fever (every other day) and quartan fever (every third day) patterns also occur depending on the Plasmodium species involved.
+
+![**Intermittent (quotidian) fever pattern.** Wide daily fluctuations with temperature peaking between 4–8 PM. A double quotidian pattern (two daily spikes) is seen in salmonellosis, miliary tuberculosis, and gonococcal/meningococcal endocarditis. [@mackowiak_etal97a]](images/intermittent.png){fig-align="center" width="550"}
+
+![**Malaria — paroxysmal fever patterns.** Febrile paroxysms occur every other day in *P. vivax*, *P. ovale*, and *P. falciparum* (tertian fever), and every third day in *P. malariae* (quartan fever). Regular cyclic fever is more common in *P. vivax* or *P. ovale* than *P. falciparum*.](images/malariafever.png){fig-align="center" width="600"}
 
 Saddle-back or biphasic fever pattern, characterized by two separate fever spikes separated by a period of relative defervescence, is classic for dengue fever, yellow fever, and Colorado tick fever. The biphasic pattern results from the initial viremic phase, followed by a period of viral control, and then recurrence of viremia.
 
+![**Saddle-back (biphasic) fever pattern.** Several days of fever, followed by a distinct period of near-defervescence (~1 day), then recurrence with a second febrile phase. Classic for dengue, yellow fever, Colorado tick fever, and influenza. [@mackowiak_etal97a]](images/biphasic.png){fig-align="center" width="550"}
+
 Pel-Ebstein fever, an intermittent pattern with periods of fever alternating with periods of afebrile or hypothermic days, was historically associated with Hodgkin's disease but is now recognized to occur with other conditions including brucellosis and is not sufficiently specific to be diagnostically useful.
 
+![**Undulating (Pel-Ebstein) fever pattern.** Weekly or longer cycles of fever alternating with equally long afebrile periods. Classically associated with Hodgkin's disease and brucellosis due to *Brucella melitensis*. [@mackowiak_etal97a]](images/Pelebstein.png){fig-align="center" width="550"}
+
 Typus inversus, in which the normal diurnal pattern of temperature variation is inverted (with the nadir in the afternoon and zenith in the early morning), is described in miliary tuberculosis, salmonellosis, and hepatic abscess, though this pattern is not frequently encountered and is not sufficiently specific to be relied upon for diagnosis.
+
+![***Typus inversus* fever pattern.** Reversal of the normal diurnal rhythm, with the highest temperatures occurring in the early morning hours rather than the late afternoon. Described in miliary TB, salmonellosis, hepatic abscess, and bacterial endocarditis. [@mackowiak_etal97a]](images/typhus_inversus.png){fig-align="center" width="550"}
+
+![**Typhoid (enteric) fever — step-ladder pattern.** Progressively higher daily fever over 3–4 days until reaching a plateau. Note the relative bradycardia, a suggestive clinical sign of typhoid fever.](images/typhoidfever.png){fig-align="center" width="600"}
 
 Double quotidian fever, in which there are two fever spikes per day, is described in patients with certain types of endocarditis (particularly gonococcal or meningococcal), miliary tuberculosis, and salmonellosis.
 
 The Jarisch-Herxheimer reaction, a paradoxical exacerbation of fever and systemic symptoms that can occur within hours of initiating therapy for spirochetal infections (particularly syphilis and leptospirosis), reflects rapid release of endotoxin from killed organisms and usually self-resolves within 24-48 hours.
+
+![**Jarisch-Herxheimer reaction.** Sharply increased fever with rigors occurring within hours of initiating antibiotic therapy for spirochetal infections (syphilis, leptospirosis, relapsing fever). Reflects endotoxin release from organism lysis; does not indicate treatment failure.](images/jarisch.png){fig-align="center" width="500"}
+
+![**Hectic (Charcot's) intermittent fever.** Sporadic fever episodes with periods of normal temperature in between. Frequently seen in cholangitis associated with cholelithiasis — the classic Charcot's triad is jaundice, fever, and right upper quadrant pain. [@mackowiak_etal97a]](images/recurrent.png){fig-align="center" width="550"}
 
 ::: {.callout-tip}
 ## Clinical Pearl: Fever Pattern Limitations
@@ -514,15 +559,21 @@ Blood smears should be examined for microorganisms in patients with travel to ma
 
 Bone marrow examination can be extremely valuable in FUO evaluation in selected cases. A bone marrow aspirate and biopsy should be obtained when granulomatous infection (such as tuberculosis, histoplasmosis, or brucellosis) is suspected, when hematologic malignancy is in the differential diagnosis, or when other diagnostic methods have been unrevealing. The marrow can be cultured for mycobacteria, fungi, and other organisms, and can be examined for granulomas, malignant cells, or other diagnostic features.
 
+![Bone marrow biopsy has a diagnostic yield of approximately 25% in FUO, and is particularly valuable for granulomatous infections (TB, histoplasmosis), hematologic malignancies, and patients with unexplained cytopenias.](images/bm_bx.png){fig-align="center" width="400"}
+
 ### Imaging Studies
 
 Computed tomography has become the single most important imaging modality in the evaluation of FUO, with sensitivities ranging from 60-92% depending on the specific site of involvement and the pathology being sought. CT of the abdomen and pelvis is particularly valuable for identifying occult abdominal pathology including occult abscess, necrotic lymph nodes suggesting tuberculosis or lymphoma, splenic infarction, or other sources of fever. CT of the chest is valuable for identifying pneumonia, mediastinal pathology, and other thoracic sources of fever.
+
+![CT imaging is the single most important imaging modality in FUO evaluation. CT abdomen/pelvis, chest, and pulmonary angiography are commonly used; MRI excels for CNS, vascular, and soft tissue pathology.](images/ct.png){fig-align="center" width="550"}
 
 Magnetic resonance imaging excels in evaluation of certain conditions, particularly those involving the central nervous system and those affecting the vascular system. MRI is superior to CT for detecting vasculitis affecting the aorta and major vessels; giant cell arteritis shows characteristic vessel wall enhancement on MRI, and MRI is valuable for detecting vasculitis in other conditions including Takayasu's arteritis and granulomatosis with polyangiitis (GPA, formerly known as Wegener's granulomatosis). Brain MRI is valuable for detecting encephalitis, meningitis, and other CNS pathology.
 
 ¹⁸Fluorodeoxyglucose positron emission tomography combined with CT (¹⁸FDG-PET/CT) has emerged as an extremely valuable tool in FUO evaluation, with reported sensitivities of 86-98% in various series. PET/CT is particularly valuable for detecting occult infections (such as osteomyelitis and deep abscesses), malignancies, and vasculitis. The high sensitivity of PET/CT has led to recommendations that it be performed relatively early in the diagnostic evaluation of FUO rather than being reserved for cases where standard imaging has been unrevealing.
 
 Gallium scans and indium-labeled white blood cell scans, which were historically used for infection and inflammation detection, have largely been replaced by PET/CT due to superior sensitivity and faster acquisition. However, these nuclear medicine studies may still be useful in specific circumstances, particularly in patients where PET/CT is contraindicated or unavailable.
+
+![¹⁸F-FDG PET/CT has revolutionized FUO diagnosis, with sensitivities of 86–98% and specificities of 52–85%. It is particularly valuable for detecting abscesses, osteomyelitis, vasculitis, adult-onset Still disease, and sites for targeted biopsy. [@kouijzer_etal18]](images/pet2.png){fig-align="center" width="600"}
 
 Echocardiography should be performed in any patient with suspected endocarditis, as transthoracic echocardiography can visualize vegetations on valves, and transesophageal echocardiography provides superior resolution and should be performed if transthoracic echocardiography is negative but clinical suspicion for endocarditis remains high. Echocardiography is also valuable for assessing cardiac structure and function in patients with suspected cardiac pathology as a cause of fever (such as myocarditis).
 
@@ -537,6 +588,8 @@ Laparoscopy and laparotomy have become less frequently used in the diagnostic ev
 Next-generation sequencing (NGS) of microbial nucleic acids is emerging as a powerful diagnostic tool for fastidious organisms that may not grow in culture. 16S rRNA gene sequencing can identify bacterial pathogens from culture-negative specimens or directly from clinical specimens such as blood or tissue. 18S rRNA gene sequencing similarly provides identification of fungal pathogens. These techniques are particularly valuable in cases where conventional culture has been unrevealing.
 
 Molecular genetic testing using panel-based or single-gene approaches can identify monogenic periodic fever syndromes, including familial Mediterranean fever (MEFV gene mutations), tumor necrosis factor (TNF)-receptor-associated periodic syndrome (TNFRSF1A mutations), mevalonate kinase deficiency (MVK mutations), and cryopyrin-associated periodic syndromes (NLRP3 mutations). These rare genetic conditions can present as FUO and should be considered, particularly in younger patients with recurrent episodes of fever.
+
+![Diagnostic summary and approach to fever of unknown origin. A stepwise, history-guided evaluation is the foundation of efficient FUO workup. [@wright_auwaerter20]](images/clinicalsigns.jpeg){fig-align="center" width="700"}
 
 ## Therapy and Management
 
