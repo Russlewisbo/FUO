@@ -1063,7 +1063,7 @@ PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities 
 
 <br>
 
-::: incremental
+
 -   **Biopsy techniques:**
     -   Excisional biopsy (lymph node)
     -   Needle biopsy (liver, kidney, muscle)
@@ -1076,7 +1076,7 @@ PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities 
     -   Lymphadenopathy suitable for lymph node biopsy
     -   Suspected granulomatous disease
     -   Persistent fever despite extensive workup
-:::
+
 
 ## Treatment Section {background-image="/images/thermometer.jpg" background-opacity="0.2"}
 
@@ -1084,9 +1084,10 @@ PET-CT has revolutionized the diagnostic approach to FUO. Overall sensitivities 
 
 <br>
 
-**A fundamental principle in classic FUO:** Therapy should be withheld until the cause of fever is determined
+**A fundamental principle in classic FUO:** <br> <br>
+Therapy should be withheld until the cause of fever is determined
 
-::: notes
+::: aside
 This is easier said than done in clinical practice, but the principle remains sound. Non-specific treatment with antipyretics, antibiotics, or corticosteroids rarely "cures" FUO and often delays the correct diagnosis, leading to prolonged suffering and inappropriate therapy.
 :::
 
