@@ -1,6 +1,5 @@
 ---
 title: "Temperature Regulation, Pathogenesis of Fever, and Fever of Unknown Origin"
-subtitle: "Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases, 9th Edition"
 author: "Russell Lewis, Associate Professor of Infectious Diseases, University of Padova"
 format:
   html:
@@ -15,7 +14,7 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 # Introduction
 
-This comprehensive document combines two essential chapters from Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases (9th Edition), focusing on the fundamental physiology of temperature regulation and the clinical challenge of fever of unknown origin (FUO). Understanding the pathogenesis of fever is essential for infectious disease practitioners, as fever remains one of the most common presenting signs in clinical medicine. This integration of thermophysiology and clinical diagnosis provides a complete framework for comprehending both the mechanism underlying the febrile response and the systematic approach to patients presenting with prolonged unexplained fever.
+Understanding the pathogenesis of fever is essential for infectious disease practitioners, as fever remains one of the most common presenting signs in clinical medicine. This integration of thermophysiology and clinical diagnosis provides a complete framework for comprehending both the mechanism underlying the febrile response and the systematic approach to patients presenting with prolonged unexplained fever.
 
 # PART 1: TEMPERATURE REGULATION AND THE PATHOGENESIS OF FEVER
 
