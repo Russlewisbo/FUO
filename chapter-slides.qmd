@@ -30,7 +30,7 @@ Prof. Russell E. Lewis <br> Department of Molecular Medicine <br> University of 
 </center>
 
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | ![](images/dmm.jpeg){width="150"} | ![](images/unipd_seal_white%20(1).svg){width="150"} |
 
 ## Objectives
@@ -45,7 +45,7 @@ Prof. Russell E. Lewis <br> Department of Molecular Medicine <br> University of 
 Today we'll explore the fascinating history of fever, understand the modern definition of FUO, review its epidemiology across different patient populations, and learn systematic approaches to diagnosis and management. We'll pay particular attention to how fever patterns can guide clinical thinking and how immunocompromised patients present unique diagnostic challenges.
 :::
 
-## The history of fever 
+## The history of fever
 
 <br>
 
@@ -146,7 +146,7 @@ The hypothalamus acts as the body's thermostat, continuously comparing core temp
 
 ::: {.content-visible when-format="revealjs"}
 | Feature | Fever | Hyperthermia |
-|----------------------|------------------|--------------------------------|
+|----|----|----|
 | **Set point** | Elevated | Normal |
 | **Mechanism** | Regulated response | Unregulated heat generation |
 | **Cause** | Pyrogens (LPS, IL-1, TNF) | Heat exposure, drugs, malignant hyperthermia |
@@ -197,7 +197,7 @@ Rather than viewing fever as purely pathologic, modern immunology reveals it as 
 <br> <br>
 
 | Category | Proteins |
-|------------------------------------|------------------------------------|
+|----|----|
 | **↑ Complement system** | C3, C4, C9, Factor B, C1 inhibitor, C4b-binding protein, Mannose-binding lectin |
 | **↑ Coagulation / fibrinolysis** | Fibrinogen, Plasminogen, tPA, Urokinase, Protein S, Vitronectin, PAI-1 |
 | **↑ Antiproteases** | α₁-Protease inhibitor, α₁-Antichymotrypsin, Pancreatic trypsin inhibitor, Inter-α-trypsin inhibitors |
@@ -215,7 +215,7 @@ Rather than viewing fever as purely pathologic, modern immunology reveals it as 
 <br> <br>
 
 | Category | Phenomena |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Neuroendocrine** | Fever, somnolence, anorexia; ↑ CRH, corticotropin & cortisol; ↑ arginine vasopressin; ↓ IGF-I; ↑ adrenal catecholamines |
 | **Hematopoietic** | Anemia of chronic disease; leukocytosis; thrombocytosis |
 | **Metabolic** | Muscle loss & negative nitrogen balance; ↓ gluconeogenesis; osteoporosis; ↑ hepatic lipogenesis; ↑ adipose lipolysis; ↓ lipoprotein lipase activity; cachexia |
@@ -233,7 +233,7 @@ The acute phase response is orchestrated by IL-1, IL-6, and TNF-α. The dramatic
 ## Epidemiology of FUO - Definitions {.smaller}
 
 | Category | Key causes / definition |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Classic FUO** | Infection (TB, endocarditis, occult abscess, zoonoses, enteric fever, syphilis, histoplasmosis), malignancy, autoimmune/autoinflammatory, miscellaneous; includes virally suppressed HIV (CD4 \>200) |
 | **Nosocomial FUO** | FUO arising in hospitalized patients |
 |  ICU | Bacteremia, pneumonia, *C. difficile*, fungemia, catheter infections, PE, acalculous cholecystitis, drug fever, stroke/intracranial hemorrhage |
@@ -291,7 +291,7 @@ Different definitions exist for FUO depending on clinical context. The classic d
 <br> <br>
 
 | Category | Examples |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Autoinflammatory / periodic fevers** | Adult-onset Still's disease, Behçet's syndrome, Familial Mediterranean fever, Familial Hibernian fever, Periodic fever, Schnitzler's syndrome |
 | **Vascular / cardiac** | Aortic dissection, Aortitis, Atrial myxoma, Giant coronary aneurysm, Pericarditis, Postpericardiotomy syndrome, Polyarteritis nodosa, Pulmonary emboli, Veno-occlusive disease |
 | **Hematologic / oncologic** | Castleman's disease, Cyclic neutropenia, Hemoglobinopathies, Hemolytic anemias, Hemophagocytic syndrome, Histiocytosis X, Immunoblastic lymphadenopathy, Lymphomatoid granulomatosis, Myeloproliferative syndromes, Paroxysmal hemoglobinurias, Rosai-Dorfman disease, TTP |
@@ -307,7 +307,7 @@ Different definitions exist for FUO depending on clinical context. The classic d
 <br> <br>
 
 | Category | Examples |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Infections** | Bartonellosis, hantavirus, coccidioidomycosis, histoplasmosis, blastomycosis, cysticercosis |
 | **NIID** | Addison disease, Behçet syndrome, SLE, vasculitis, inflammatory bowel disease, GPA, sarcoidosis, Sjögren syndrome, thyroiditis, adult-onset Still disease |
 | **Malignancy** | Atrial myxoma, lymphoma, leukemia, pheochromocytoma, Schnitzler syndrome |
@@ -501,7 +501,7 @@ This is one of the most challenging patient populations. The absence of typical 
 <br>
 
 | Sign/Symptom        | Type of Infection | \% with ANC\<100 | \% with ANC\>1000 |
-|-------------------|------------------|------------------|------------------|
+|---------------------|-------------------|------------------|-------------------|
 | **Fever**           | Overall           | 98               | 76                |
 | **Bacteremia**      | Overall           | 43               | 13                |
 | **Fluctuance**      | Anorectal         | 8                | 67                |
@@ -524,7 +524,7 @@ This table powerfully illustrates why clinical signs fail in severe neutropenia.
 <br>
 
 | Cause | Approx. frequency in high-risk patients |
-|---------------------------|:-------------------------------------------:|
+|----|:--:|
 | Fungal infections susceptible to empirical therapy | 40% |
 | Bacterial infections (cryptic foci, biofilms, resistant organisms) | 10% |
 | GVHD after hematopoietic stem cell transplantation | 10% |
@@ -650,7 +650,7 @@ The degree and type of immunosuppression determines which infections are most li
 <br>
 
 | Step | Investigation |
-|---------------------------------------------|---------------------------|
+|----|----|
 | **History & Exam** | Comprehensive history; repeated physical exams |
 | **Laboratory** | CBC, comprehensive metabolic panel, urinalysis with microscopy |
 | **Inflammatory Markers** | ESR, C-reactive protein |
@@ -670,7 +670,6 @@ The history and physical examination must guide which investigations to pursue, 
 
 <br>
 
-
 -   **Helps guide choice of initial laboratory investigations** - this is the most important step
 
 -   **Travel history:** where, when, duration, exposures to animals, arthropod vectors, contaminated water
@@ -684,7 +683,6 @@ The history and physical examination must guide which investigations to pursue, 
 -   **Prior history of FUO** - may be recurrence of same diagnosis
 
 -   **Previously diagnosed conditions:** malignancy, rheumatic fever, valve disease that predisposes to endocarditis
-
 
 ::: notes
 A 45-year-old history of fever in a farmer with exposure to birth products of cattle should immediately suggest Q fever. A history of fever in a Southwest US resident with respiratory symptoms should suggest coccidioidomycosis. The history is the most efficient diagnostic tool - proper use can narrow a vast differential to a manageable few diagnoses.
@@ -906,7 +904,7 @@ Recognizing the Jarisch-Herxheimer reaction prevents inappropriate termination o
 -   Careful examination of fundi, oropharynx, temporal arteries, abdomen, spleen, joints, skin, nails, genitalia
 
 | Body site | Physical finding | Diagnosis |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Head | Sinus tenderness | Sinusitis |
 | Temporal artery | Nodules, reduced pulsations | Temporal arteritis |
 | Oropharynx | Ulceration; tender tooth | Disseminated histoplasmosis, periapical abscess |
@@ -951,7 +949,7 @@ Shotgun laboratory approach to FUO is expensive, time-consuming, and counterprod
 <br>
 
 | Etiology | Historical clues | Physical clues |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Anaplasmosis | *Ixodes* tick bite; outdoor activity in North Central / Eastern US | Fever, headache, arthralgia, myalgia, pneumonitis, thrombocytopenia, lymphopenia, ↑ liver enzymes |
 | Babesiosis | *Ixodes* tick bite; outdoor activity in Northeastern US | Arthralgias, myalgias, relative bradycardia, hepatosplenomegaly, anemia, thrombocytopenia, ↑ liver enzymes |
 | Bartonellosis | Travel to Andes (Oroya fever; *B. bacilliformis*); homelessness (*B. quintana*); scratch from infected kitten/cat (*B. henselae*) | Conjunctivitis, retro-orbital pain, anterior tibial bone pain, macular rash, nodular plaque lesions, regional lymphadenopathy |
@@ -965,7 +963,7 @@ Shotgun laboratory approach to FUO is expensive, time-consuming, and counterprod
 <br>
 
 | Etiology | Historical clues | Physical clues |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Enteric fever (*Salmonella* Typhi) | Recent travel to endemic country; consumption of potentially contaminated food or water | Headache, arthritis, abdominal pain, relative bradycardia, hepatosplenomegaly, leukopenia |
 | Histoplasmosis | Exposure to bat/blackbird excreta in roosts, chicken houses, or caves; Ohio and Mississippi River valleys | Headache, pneumonia, pulmonary cavities, mucosal ulcers, adenopathy, erythema nodosum, erythema multiforme, hepatitis, anemia, leukopenia, thrombocytopenia |
 | Leptospirosis | Occupational exposure in sewers, rice/sugar cane fields, abattoirs; recreational water sports; contact with contaminated water or infected dogs | Bitemporal/frontal headache, calf and lumbar muscle tenderness, conjunctival suffusion, hepatic and renal failure, hemorrhagic pneumonitis |
@@ -978,7 +976,7 @@ Shotgun laboratory approach to FUO is expensive, time-consuming, and counterprod
 <br>
 
 | Etiology | Historical clues | Physical clues |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Q fever (*Coxiella burnetii*) | Farm, veterinary, or abattoir work; unpasteurized milk; contact with infected sheep, goats, or cattle | Atypical pneumonia, hepatitis, hepatomegaly, relative bradycardia, splenomegaly |
 | Rat-bite fever (*Streptobacillus moniliformis*) | Recent bite/scratch from rat, mouse, or squirrel; ingestion of food/water contaminated with rat excrement | Headaches, myalgias, polyarthritis, maculopapular/morbilliform/petechial/vesicular/pustular rash over palms, soles, and extremities |
 | Relapsing fever (*Borrelia recurrentis*) | Poverty/crowding/poor sanitation (louse-borne); camping in the Grand Canyon (tick-borne) | High fever with rigors, headache, delirium, arthralgias, myalgias, hepatosplenomegaly |
@@ -1023,7 +1021,7 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 
 <br>
 
-:::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/ct.png)
 :::
@@ -1045,7 +1043,7 @@ Each finding or cluster of findings can point toward specific diagnoses. A patie
 
 -   **PET-CT:** Superior sensitivity for inflammatory and malignant processes
 :::
-::::
+:::::
 
 ## ¹⁸F-fluorodeoxyglucose (FDG) positron emission tomography
 
@@ -1147,4 +1145,3 @@ This prognosis for undiagnosed FUO is reassuring and often not communicated to p
 :::
 
 ## References
-
