@@ -45,7 +45,7 @@ Prof. Russell E. Lewis <br> Department of Molecular Medicine <br> University of 
 Today we'll explore the fascinating history of fever, understand the modern definition of FUO, review its epidemiology across different patient populations, and learn systematic approaches to diagnosis and management. We'll pay particular attention to how fever patterns can guide clinical thinking and how immunocompromised patients present unique diagnostic challenges.
 :::
 
-## The history of fever {background-image="/images/hippocrates.jpg" background-opacity="0.2" data-background-size="contain"}
+## The history of fever 
 
 <br>
 
