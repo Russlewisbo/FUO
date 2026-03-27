@@ -45,7 +45,7 @@ Prof. Russell E. Lewis <br> Department of Molecular Medicine <br> University of 
 Today we'll explore the fascinating history of fever, understand the modern definition of FUO, review its epidemiology across different patient populations, and learn systematic approaches to diagnosis and management. We'll pay particular attention to how fever patterns can guide clinical thinking and how immunocompromised patients present unique diagnostic challenges.
 :::
 
-## The history of fever
+## The history of fever {.smaller}
 
 <br>
 
@@ -61,7 +61,7 @@ Today we'll explore the fascinating history of fever, understand the modern defi
 :::
 
 ::: {.column width="40%"}
-<br> <br>
+<br> 
 
 ![](images/persian.png){width="800"}
 :::
@@ -110,6 +110,19 @@ A typical design of a thermoscope is a tube in which a liquid rises and falls as
 [@mackowiak_worden94]
 :::
 
+## Thermal homeostasis
+
+![](images/thermoregulation.png){fig-align="center" width="800"}
+
+::: aside
+The hypothalamus acts as the body's thermostat, continuously comparing core temperature against a defended setpoint (\~37°C). Afferent thermal signals arrive from both peripheral cutaneous receptors and central thermosensors in the preoptic area of the anterior hypothalamus. When core temperature fa of bodylls below the setpoint, efferent pathways activate heat-conserving and heat-generating responses: cutaneous vasoconstriction reduces radiative heat loss, and shivering thermogenesis in skeletal muscle increases metabolic heat production. When temperature exceeds the setpoint, the balance shifts to heat dissipation: cutaneous vasodilation increases convective and radiative losses, and eccrine sweating provides evaporative cooling. Understanding this tightly regulated system is essential for interpreting fever: a true febrile response represents a deliberate upward resetting of this setpoint by pyrogenic mediators—not a failure of thermoregulation. [@sajadimohammadm__mackowiakphilipa_]
+:::
+
+## Diurinal pattern of body temperature
+
+![](images/diurinal.png){fig-align="center"}
+
+
 ## Physiologic variables affecting body temperature
 
 <br>
@@ -130,17 +143,6 @@ A typical design of a thermoscope is a tube in which a liquid rises and falls as
 Understanding normal temperature variation is crucial when evaluating a patient for FUO. A temperature of 37.5°C in a patient's early morning measurement may be pathologic, while 38.2°C in the evening may be within normal diurnal variation for that individual.
 :::
 
-## Thermal homeostasis
-
-![](images/thermoregulation.png){fig-align="center" width="800"}
-
-::: aside
-The hypothalamus acts as the body's thermostat, continuously comparing core temperature against a defended setpoint (\~37°C). Afferent thermal signals arrive from both peripheral cutaneous receptors and central thermosensors in the preoptic area of the anterior hypothalamus. When core temperature fa of bodylls below the setpoint, efferent pathways activate heat-conserving and heat-generating responses: cutaneous vasoconstriction reduces radiative heat loss, and shivering thermogenesis in skeletal muscle increases metabolic heat production. When temperature exceeds the setpoint, the balance shifts to heat dissipation: cutaneous vasodilation increases convective and radiative losses, and eccrine sweating provides evaporative cooling. Understanding this tightly regulated system is essential for interpreting fever: a true febrile response represents a deliberate upward resetting of this setpoint by pyrogenic mediators—not a failure of thermoregulation. [@sajadimohammadm__mackowiakphilipa_]
-:::
-
-## Diurinal pattern of body temperature
-
-![](images/diurinal.png){fig-align="center"}
 
 ## Fever vs. Hyperthermia {.smaller}
 
@@ -269,9 +271,9 @@ Different definitions exist for FUO depending on clinical context. The classic d
 
 -   *Treponema pallidum* is uniquely sensitive to increased temperatures
 
--   Using effective anti-malarial drugs to control the P. vivax infection, while maintaining the fever it causes to the detriment of other, ongoing, and then-incurable infections such as late-stage syphilis
+-   Fever therapy involved purposely infecting the patient with *Plasmodium vivax* with control of the infection with anti- malarians while maintaining the fever it causes to the detriment of other, ongoing, and then-incurable infections such as late-stage syphilis
 
--   This type of pyrotherapy was most famously used by psychiatrist [Julius Wagner-Jauregg](https://en.wikipedia.org/wiki/Julius_Wagner-Jauregg), who won the Nobel Prize for Medicine in 1927 for his elaboration of the procedure in treating neurosyphilis
+-   This type of pyrotherapy was most famously used by psychiatrist Julius Wagner-Jauregg, who won the Nobel Prize for Medicine in 1927 for his elaboration of the procedure in treating neurosyphilis
 :::
 :::::
 

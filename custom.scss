@@ -429,6 +429,7 @@ $panel-sidebar-padding: 0.5em;
   img.stretch + p.caption,
   img.r-stretch + p.caption {
     font-size: #{$presentation-font-smaller}em;
+    text-align: center;
   }
 }
 
